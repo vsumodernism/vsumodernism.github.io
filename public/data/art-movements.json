@@ -1,0 +1,50 @@
+[
+	{
+		"title": "Фовизм",
+		"slug": "fovism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Примитивизм",
+		"slug": "primitivism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Кубизм",
+		"slug": "cubism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Футуризм",
+		"slug": "fovism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Экспрессионизм",
+		"slug": "fovism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Абстракционизм",
+		"slug": "fovism",
+		"description": "супрематизм, неопластицизм, орфизм, абстрактный экспрессионизм, постживописный абстракционизм",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Дадаизм",
+		"slug": "fovism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	},
+	{
+		"title": "Сюрреализм",
+		"slug": "fovism",
+		"description": "",
+		"img": "/images/art-movements/fovism.png"
+	}
+]

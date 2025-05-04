@@ -1,0 +1,38 @@
+:root {
+	//color
+	--bg-color: #fff;
+	--black-color: #313131;
+	--white-color: #fff;
+	--red-color: #ff4343;
+
+	--primary1: #DCA351;
+	--primary2: #A97B38;
+
+	--neutrals1: #f7f7f7;
+	--neutrals2: #f2f2f2;
+	--neutrals3: #ededed;
+	--neutrals4: #818181;
+	--neutrals5: rgba(49, 49, 49, .7);
+
+
+	//fonts
+	--primary-text: Inter, sans-serif;
+
+	// MEDIA
+	--mobileS: 320px;
+	--mobileM: 375px;
+	--mobileL: 425px;
+	--tabletS: 480px;
+	--tabletM: 640px;
+	--tabletL: 768px;
+	--laptopS: 992px;
+	--laptopM: 1024px;
+	--laptopL: 1200px;
+	--laptopXL: 1440px;
+	--fullHD: 1920px;
+}
+
+//$gray: rgba(49, 49, 49, .7);
+
+// From other project
+
