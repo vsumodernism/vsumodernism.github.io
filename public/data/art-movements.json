@@ -106,5 +106,41 @@
 		"slug": "ardeco",
 		"description": "",
 		"img": "/images/art-movements/ardeco.webp"
+	},
+	 {
+		"title": "Брутализм",
+		"slug": "brutalism",
+		"description": "",
+		"img": "/images/art-movements/brutalism.webp"
+	},
+	 {
+		"title": "Органическая архитекткра",
+		"slug": "organicarch",
+		"description": "",
+		"img": "/images/art-movements/organicarch.webp"
+	},
+	 {
+		"title": "Структурализм",
+		"slug": "strukturalism",
+		"description": "",
+		"img": "/images/art-movements/strukturalism.webp"
+	},
+	 {
+		"title": "Хай-тэк",
+		"slug": "hightek",
+		"description": "",
+		"img": "/images/art-movements/hightek.webp"
+	},
+        {
+		"title": "Деконструктивизм",
+		"slug": "deconstruktivism",
+		"description": "",
+		"img": "/images/art-movements/deconstruktivism.webp"
+	},
+	  {
+		"title": "Био-тек",
+		"slug": "biotek",
+		"description": "",
+		"img": "/images/art-movements/biotek.webp"
 	}
 ]
