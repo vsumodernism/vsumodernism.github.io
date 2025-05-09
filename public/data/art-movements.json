@@ -15,19 +15,19 @@
 		"title": "Кубизм",
 		"slug": "cubism",
 		"description": "",
-		"img": "/images/art-movements/fovism.png"
+		"img": "/images/art-movements/kubism.webp"
 	},
 	{
 		"title": "Футуризм",
-		"slug": "fovism",
+		"slug": "futurism",
 		"description": "",
-		"img": "/images/art-movements/fovism.png"
+		"img": "/images/art-movements/futurism.webp"
 	},
 	{
 		"title": "Экспрессионизм",
-		"slug": "fovism",
+		"slug": "ekspressionism",
 		"description": "",
-		"img": "/images/art-movements/fovism.png"
+		"img": "art-movements/ekspressionism.webp"
 	},
 	{
 		"title": "Абстракционизм",
