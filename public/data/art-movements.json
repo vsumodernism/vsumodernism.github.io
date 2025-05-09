@@ -51,24 +51,60 @@
 		"title": "Поп-Арт",
 		"slug": "popart",
 		"description": "",
-		"img": "/images/art-movements/popart.png"
+		"img": "/images/art-movements/popart.webp"
 	},
         {
 		"title": "Оп-Арт",
 		"slug": "opart",
 		"description": "",
-		"img": "/images/art-movements/opart.png"
+		"img": "/images/art-movements/opart.webp"
 	},
 	  {
 		"title": "Кинетическое искусство",
 		"slug": "kinetiskusstvo",
 		"description": "",
-		"img": "/images/art-movements/kinetiskusstvo.png"
+		"img": "/images/art-movements/kinetiskusstvo.webp"
 	},
 	  {
 		"title": "Коцептуализм",
 		"slug": "conceptualism",
 		"description": "",
-		"img": "/images/art-movements/conceptualism.png"
+		"img": "/images/art-movements/conceptualism.webp"
+	},
+	 {
+		"title": "Неоклассицизм",
+		"slug": "neoklassicism",
+		"description": "",
+		"img": "/images/art-movements/neoklassicism.webp"
+	},
+	 {
+		"title": "Реализм",
+		"slug": "realism",
+		"description": "",
+		"img": "/images/art-movements/realism.webp"
+	},
+	 {
+		"title": "Конструктивизм",
+		"slug": "konstruktivism",
+		"description": "",
+		"img": "/images/art-movements/konstruktivism.webp"
+	},
+	 {
+		"title": "Баухауз",
+		"slug": "bauhaus",
+		"description": "",
+		"img": "/images/art-movements/bauhaus.webp"
+	},
+	 {
+		"title": "Функцианолизм",
+		"slug": "funkcionalism",
+		"description": "",
+		"img": "/images/art-movements/funkcionalism.webp"
+	},
+	 {
+		"title": "Ар-Деко",
+		"slug": "ardeco",
+		"description": "",
+		"img": "/images/art-movements/ardeco.webp"
 	},
 ]
