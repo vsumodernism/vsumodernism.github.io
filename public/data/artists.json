@@ -8,15 +8,15 @@
 		"tags": ["Кубизм", "Сюрреализм"],
 		"pictures": [
 			{
-				"img": "/images/artists/devicy.webp",
+				"img": "/images/artists/pablo-picaso/devicy.webp",
 				"name": "Ави́ньонские де́вицы"
 			},
 			{
-				"img": "/images/artists/gernika.webp",
+				"img": "/images/artists/pablo-picaso/gernika.webp",
 				"name": "Ге́рника"
 			},
 			{
-				"img": "/images/artists/portreddaarymoerpicasso.webp",
+				"img": "/images/artists/pablo-picaso/portreddaarymoerpicasso.webp",
 				"name": "Портре́т До́ры Маа́р"
 			}
 		]
