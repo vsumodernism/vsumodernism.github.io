@@ -4,19 +4,19 @@
 		"slug": "pablo-picasso",
 		"dates": "1881–1973",
 		"description": "Испанский художник, скульптор, график — один из основоположников кубизма и ключевая фигура искусства XX века. Родился в Малаге, учился в Барселоне и Мадриде, но большую часть жизни провёл во Франции. Его творчество охватывает множество этапов и стилей — от \"голубого периода\" до абстракций и сюрреалистических работ. Вместе с Жоржем Браком сформулировал основы кубизма.",
-		"avatar": "/images/artists/pablo-picaso",
+		"avatar": "/images/artists/pablo-picaso.webp",
 		"tags": ["Кубизм", "Сюрреализм"],
 		"pictures": [
 			{
-				"img": "/images/art-movements/fovism.png",
+				"img": "/images/artists/devicy.webp",
 				"name": "Ави́ньонские де́вицы"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
+				"img": "/images/artists/gernika.webp",
 				"name": "Ге́рника"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
+				"img": "/images/artists/portreddaarymoerpicasso.webp",
 				"name": "Портре́т До́ры Маа́р"
 			}
 		]
