@@ -43,6 +43,12 @@
 	},
 	{
 		"title": "Сюрреализм",
+		"slug": "surrealism",
+		"description": "",
+		"img": "/images/art-movements/surrealism.webp"
+	},
+{
+		"title": "Поп-Арт",
 		"slug": "fovism",
 		"description": "",
 		"img": "/images/art-movements/fovism.png"
