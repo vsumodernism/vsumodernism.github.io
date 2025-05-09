@@ -47,10 +47,28 @@
 		"description": "",
 		"img": "/images/art-movements/surrealism.webp"
 	},
-{
+        {
 		"title": "Поп-Арт",
-		"slug": "fovism",
+		"slug": "popart",
 		"description": "",
-		"img": "/images/art-movements/fovism.png"
-	}
+		"img": "/images/art-movements/popart.png"
+	},
+        {
+		"title": "Оп-Арт",
+		"slug": "opart",
+		"description": "",
+		"img": "/images/art-movements/opart.png"
+	},
+	  {
+		"title": "Кинетическое искусство",
+		"slug": "kinetiskusstvo",
+		"description": "",
+		"img": "/images/art-movements/kinetiskusstvo.png"
+	},
+	  {
+		"title": "Коцептуализм",
+		"slug": "conceptualism",
+		"description": "",
+		"img": "/images/art-movements/conceptualism.png"
+	},
 ]
