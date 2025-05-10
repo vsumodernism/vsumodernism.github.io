@@ -78,14 +78,14 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/gallery/semport.webp",
-				"name": "Семейный портрет",
+				"img": "/images/gallery/krasnye-rybki.webp",
+				"name": "Красные рыбки",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/krasnye-rybki.webp",
-				"name": "Красные рыбки",
+				"img": "/images/gallery/semport.webp",
+				"name": "Семейный портрет",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			}
