@@ -1,8 +1,8 @@
 <template>
     <div class="page-wrapper" :class="{'is-mobile': store.isMobile}">
-<!--        <Header/>-->
+        <Header v-if="store.isMobile"/>
 
-        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': store.isMobile}">
+        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': store.isMobile, open: store.isOpenMobileMenu}">
             <Menu/>
         </aside>
         <main class="page-wrapper__main">
@@ -23,7 +23,6 @@ export default {
 	name: 'default',
     setup() {
         const store = useStore();
-        // const { $helpers } = useNuxtApp();
 
         return {
             store
@@ -61,12 +60,31 @@ export default {
         padding: 10px;
         
         &_mobile {
-        
+            max-width: none;
+            position: fixed;
+            top: 65px;
+            bottom: 0;
+            z-index: 100;
+            padding: 0;
+            translate: -100%;
+            transition: translate .5s;
+            
+            & :deep(.nav) {
+                border-radius: 0;
+            }
+
+            &.open {
+                translate: 0;
+            }
         }
     }
     
     &__main {
         padding: 50px 36px;
+        
+        @media (max-width: 425px) {
+            padding: 95px 20px 30px;
+        }
     }
 }
 main {

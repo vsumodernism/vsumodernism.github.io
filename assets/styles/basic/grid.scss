@@ -81,8 +81,8 @@ html {
 	align-items: center;
 }
 
-.header-modal-open{
-	@media (max-width: var(--laptopL)) {
+.header-modal-open {
+	@media (max-width: 1200px) {
 		overflow: hidden;
 	}
 }
