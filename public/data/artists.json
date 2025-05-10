@@ -56,7 +56,7 @@
 				"name": "Танец"
 			},
 			{
-				"img": "public/images/gallery/krasnye-rybki.webp",
+				"img": "/images/gallery/krasnye-rybki.webp",
 				"name": "Красные рыбки"
 			},
 			{
