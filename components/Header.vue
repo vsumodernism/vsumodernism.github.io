@@ -6,7 +6,7 @@
 				<ul class="nav__list">
 					<li class="nav__item">
 						<NuxtLink to="/about-us" class="header-btn" @click="store.isOpenMobileMenu = false">
-							<span class="header-btn__inner">{{$t('nav.aboutUs')}}</span>
+							<span class="header-btn__inner"></span>
 						</NuxtLink>
 					</li>
 					<li class="nav__item">
