@@ -61,14 +61,14 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/gallery/ispanskiy-natyurmort.jpg",
-				"name": "Испанский натюрморт",
+				"img": "/images/gallery/vaza-s-irisami.jpg",
+				"name": "Ваза с ирисами",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/vaza-s-irisami.jpg",
-				"name": "Ваза с ирисами",
+				"img": "/images/gallery/ispanskiy-natyurmort.jpg",
+				"name": "Испанский натюрморт",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			}
