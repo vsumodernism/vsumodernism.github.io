@@ -15,8 +15,8 @@
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/igra-v-shary.jpg",
+				"name": "Игра в шары",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм",
 				"view": "fields"
@@ -27,14 +27,14 @@
 		"view": "2",
 		"pictures": [
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/razgovor.jpg",
+				"name": "Разговор",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/muzyka.jpg",
+				"name": "Музыка",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			}
@@ -45,13 +45,13 @@
 		"pictures": [
 			{
 				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"name": "Танец",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/frukty-cvety-panno.jpg",
+				"name": "Фрукты, цветы, панно Танец",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			}
@@ -61,14 +61,14 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/ispanskiy-natyurmort.jpg",
+				"name": "Испанский натюрморт",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/art-movements/fovism.png",
-				"name": "Мадам Матисс",
+				"img": "/images/gallery/ivaza-s-irisami.jpg",
+				"name": "Ваза с ирисами",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			}
