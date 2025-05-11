@@ -14,8 +14,6 @@
 </template>
 
 <script>
-// import {useStore} from "~/stores/store.js";
-
 export default defineNuxtComponent({
 	name: 'PageArtMovements',
 	async setup() {

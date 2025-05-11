@@ -13,36 +13,22 @@
 </template>
 
 <script>
-// import {useStore} from "~/stores/store.js";
-
 export default defineNuxtComponent({
     name: 'PageSources',
     async setup() {
-        // const store = process.client ? useStore() : null;
-        // const store = useStore();
         let terms = [];
         
         try {
-            // const response = await $fetch('/data/sources.json');
-            //
-            // if (response) {
-            //     terms = response;
-            // }
+            const response = await $fetch('/data/sources.json');
+
+            if (response) {
+                terms = response;
+            }
         } catch (e) {
             console.log(e)
         }
         
-        // useSeoMeta({
-        // 	title: t('pages.games.title'),
-        // 	ogTitle: t('pages.games.title'),
-        // 	description: t('pages.games.description'),
-        // 	ogDescription: t('pages.games.description'),
-        // 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-        // 	robots: 'index, follow'
-        // });
-        
         return {
-            // store,
             terms
         }
     },

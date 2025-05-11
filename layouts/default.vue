@@ -1,8 +1,8 @@
 <template>
-    <div class="page-wrapper" :class="{'is-mobile': store.isMobile}">
-        <Header v-if="store.isMobile"/>
+    <div class="page-wrapper" :class="{'is-mobile': isMobile}">
+        <Header v-if="isMobile"/>
 
-        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': store.isMobile, open: store.isOpenMobileMenu}">
+        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': isMobile}">
             <Menu/>
         </aside>
         <main class="page-wrapper__main">
@@ -17,31 +17,21 @@
 </template>
 
 <script>
-import {useStore} from "~/stores/store.js";
-
 export default {
 	name: 'default',
-    setup() {
-        const store = useStore();
-
-        return {
-            store
-        }
-    },
 	data() {
 		return {
-			isScrolled: false
+            isMobile: false,
+			isScrolled: false,
+            store: null
 		};
 	},
 	mounted() {
-        console.log('import.meta.client', import.meta.client)
-        console.log('process.client', process.client)
-
-        if (process.client) {
-            this.store.isMobile = this.$helpers.detectMobile();
-            console.log('this.store.isMobile', this.store.isMobile)
+        if (import.meta.client) {
+            this.isMobile = this.$helpers.detectMobile();
+            
+            window.addEventListener('scroll', this.handleScroll);
         }
-		window.addEventListener('scroll', this.handleScroll);
 	},
 	methods: {
 		handleScroll() {
@@ -72,10 +62,6 @@ export default {
             & :deep(.nav) {
                 border-radius: 0;
             }
-
-            &.open {
-                translate: 0;
-            }
         }
     }
     
@@ -87,6 +73,13 @@ export default {
         }
     }
 }
+
+.header-modal-open {
+    .page-wrapper__aside {
+        translate: 0;
+    }
+}
+
 main {
     width: 100%;
 	//min-height:calc(100vh - 400px);

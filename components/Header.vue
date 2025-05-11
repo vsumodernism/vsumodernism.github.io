@@ -1,41 +1,31 @@
 <template>
-	<header class="header" :class="{ scroll: isScrolled, open: store.isOpenMobileMenu}">
+	<header class="header" :class="{ scroll: isScrolled, open: isOpenMobileMenu}">
         <div class="header__burger" @click="menuOpener">
-            <IconClose v-if="store.isOpenMobileMenu"/>
+            <IconClose v-if="isOpenMobileMenu"/>
             <IconHamburger v-else/>
         </div>
 
         <Button to="/">Изучать Артефакты</Button>
-
-<!--        <NuxtLink to="/" class="header__logo">-->
-<!--            Изучать Артефакты-->
-<!--        </NuxtLink>-->
 	</header>
 </template>
 
 <script>
-import {useStore} from '~/stores/store';
-
 export default {
 	name: 'Header',
 	data() {
 		return {
 			isScrolled: false,
 			isOpen: false,
+            isOpenMobileMenu: false
 		};
-	},
-	setup() {
-        const store = process.client ? useStore() : null;
-        // const store = useStore();
-
-		return {store}
 	},
 	mounted() {
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	watch: {
-		'store.isOpenMobileMenu'(val) {
+		'isOpenMobileMenu'(val) {
 			const modals = document.querySelectorAll('.modal-overlay');
+
 			if (val) {
 				document.body.classList.add('header-modal-open');
 				return;
@@ -48,7 +38,7 @@ export default {
 	},
 	methods: {
 		menuOpener() {
-			this.store.isOpenMobileMenu = !this.store.isOpenMobileMenu;
+			this.isOpenMobileMenu = !this.isOpenMobileMenu;
 		},
 		handleScroll() {
 			this.isScrolled = window.scrollY >= 50;
