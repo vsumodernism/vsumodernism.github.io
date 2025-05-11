@@ -72,18 +72,6 @@
 		"img": "/images/art-movements/conceptualism.webp"
 	},
 	 {
-		"title": "Неоклассицизм",
-		"slug": "neoklassicism",
-		"description": "",
-		"img": "/images/art-movements/neoklassicism.webp"
-	},
-	 {
-		"title": "Реализм",
-		"slug": "realism",
-		"description": "",
-		"img": "/images/art-movements/realism.webp"
-	},
-	 {
 		"title": "Конструктивизм",
 		"slug": "konstruktivism",
 		"description": "",
