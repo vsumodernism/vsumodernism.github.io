@@ -392,14 +392,14 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/gallery/vlamink-krasnye-derevya.webp",
-				"name": "Красные деревья",
+				"img": "/images/gallery/vlamink-vid-na-senu.webp",
+				"name": "Вид на Сену",
 				"author": "Морис де Вламинк",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/vlamink-vid-na-senu.webp",
-				"name": "Вид на Сену",
+				"img": "/images/gallery/vlamink-krasnye-derevya.webp",
+				"name": "Красные деревья",
 				"author": "Морис де Вламинк",
 				"style": "Фовизм"
 			}
