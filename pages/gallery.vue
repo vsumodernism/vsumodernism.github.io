@@ -1,12 +1,14 @@
 <template>
     <div>
         <h1 class="title_size_40 mb-15">Галерея</h1>
-        <p class="text-gray mb-30">{{galleries.length}} произведений</p>
+        <p class="text-gray mb-30">{{countPictures}} произведений</p>
         
         <div v-if="galleries.length" class="gallery mt-40">
             <div v-for="row in galleries" class="gallery-row" :class="viewClass(row.view)">
                 <div v-for="picture in row.pictures" class="picture">
-                    <div class="picture__cover" :class="{'picture__cover_fields': picture.view === 'fields'}">
+                    <div class="picture__cover"
+                         :class="{'picture__cover_fields': picture.view === 'fields'}"
+                         :style="picture?.bg ? `background-color: #${picture.bg}` : null">
                         <img :src="picture.img" class="picture__img"/>
                         <div class="picture__style">{{picture.style}}</div>
                     </div>
@@ -47,6 +49,13 @@ export default defineNuxtComponent({
         
         return {
             galleries
+        }
+    },
+    computed: {
+        countPictures() {
+            return this.galleries.reduce((sum, item) => {
+                return sum + item?.pictures?.length
+            }, 0)
         }
     },
     mounted() {

@@ -17,12 +17,12 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button v-if="isMobile === false" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button v-if="isMobile === false" :to="`/artists/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
 
                 <p class="card-person__description mt-10">{{card.description}}</p>
                 
-                <Button v-if="isMobile" :to="`/personalities/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
+                <Button v-if="isMobile" :to="`/artists/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
                 
                 <ul v-if="card.tags.length" class="card-person__tags">
                     <li v-for="tag in card.tags" class="card-person__tag">{{tag}}</li>
@@ -43,11 +43,13 @@
 
 <script>
 import Button from "~/components/UI/Button.vue";
+import Input from "~/components/UI/Input.vue";
 
 export default defineNuxtComponent({
 	name: 'PageArtists',
     components: {
-        Button
+        Button,
+        Input
     },
 	async setup() {
         // const store = process.client ? useStore() : null;
@@ -97,6 +99,8 @@ export default defineNuxtComponent({
             
             if (pageWrapper && pageWrapper.classList.contains('is-mobile')) {
                 this.isMobile = true
+            } else {
+                this.isMobile = false
             }
         }, 500)
     }
