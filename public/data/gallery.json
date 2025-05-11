@@ -90,5 +90,29 @@
 				"style": "Фовизм"
 			}
 		]
+	},
+		{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/868f9ed09b7e561652e65f145fd045b9d9fb6a21.png",
+				"name": "Окно в Танжере",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/image.jpg",
+				"name": "Интерьер с красными рыбками",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/igra-v-shary.jpg",
+				"name": "Окно",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
 	}
 ]
