@@ -30,7 +30,13 @@ export default defineNuxtComponent({
         let galleries = [];
         
         try {
-            const response = await $fetch('/data/gallery.json');
+            let response
+            
+            if (process.server) {
+                response = await useFetch('/data/gallery.json')
+            } else {
+                response = await $fetch('/data/gallery.json');
+            }
 
             if (response) {
                 galleries = response;

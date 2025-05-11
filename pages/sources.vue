@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import {useStore} from "~/stores/store.js";
+// import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
     name: 'PageSources',
@@ -23,7 +23,13 @@ export default defineNuxtComponent({
         let terms = [];
         
         try {
-            const response = await $fetch('/data/sources.json');
+            let response
+            
+            if (process.server) {
+                response = await useFetch('/data/sources.json')
+            } else {
+                response = await $fetch('/data/sources.json');
+            }
             
             if (response) {
                 terms = response;
