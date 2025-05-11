@@ -136,16 +136,40 @@
 		"view": "2",
 		"pictures": [
 			{
-				"img": "/images/gallery/razgovor.jpg",
-				"name": "Разговор",
+				"img": "/images/gallery/odaliska-garmoniya-v-krasnom.webp",
+				"name": "Одалиска. Гармония в красном",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/muzyka.jpg",
+				"img": "/images/gallery/arabskaya-kofeynya.webp",
+				"name": "Арабская кофейня",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/muzyka.webp",
 				"name": "Музыка",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/rumynskaya-bluza.webp",
+				"name": "Румынская блуза",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/natyurmort-na-sinem-stole.webp",
+				"name": "Натюрморт на синем столе",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм",
+				"view": "fields"
 			}
 		]
 	}
