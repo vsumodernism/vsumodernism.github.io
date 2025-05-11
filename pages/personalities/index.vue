@@ -1,5 +1,5 @@
 <template>
-	<div>
+    <div>
         <h1 class="title_size_40 mb-15">Персоналии</h1>
         <p class="text-gray mb-30">{{artists.length}} авторов</p>
         
@@ -8,7 +8,7 @@
                 <IconSearch/>
             </template>
         </Input>
-
+        
         <div v-if="filteredArtists.length" class="list-artists mt-40">
             <div v-for="card in filteredArtists" class="card-person">
                 <div style="display: flex; gap:10px; align-items: center">
@@ -17,15 +17,17 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button v-if="!isMobile" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
-
+                
                 <p class="card-person__description mt-10">{{card.description}}</p>
-
+                
+                <Button v-if="isMobile" :to="`/personalities/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
+                
                 <ul v-if="card.tags.length" class="card-person__tags">
                     <li v-for="tag in card.tags" class="card-person__tag">{{tag}}</li>
                 </ul>
-
+                
                 <div v-if="card.pictures.length" class="list-pictures">
                     <div v-for="picture in card.pictures" class="picture">
                         <img :src="picture.img" class="picture__img"/>
@@ -34,50 +36,69 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </template>
 
 <script>
 import Button from "~/components/UI/Button.vue";
-// import {useStore} from "~/stores/store.js";
+import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
-	name: 'PageArtMovements',
+    name: 'PageArtists',
     components: {
         Button
     },
-	async setup() {
-        // const store = process.client ? useStore() : null;
-		// const store = useStore();
-		let artists = [];
-
-		try {
-            const response = await $fetch('/data/artists.json');
-
-			if (response) {
-                artists = response;
-			}
-		} catch (e) {
-            console.log(e)
-		}
-
-		// useSeoMeta({
-		// 	title: t('pages.games.title'),
-		// 	ogTitle: t('pages.games.title'),
-		// 	description: t('pages.games.description'),
-		// 	ogDescription: t('pages.games.description'),
-		// 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-		// 	robots: 'index, follow'
-		// });
-
-		return {
-			// store,
-            artists
-		}
-	},
+    // async setup() {
+    //     // const store = process.client ? useStore() : null;
+    //     // const store = useStore();
+    //     let artists = [];
+    //
+    //     try {
+    //         // const response = await $fetch('/data/artists.json');
+    //         //
+    //         // if (response) {
+    //         //     artists = response;
+    //         // }
+    //     } catch (e) {
+    //         console.log(e)
+    //     }
+    //
+    //     // useSeoMeta({
+    //     // 	title: t('pages.games.title'),
+    //     // 	ogTitle: t('pages.games.title'),
+    //     // 	description: t('pages.games.description'),
+    //     // 	ogDescription: t('pages.games.description'),
+    //     // 	ogImage: $config.public.OG_DEFAULT_IMAGE,
+    //     // 	robots: 'index, follow'
+    //     // });
+    //
+    //     return {
+    //         // store,
+    //         artists
+    //     }
+    // },
     data() {
         return {
-            search: ''
+            isMobile: false,
+            search: '',
+            artists: []
+        }
+    },
+    async mounted() {
+        try {
+            if (import.meta.client) {
+                const store = useStore();
+                this.isMobile = store.isMobile;
+                
+                const response = await $fetch('/data/artists.json');
+
+                if (response) {
+                    this.artists = response;
+                }
+            }
+            
+        } catch (e) {
+            console.log(e)
         }
     },
     computed: {
@@ -97,6 +118,10 @@ export default defineNuxtComponent({
     gap: 20px;
     width: 815px;
     margin-inline: auto;
+    
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 }
 
 .list-pictures {
@@ -132,26 +157,26 @@ export default defineNuxtComponent({
         object-fit: cover;
         border-radius: 50%;
     }
-
+    
     &__name {
         margin-bottom: 5px;
     }
-
+    
     &__dates {
         color: var(--neutrals4);
     }
-
+    
     &__description {
         margin-bottom: 25px;
         color: var(--neutrals4);
     }
-
+    
     &__tags {
         display: flex;
         gap: 10px;
         margin-bottom: 25px;
     }
-
+    
     &__tag {
         padding: 5px;
         border-radius: 4px;

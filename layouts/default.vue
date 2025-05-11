@@ -46,7 +46,7 @@ export default {
             if (import.meta.client) {
                 const store = useStore();
                 store.isMobile = this.$helpers.detectMobile();
-                this.isMobile = this.store.isMobile;
+                this.isMobile = store.isMobile;
                 
                 window.addEventListener('scroll', this.handleScroll);
             }
