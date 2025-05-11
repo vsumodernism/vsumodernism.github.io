@@ -19,14 +19,11 @@
 </template>
 
 <script>
-import {useStore} from "~/stores/store.js";
 import Zooming from 'zooming';
 
 export default defineNuxtComponent({
     name: 'PageGallery',
     async setup() {
-        // const store = process.client ? useStore() : null;
-        // const store = useStore();
         let galleries = [];
         
         try {
@@ -49,7 +46,6 @@ export default defineNuxtComponent({
         // });
         
         return {
-            // store,
             galleries
         }
     },

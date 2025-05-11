@@ -14,46 +14,71 @@
 </template>
 
 <script>
-// import {useStore} from "~/stores/store.js";
-
 export default defineNuxtComponent({
 	name: 'PageArtMovements',
-	async setup() {
-        // const store = import.meta.client ? useStore() : null;
-		// const store = useStore();
-		let movements = [];
+	// async setup() {
+    //     // const store = import.meta.client ? useStore() : null;
+	// 	// const store = useStore();
+	// 	let movements = [];
+    //
+	// 	try {
+    //         // let response
+    //         //
+    //         // if (process.server) {
+    //         //     response = await useFetch('/data/art-movements.json')
+    //         // } else {
+    //         //     response = await $fetch('/data/art-movements.json');
+    //         // }
+    //         // const response = await $fetch('/data/art-movements.json');
+    //         //
+	// 		// if (response) {
+    //         //     movements = response;
+	// 		// }
+	// 	} catch (e) {
+    //         console.log(e)
+	// 	}
+    //
+	// 	// useSeoMeta({
+	// 	// 	title: t('pages.games.title'),
+	// 	// 	ogTitle: t('pages.games.title'),
+	// 	// 	description: t('pages.games.description'),
+	// 	// 	ogDescription: t('pages.games.description'),
+	// 	// 	ogImage: $config.public.OG_DEFAULT_IMAGE,
+	// 	// 	robots: 'index, follow'
+	// 	// });
+    //
+	// 	return {
+	// 		// store,
+    //         movements
+	// 	}
+	// },
+    data() {
+        return {
+            movements: [],
+            store: null
+        }
+    },
+    async mounted() {
+        if (process.client) {
+            try {
+                // let response
+                //
+                // if (process.server) {
+                //     response = await useFetch('/data/art-movements.json')
+                // } else {
+                //     response = await $fetch('/data/art-movements.json');
+                // }
+                const response = await $fetch('/data/art-movements.json');
 
-		try {
-            // if (process.server) {
-            //     response = await useFetch('/api/art-movements')
-            // } else {
-            //     response = await $fetch('/api/art-movements');
-            // }
-
-			const response = await $fetch('/data/art-movements.json');
-            console.log('response', response)
-
-			if (response) {
-                movements = response;
-			}
-		} catch (e) {
-            console.log(e)
-		}
-
-		// useSeoMeta({
-		// 	title: t('pages.games.title'),
-		// 	ogTitle: t('pages.games.title'),
-		// 	description: t('pages.games.description'),
-		// 	ogDescription: t('pages.games.description'),
-		// 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-		// 	robots: 'index, follow'
-		// });
-
-		return {
-			// store,
-            movements
-		}
-	},
+                if (response) {
+                    this.movements = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+            
+        }
+    }
 })
 </script>
 
@@ -68,6 +93,10 @@ export default defineNuxtComponent({
     width: 256px;
     cursor: pointer;
     
+    @media (max-width: 425px) {
+        width: 100%;
+    }
+
     &__image {
         width: 100%;
         aspect-ratio: 1/1;

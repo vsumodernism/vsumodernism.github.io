@@ -20,7 +20,6 @@
 
 <script>
 import Input from "~/components/UI/Input.vue";
-// import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
     name: 'PageGlossary',
@@ -28,13 +27,11 @@ export default defineNuxtComponent({
         Input
     },
     async setup() {
-        // const store = process.client ? useStore() : null;
-        // const store = useStore();
         let terms = [];
         
         try {
             const response = await $fetch('/data/glossary.json');
-            
+
             if (response) {
                 terms = response;
             }
@@ -78,6 +75,10 @@ export default defineNuxtComponent({
     gap: 20px;
     width: 815px;
     margin-inline: auto;
+    
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 }
 
 .card-term {

@@ -1,8 +1,8 @@
 <template>
     <div class="page-wrapper" :class="{'is-mobile': isMobile}">
-<!--        <Header/>-->
-        <aside class="page-wrapper__aside">
-            {{isMobile}}
+        <Header v-if="isMobile"/>
+
+        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': isMobile}">
             <Menu/>
         </aside>
         <main class="page-wrapper__main">
@@ -17,35 +17,20 @@
 </template>
 
 <script>
-import {useStore} from "~/stores/store.js";
-
 export default {
 	name: 'default',
-    setup() {
-        const store = import.meta.client ? useStore() : null
-        
-        return { store }
-    },
 	data() {
 		return {
             isMobile: false,
 			isScrolled: false,
+            store: null
 		};
 	},
 	mounted() {
-        console.log('import.meta.client', import.meta.client)
-        console.log('process.client', process.client)
-        try {
-            if (this.store) {
-                // const store = useStore();
-                this.store.isMobile = this.$helpers.detectMobile();
-                this.isMobile = this.store.isMobile;
-                
-                window.addEventListener('scroll', this.handleScroll);
-            }
+        if (import.meta.client) {
+            this.isMobile = this.$helpers.detectMobile();
             
-        } catch (e) {
-            console.log(e)
+            window.addEventListener('scroll', this.handleScroll);
         }
 	},
 	methods: {
@@ -63,12 +48,38 @@ export default {
     &__aside {
         max-width: 280px;
         padding: 10px;
+        
+        &_mobile {
+            max-width: none;
+            position: fixed;
+            top: 65px;
+            bottom: 0;
+            z-index: 100;
+            padding: 0;
+            translate: -100%;
+            transition: translate .5s;
+            
+            & :deep(.nav) {
+                border-radius: 0;
+            }
+        }
     }
     
     &__main {
         padding: 50px 36px;
+        
+        @media (max-width: 425px) {
+            padding: 95px 20px 30px;
+        }
     }
 }
+
+.header-modal-open {
+    .page-wrapper__aside {
+        translate: 0;
+    }
+}
+
 main {
     width: 100%;
 	//min-height:calc(100vh - 400px);

@@ -5,8 +5,6 @@
 </template>
 
 <script>
-// import {useStore} from "~/stores/store.js";
-
 export default defineNuxtComponent({
 	name: 'PageHome',
 	async setup() {

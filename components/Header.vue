@@ -1,156 +1,31 @@
 <template>
-	<header class="header" :class="{ scroll: isScrolled, open: store.isOpenMobileMenu}">
-		<div class="header__container container-1408">
+	<header class="header" :class="{ scroll: isScrolled, open: isOpenMobileMenu}">
+        <div class="header__burger" @click="menuOpener">
+            <IconClose v-if="isOpenMobileMenu"/>
+            <IconHamburger v-else/>
+        </div>
 
-			<nav class="nav" :class="{'nav_opened': store.isOpenMobileMenu}">
-				<ul class="nav__list">
-					<li class="nav__item">
-						<NuxtLink to="/about-us" class="header-btn" @click="store.isOpenMobileMenu = false">
-							<span class="header-btn__inner">{{$t('nav.aboutUs')}}</span>
-						</NuxtLink>
-					</li>
-					<li class="nav__item">
-						<NuxtLink to="/games" class="header-btn" @click="store.isOpenMobileMenu = false">
-							<span class="header-btn__inner">{{$t('nav.games')}}</span>
-						</NuxtLink>
-					</li>
-					<li class="nav__item">
-						<NuxtLink to="/news" class="header-btn" @click="store.isOpenMobileMenu = false">
-							<span class="header-btn__inner">News</span>
-						</NuxtLink>
-					</li>
-				</ul>
-			</nav>
-			<NuxtLink to="/" class="header__logo">
-<!--				<Logo/>-->
-<!--				<img src="/images/18peaches/logo-sm.png" alt="18peaches" class="header__logo-img">-->
-			</NuxtLink>
-            <div class="header__burger" @click="menuOpener">
-                <IconClose v-if="store.isOpenMobileMenu"/>
-                <IconHamburger v-else/>
-            </div>
-            
-            
-            <ul class="header-controls">
-<!--				<li v-show="user?.isAuth === false">-->
-<!--					<NuxtLink to="/client-area" class="header-link" @click="store.isOpenMobileMenu = false">-->
-<!--						<IconUser/>-->
-<!--						<span class="header-link__inner">-->
-<!--							{{$t('nav.clientArea')}}-->
-<!--            			</span>-->
-<!--					</NuxtLink>-->
-<!--				</li>-->
-				<li class="nav__item">
-					<NuxtLink to="/features" class="header-btn" @click="store.isOpenMobileMenu = false">
-						<span class="header-btn__inner">Features</span>
-					</NuxtLink>
-
-					<ul class="nav__sublist">
-						<li>
-							<NuxtLink to="/features/buy-bonus" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Buy Bonus
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/cascades" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Cascades
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/cluster-pays" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Cluster Pays
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/double-chance" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Double Chance
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/flexiways" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								FlexiWays™
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/gamble-feature" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Gamble Feature
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/hold-and-win" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Hold and Win
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/respin-feature" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Respin Feature
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/x2-mechanic" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								X2 Mechanic
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/expanding-wilds" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Expanding Wilds
-							</NuxtLink>
-						</li>
-						<li>
-							<NuxtLink to="/features/stacked-wilds" class="nav__sublist-link" @click="store.isOpenMobileMenu = false">
-								Stacked Wilds
-							</NuxtLink>
-						</li>
-					</ul>
-				</li>
-				<li class="nav__item">
-					<NuxtLink to="/careers" class="header-btn" @click="store.isOpenMobileMenu = false">
-						<span class="header-btn__inner">{{$t('nav.careers')}}</span>
-					</NuxtLink>
-				</li>
-				<li class="nav__item">
-					<NuxtLink to="/roadmap" class="header-btn" @click="store.isOpenMobileMenu = false">
-						<span class="header-btn__inner">{{$t('nav.roadmap')}}</span>
-					</NuxtLink>
-				</li>
-				<li class="header__up">
-					<NuxtLink to="/contact-us" class="header-btn" @click="store.isOpenMobileMenu = false">
-						<span class="header-btn__inner">{{$t('nav.contactUs')}}</span>
-					</NuxtLink>
-				</li>
-<!--				<li>-->
-<!--					<LanguageSelect/>-->
-<!--				</li>-->
-			</ul>
-		</div>
+        <Button to="/">Изучать Артефакты</Button>
 	</header>
 </template>
 
 <script>
-import IconClose from "~/components/icons/IconClose.vue";
-import IconHamburger from "~/components/icons/IconHamburger.vue";
-import {useStore} from '~/stores/store';
-
 export default {
 	name: 'Header',
 	data() {
 		return {
 			isScrolled: false,
 			isOpen: false,
+            isOpenMobileMenu: false
 		};
-	},
-	setup() {
-        const store = process.client ? useStore() : null;
-        // const store = useStore();
-
-		return {store}
 	},
 	mounted() {
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	watch: {
-		'store.isOpenMobileMenu'(val) {
+		'isOpenMobileMenu'(val) {
 			const modals = document.querySelectorAll('.modal-overlay');
+
 			if (val) {
 				document.body.classList.add('header-modal-open');
 				return;
@@ -163,7 +38,7 @@ export default {
 	},
 	methods: {
 		menuOpener() {
-			this.store.isOpenMobileMenu = !this.store.isOpenMobileMenu;
+			this.isOpenMobileMenu = !this.isOpenMobileMenu;
 		},
 		handleScroll() {
 			this.isScrolled = window.scrollY >= 50;
@@ -174,13 +49,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .header {
 	position: fixed;
 	top: 0;
 	z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 	width: 100%;
-	padding-top: 16px;
+    height: 65px;
+    padding-inline: 20px;
+    background-color: var(--neutrals1);
 	transition: background-color .2s linear;
 
 //	@media (min-width: 1201px) {
