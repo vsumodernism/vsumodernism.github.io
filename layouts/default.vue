@@ -42,8 +42,8 @@ export default {
 	mounted() {
         if (process.client) {
             this.store = useStore();
-            this.store.isMobile = this.$helpers.detectMobile();
-            this.isMobile = this.store.isMobile;
+            // this.store.isMobile = this.$helpers.detectMobile();
+            // this.isMobile = this.store.isMobile;
 
             window.addEventListener('scroll', this.handleScroll);
         }
