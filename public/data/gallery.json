@@ -383,8 +383,42 @@
 				"img": "/images/gallery/vlamink-sena-v-shatu.webp",
 				"name": "Сена в Шату",
 				"author": "Морис де Вламинк",
-				"style": "Кубизм?",
+				"style": "Фовизм",
 				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/vlamink-krasnye-derevya.webp",
+				"name": "Красные деревья",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/vlamink-vid-na-senu.webp",
+				"name": "Вид на Сену",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/deren-subbotniy-den.webp",
+				"name": "Ресторан в Марли-ле-Руа",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/deren-arlekin-i-pyero.webp",
+				"name": "Деревья  у  дома",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
 			}
 		]
 	}
