@@ -41,6 +41,8 @@ export default {
 		};
 	},
 	mounted() {
+        console.log('import.meta.client', import.meta.client)
+        console.log('process.client', process.client)
         try {
             if (import.meta.client) {
                 this.store = useStore();
