@@ -40,12 +40,17 @@ export default {
 		};
 	},
 	mounted() {
-        if (process.client) {
-            this.store = useStore();
-            // this.store.isMobile = this.$helpers.detectMobile();
-            // this.isMobile = this.store.isMobile;
-
-            window.addEventListener('scroll', this.handleScroll);
+        try {
+            if (import.meta.client) {
+                this.store = useStore();
+                // this.store.isMobile = this.$helpers.detectMobile();
+                // this.isMobile = this.store.isMobile;
+                
+                window.addEventListener('scroll', this.handleScroll);
+            }
+            
+        } catch (e) {
+            console.log(e)
         }
 	},
 	methods: {
