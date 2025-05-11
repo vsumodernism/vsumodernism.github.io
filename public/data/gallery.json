@@ -195,7 +195,7 @@
 		"pictures": [
 			{
 				"img": "/images/gallery/ikar-dzhaz.webp",
-				"name": "Икар». Иллюстрация к книге «Джаз",
+				"name": "«Икар». Иллюстрация к книге «Джаз»",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
@@ -210,6 +210,180 @@
 				"name": "Красная комната",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/tantsovshchitsa.webp",
+				"name": "Танцовщица",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/lodki-v-kolyure.webp",
+				"name": "Лодки в Коллиуре",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/port-v-kolyure.webp",
+				"name": "Порт в Коллиуре",
+				"author": "Андре Дерен",
+				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/prigorod-kolyura.webp",
+				"name": "Пригород Коллиура",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/prosushka-parusov.webp",
+				"name": "Просушка  парусов",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/londonskiy-most.webp",
+				"name": "Лондонский  мост",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/londonskaya-gavan.webp",
+				"name": "Лондонская гавань",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/vestminster.webp",
+				"name": "Вестминстер",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/most-charing-kross-london.webp",
+				"name": "Мост Чаринг-Кросс, Лондон",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/deren-most-cherez-temzu.webp",
+				"name": "Мост через Темзу",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/deren-most-vaterloo.webp",
+				"name": "Мост Ватерлоо",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/deren-port.webp",
+				"name": "Порт",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/deren-doroga-v-gorakh.webp",
+				"name": "Дорога  в  горах",
+				"author": "Андре Дерен",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/deren-roshcha.webp",
+				"name": "Роща",
+				"author": "Андре Дерен",
+				"style": "Кубизм?",
+				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/deren-gavan-v-provansе.webp",
+				"name": "Гавань в Провансе",
+				"author": "Андре Дерен",
+				"style": "Кубизм?"
+			},
+			{
+				"img": "/images/gallery/deren-doma-u-vody.webp",
+				"name": "Дома у воды",
+				"author": "Андре Дерен",
+				"style": "Кубизм?"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/deren-subbotniy-den.webp",
+				"name": "Субботний день",
+				"author": "Андре Дерен",
+				"style": "Стиль?Неоклассицизм?"
+			},
+			{
+				"img": "/images/gallery/deren-arlekin-i-pyero.webp",
+				"name": "Арлекин и Пьеро",
+				"author": "Андре Дерен",
+				"style": "Стиль?Неоклассицизм?"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/vlamink-portret-andre-derena.webp",
+				"name": "Портрет Андре Дерена",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/vlamink-v-sadu.webp",
+				"name": "В саду",
+				"author": "Морис де Вламинк",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/vlamink-sena-v-shatu.webp",
+				"name": "Сена в Шату",
+				"author": "Морис де Вламинк",
+				"style": "Кубизм?",
 				"view": "fields"
 			}
 		]
