@@ -24,13 +24,14 @@ export default defineNuxtComponent({
 		let movements = [];
 
 		try {
-            let response
-
-            if (process.server) {
-                response = await useFetch('/data/art-movements.json')
-            } else {
-                response = await $fetch('/data/art-movements.json');
-            }
+            // let response
+            //
+            // if (process.server) {
+            //     response = await useFetch('/data/art-movements.json')
+            // } else {
+            //     response = await $fetch('/data/art-movements.json');
+            // }
+            const response = await $fetch('/data/art-movements.json');
 
 			if (response) {
                 movements = response;

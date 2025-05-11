@@ -54,13 +54,7 @@ export default defineNuxtComponent({
 		let artists = [];
 
 		try {
-            let response
-
-            if (process.server) {
-                response = await useFetch('/data/artists.json')
-            } else {
-                response = await $fetch('/data/artists.json');
-            }
+            const response = await $fetch('/data/artists.json');
 
 			if (response) {
                 artists = response;
