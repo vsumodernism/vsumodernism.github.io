@@ -2,7 +2,7 @@
     <div class="page-wrapper" :class="{'is-mobile': isMobile}">
 <!--        <Header/>-->
         <aside class="page-wrapper__aside">
-            {{store && store?.isMobile}}
+            {{isMobile}}
             <Menu/>
         </aside>
         <main class="page-wrapper__main">
@@ -37,7 +37,6 @@ export default {
 		return {
             isMobile: false,
 			isScrolled: false,
-            store: null
 		};
 	},
 	mounted() {
@@ -45,9 +44,9 @@ export default {
         console.log('process.client', process.client)
         try {
             if (import.meta.client) {
-                this.store = useStore();
-                this.store.isMobile = this.$helpers.detectMobile();
-                // this.isMobile = this.store.isMobile;
+                const store = useStore();
+                store.isMobile = this.$helpers.detectMobile();
+                this.isMobile = this.store.isMobile;
                 
                 window.addEventListener('scroll', this.handleScroll);
             }
