@@ -1,5 +1,5 @@
 <template>
-    <div class="page-wrapper" :class="{'is-mobile': store?.isMobile}">
+    <div class="page-wrapper" :class="{'is-mobile': isMobile}">
 <!--        <Header/>-->
         <aside class="page-wrapper__aside">
             <Menu/>
@@ -40,9 +40,13 @@ export default {
 		};
 	},
 	mounted() {
-        this.store = useStore();
-        this.store.isMobile = this.$helpers.detectMobile();
-		window.addEventListener('scroll', this.handleScroll);
+        if (process.client) {
+            this.store = useStore();
+            this.store.isMobile = this.$helpers.detectMobile();
+            this.isMobile = this.store.isMobile;
+
+            window.addEventListener('scroll', this.handleScroll);
+        }
 	},
 	methods: {
 		handleScroll() {
