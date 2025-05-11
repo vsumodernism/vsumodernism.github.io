@@ -55,7 +55,6 @@ export default defineNuxtComponent({
     data() {
         return {
             movements: [],
-            store: null
         }
     },
     async mounted() {

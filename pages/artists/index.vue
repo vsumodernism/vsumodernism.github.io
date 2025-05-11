@@ -17,7 +17,7 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button v-if="!isMobile" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button v-if="isMobile === false" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
 
                 <p class="card-person__description mt-10">{{card.description}}</p>
@@ -43,7 +43,7 @@
 import Button from "~/components/UI/Button.vue";
 
 export default defineNuxtComponent({
-	name: 'PageArtMovements',
+	name: 'PageArtists',
     components: {
         Button
     },
@@ -79,7 +79,7 @@ export default defineNuxtComponent({
     data() {
         return {
             search: '',
-            isMobile: false
+            isMobile: null
         }
     },
     computed: {
@@ -88,6 +88,15 @@ export default defineNuxtComponent({
             
             return this.artists.filter(item => item.name.toLowerCase().includes(search))
         }
+    },
+    mounted() {
+        setTimeout(() => {
+            const pageWrapper = document.querySelector('.page-wrapper');
+            
+            if (pageWrapper && pageWrapper.classList.contains('is-mobile')) {
+                this.isMobile = true
+            }
+        }, 500)
     }
 })
 </script>

@@ -15,7 +15,7 @@
 
 <script>
 export default defineNuxtComponent({
-	name: 'PageArtMovements',
+	name: 'PageArtist',
 	async setup() {
         // const store = process.client ? useStore() : null;
 		// const store = useStore();

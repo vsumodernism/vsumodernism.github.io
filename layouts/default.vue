@@ -23,7 +23,6 @@ export default {
 		return {
             isMobile: false,
 			isScrolled: false,
-            store: null
 		};
 	},
 	mounted() {
