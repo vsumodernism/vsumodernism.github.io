@@ -172,5 +172,46 @@
 				"view": "fields"
 			}
 		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/egipetskiy-zanaves.webp",
+				"name": "Египетский занавес",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/loshad-naezdnica-i-kloun-dzhaz.webp",
+				"name": "Лошадь, наездница и клоун». Иллюстрация к книге «Джаз»",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/ikar-dzhaz.webp",
+				"name": "Икар». Иллюстрация к книге «Джаз",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/zhenskiy-portret.webp",
+				"name": "Женский портрет",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/krasnaya-komnata.webp",
+				"name": "Красная комната",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
 	}
 ]
