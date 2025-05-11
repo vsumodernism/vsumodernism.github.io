@@ -29,9 +29,11 @@
                 </ul>
 
                 <div v-if="card.pictures.length" class="list-pictures">
-                    <div v-for="picture in card.pictures" class="picture">
-                        <img :src="picture.img" class="picture__img"/>
-                        <div class="picture__name">«{{picture.name}}»</div>
+                    <div class="list-pictures__slider">
+                        <div v-for="picture in card.pictures" class="picture">
+                            <img :src="picture.img" class="picture__img"/>
+                            <div class="picture__name">«{{picture.name}}»</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,12 +117,29 @@ export default defineNuxtComponent({
 }
 
 .list-pictures {
-    display: flex;
-    gap: 15px;
+    @media (max-width: 425px) {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    &__slider {
+        display: flex;
+        gap: 15px;
+        
+        @media (max-width: 425px) {
+            scroll-snap-type: x mandatory;
+        }
+    }
 }
 
 .picture {
     max-width: 246px;
+    
+    @media (max-width: 425px) {
+        flex: 0 0 auto;
+        width: 80%; /* или 100% для 1 картинки на экран */
+        scroll-snap-align: start;
+    }
     
     &__img {
         width: 100%;
