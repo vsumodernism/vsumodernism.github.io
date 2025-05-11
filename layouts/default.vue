@@ -20,18 +20,18 @@ import {useStore} from "~/stores/store.js";
 
 export default {
 	name: 'default',
-    // setup() {
-    //     const store = useStore();
+    setup() {
+        const store = useStore();
     //     const { $helpers } = useNuxtApp();
     //
     //     if (process.client) {
     //         store.isMobile = $helpers.detectMobile();
     //     }
     //
-    //     return {
-    //         isMobile: store.isMobile
-    //     }
-    // },
+        return {
+            store
+        }
+    },
 	data() {
 		return {
             isMobile: false,
