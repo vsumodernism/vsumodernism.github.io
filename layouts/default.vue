@@ -1,8 +1,7 @@
 <template>
-    <div class="page-wrapper" :class="{'is-mobile': store.isMobile}">
-        <Header v-if="store.isMobile"/>
-
-        <aside class="page-wrapper__aside" :class="{'page-wrapper__aside_mobile': store.isMobile, open: store.isOpenMobileMenu}">
+    <div class="page-wrapper" :class="{'is-mobile': isMobile}">
+<!--        <Header/>-->
+        <aside class="page-wrapper__aside">
             <Menu/>
         </aside>
         <main class="page-wrapper__main">
@@ -21,26 +20,25 @@ import {useStore} from "~/stores/store.js";
 
 export default {
 	name: 'default',
-    setup() {
-        const store = useStore();
-
-        return {
-            store
-        }
-    },
+    // setup() {
+    //     const store = useStore();
+    //     const { $helpers } = useNuxtApp();
+    //
+    //     if (process.client) {
+    //         store.isMobile = $helpers.detectMobile();
+    //     }
+    //
+    //     return {
+    //         isMobile: store.isMobile
+    //     }
+    // },
 	data() {
 		return {
+            isMobile: false,
 			isScrolled: false
 		};
 	},
 	mounted() {
-        console.log('import.meta.client', import.meta.client)
-        console.log('process.client', process.client)
-
-        if (process.client) {
-            this.store.isMobile = this.$helpers.detectMobile();
-            console.log('this.store.isMobile', this.store.isMobile)
-        }
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	methods: {
@@ -58,33 +56,10 @@ export default {
     &__aside {
         max-width: 280px;
         padding: 10px;
-        
-        &_mobile {
-            max-width: none;
-            position: fixed;
-            top: 65px;
-            bottom: 0;
-            z-index: 100;
-            padding: 0;
-            translate: -100%;
-            transition: translate .5s;
-            
-            & :deep(.nav) {
-                border-radius: 0;
-            }
-
-            &.open {
-                translate: 0;
-            }
-        }
     }
     
     &__main {
         padding: 50px 36px;
-        
-        @media (max-width: 425px) {
-            padding: 95px 20px 30px;
-        }
     }
 }
 main {

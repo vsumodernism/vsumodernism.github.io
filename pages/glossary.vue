@@ -33,11 +33,11 @@ export default defineNuxtComponent({
         let terms = [];
         
         try {
-            // const response = await $fetch('/data/glossary.json');
-            //
-            // if (response) {
-            //     terms = response;
-            // }
+            const response = await $fetch('/data/glossary.json');
+            
+            if (response) {
+                terms = response;
+            }
         } catch (e) {
             console.log(e)
         }
@@ -78,10 +78,6 @@ export default defineNuxtComponent({
     gap: 20px;
     width: 815px;
     margin-inline: auto;
-    
-    @media (max-width: 425px) {
-        width: 100%;
-    }
 }
 
 .card-term {

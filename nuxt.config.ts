@@ -10,9 +10,6 @@ console.log('HOST_FRONTEND:', HOST_FRONTEND);
 export default defineNuxtConfig({
 	compatibilityDate: '2024-11-01',
 	nitro: {
-		prerender: {
-			routes: []
-		},
 		// prerender: {
 		// 	routes: ['/'],       // явно
 		// 	crawlLinks: false,   // отключаем автоматический обход
@@ -23,7 +20,7 @@ export default defineNuxtConfig({
 			'/**': { static: true }
 		}
 	},
-	ssr: false,
+	ssr: true,
 	devtools: {enabled: false},
 	modules: [
 		// '@nuxt/eslint',

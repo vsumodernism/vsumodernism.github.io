@@ -24,18 +24,18 @@ export default defineNuxtComponent({
 		let movements = [];
 
 		try {
-            // let response
-            //
             // if (process.server) {
-            //     response = await useFetch('/data/art-movements.json')
+            //     response = await useFetch('/api/art-movements')
             // } else {
-            //     response = await $fetch('/data/art-movements.json');
+            //     response = await $fetch('/api/art-movements');
             // }
-            // const response = await $fetch('/data/art-movements.json');
-            //
-			// if (response) {
-            //     movements = response;
-			// }
+
+			const response = await $fetch('/data/art-movements.json');
+            console.log('response', response)
+
+			if (response) {
+                movements = response;
+			}
 		} catch (e) {
             console.log(e)
 		}
@@ -68,10 +68,6 @@ export default defineNuxtComponent({
     width: 256px;
     cursor: pointer;
     
-    @media (max-width: 425px) {
-        width: 100%;
-    }
-
     &__image {
         width: 100%;
         aspect-ratio: 1/1;

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-// import {useStore} from "~/stores/store.js";
+import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
     name: 'PageSources',
@@ -23,11 +23,11 @@ export default defineNuxtComponent({
         let terms = [];
         
         try {
-            // const response = await $fetch('/data/sources.json');
-            //
-            // if (response) {
-            //     terms = response;
-            // }
+            const response = await $fetch('/data/sources.json');
+            
+            if (response) {
+                terms = response;
+            }
         } catch (e) {
             console.log(e)
         }
@@ -58,10 +58,6 @@ export default defineNuxtComponent({
     margin-inline: auto;
     padding-left: 0;
     counter-reset: term;
-    
-    @media (max-width: 425px) {
-        width: 100%;
-    }
 }
 
 .card-term {

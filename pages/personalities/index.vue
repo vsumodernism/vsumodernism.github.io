@@ -17,13 +17,11 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button v-if="!store.isMobile" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
 
                 <p class="card-person__description mt-10">{{card.description}}</p>
-                
-                <Button v-if="store.isMobile" :to="`/personalities/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
-                
+
                 <ul v-if="card.tags.length" class="card-person__tags">
                     <li v-for="tag in card.tags" class="card-person__tag">{{tag}}</li>
                 </ul>
@@ -54,11 +52,11 @@ export default defineNuxtComponent({
 		let artists = [];
 
 		try {
-            // const response = await $fetch('/data/artists.json');
-            //
-			// if (response) {
-            //     artists = response;
-			// }
+            const response = await $fetch('/data/artists.json');
+
+			if (response) {
+                artists = response;
+			}
 		} catch (e) {
             console.log(e)
 		}
@@ -99,10 +97,6 @@ export default defineNuxtComponent({
     gap: 20px;
     width: 815px;
     margin-inline: auto;
-    
-    @media (max-width: 425px) {
-        width: 100%;
-    }
 }
 
 .list-pictures {

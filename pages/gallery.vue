@@ -30,11 +30,11 @@ export default defineNuxtComponent({
         let galleries = [];
         
         try {
-            // const response = await $fetch('/data/gallery.json');
-            //
-            // if (response) {
-            //     galleries = response;
-            // }
+            const response = await $fetch('/data/gallery.json');
+
+            if (response) {
+                galleries = response;
+            }
         } catch (e) {
             console.log(e)
         }
@@ -138,10 +138,6 @@ export default defineNuxtComponent({
     display: flex;
     gap: 20px;
     //max-height: 470px;
-
-    @media (max-width: 425px) {
-        flex-direction: column;
-    }
     
     &_2 {
         .picture__cover {
