@@ -21,18 +21,11 @@ import {useStore} from "~/stores/store.js";
 
 export default {
 	name: 'default',
-    // setup() {
-    //     const store = useStore();
-    //     const { $helpers } = useNuxtApp();
-    //
-    //     if (process.client) {
-    //         store.isMobile = $helpers.detectMobile();
-    //     }
-    //
-    //     return {
-    //         store
-    //     }
-    // },
+    setup() {
+        const store = import.meta.client ? useStore() : null
+        
+        return { store }
+    },
 	data() {
 		return {
             isMobile: false,
@@ -43,10 +36,10 @@ export default {
         console.log('import.meta.client', import.meta.client)
         console.log('process.client', process.client)
         try {
-            if (import.meta.client) {
-                const store = useStore();
-                store.isMobile = this.$helpers.detectMobile();
-                this.isMobile = store.isMobile;
+            if (this.store) {
+                // const store = useStore();
+                this.store.isMobile = this.$helpers.detectMobile();
+                this.isMobile = this.store.isMobile;
                 
                 window.addEventListener('scroll', this.handleScroll);
             }
