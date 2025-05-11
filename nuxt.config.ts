@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 	modules: [
 		// '@nuxt/eslint',
 		// '@nuxt/scripts',
-		// '@pinia/nuxt'
+		'@pinia/nuxt'
 	],
 	components: [
 		{
