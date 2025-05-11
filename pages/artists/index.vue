@@ -17,21 +17,23 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button v-if="!isMobile" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button v-if="isMobile === false" :to="`/artists/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
 
                 <p class="card-person__description mt-10">{{card.description}}</p>
                 
-                <Button v-if="isMobile" :to="`/personalities/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
+                <Button v-if="isMobile" :to="`/artists/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
                 
                 <ul v-if="card.tags.length" class="card-person__tags">
                     <li v-for="tag in card.tags" class="card-person__tag">{{tag}}</li>
                 </ul>
 
                 <div v-if="card.pictures.length" class="list-pictures">
-                    <div v-for="picture in card.pictures" class="picture">
-                        <img :src="picture.img" class="picture__img"/>
-                        <div class="picture__name">«{{picture.name}}»</div>
+                    <div class="list-pictures__slider">
+                        <div v-for="picture in card.pictures" class="picture">
+                            <img :src="picture.img" class="picture__img"/>
+                            <div class="picture__name">«{{picture.name}}»</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,11 +43,13 @@
 
 <script>
 import Button from "~/components/UI/Button.vue";
+import Input from "~/components/UI/Input.vue";
 
 export default defineNuxtComponent({
-	name: 'PageArtMovements',
+	name: 'PageArtists',
     components: {
-        Button
+        Button,
+        Input
     },
 	async setup() {
         // const store = process.client ? useStore() : null;
@@ -79,7 +83,7 @@ export default defineNuxtComponent({
     data() {
         return {
             search: '',
-            isMobile: false
+            isMobile: null
         }
     },
     computed: {
@@ -88,6 +92,17 @@ export default defineNuxtComponent({
             
             return this.artists.filter(item => item.name.toLowerCase().includes(search))
         }
+    },
+    mounted() {
+        setTimeout(() => {
+            const pageWrapper = document.querySelector('.page-wrapper');
+            
+            if (pageWrapper && pageWrapper.classList.contains('is-mobile')) {
+                this.isMobile = true
+            } else {
+                this.isMobile = false
+            }
+        }, 500)
     }
 })
 </script>
@@ -106,12 +121,29 @@ export default defineNuxtComponent({
 }
 
 .list-pictures {
-    display: flex;
-    gap: 15px;
+    @media (max-width: 425px) {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    &__slider {
+        display: flex;
+        gap: 15px;
+        
+        @media (max-width: 425px) {
+            scroll-snap-type: x mandatory;
+        }
+    }
 }
 
 .picture {
     max-width: 246px;
+    
+    @media (max-width: 425px) {
+        flex: 0 0 auto;
+        width: 80%; /* или 100% для 1 картинки на экран */
+        scroll-snap-align: start;
+    }
     
     &__img {
         width: 100%;

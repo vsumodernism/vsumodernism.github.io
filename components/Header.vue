@@ -10,8 +10,17 @@
 </template>
 
 <script>
+import Button from "~/components/UI/Button.vue";
+import IconClose from "~/components/icons/IconClose.vue";
+import IconHamburger from "~/components/icons/IconHamburger.vue";
+
 export default {
 	name: 'Header',
+    components: {
+        Button,
+        IconClose,
+        IconHamburger
+    },
 	data() {
 		return {
 			isScrolled: false,
@@ -20,6 +29,26 @@ export default {
 		};
 	},
 	mounted() {
+        const observer = new MutationObserver((mutations) => {
+            for (const mutation of mutations) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    const oldClasses = mutation.oldValue?.split(/\s+/) || [];
+                    const newClasses = document.body.className.split(/\s+/);
+                    
+                    if (!oldClasses.includes('header-modal-open') && newClasses.includes('header-modal-open')) {
+                        this.isOpenMobileMenu = true
+                    } else {
+                        this.isOpenMobileMenu = false
+                    }
+                }
+            }
+        });
+        
+        observer.observe(document.body, {
+            attributes: true,
+            attributeFilter: ['class'],
+            attributeOldValue: true,
+        });
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	watch: {

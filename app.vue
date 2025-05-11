@@ -15,4 +15,5 @@
 @use '@/assets/styles/basic/typography.scss';
 @use '@/assets/styles/basic/mixins.scss';
 @use '@/assets/styles/common.scss';
+@use '@/assets/styles/components/article.scss';
 </style>

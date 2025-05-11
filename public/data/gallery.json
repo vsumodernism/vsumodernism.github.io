@@ -19,7 +19,8 @@
 				"name": "Игра в шары",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм",
-				"view": "fields"
+				"view": "fields",
+				"bg": "ff0000"
 			}
 		]
 	},
