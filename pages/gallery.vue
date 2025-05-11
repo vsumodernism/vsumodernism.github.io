@@ -30,11 +30,11 @@ export default defineNuxtComponent({
         let galleries = [];
         
         try {
-            const response = await $fetch('/data/gallery.json');
-
-            if (response) {
-                galleries = response;
-            }
+            // const response = await $fetch('/data/gallery.json');
+            //
+            // if (response) {
+            //     galleries = response;
+            // }
         } catch (e) {
             console.log(e)
         }

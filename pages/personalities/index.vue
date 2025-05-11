@@ -41,7 +41,7 @@
 
 <script>
 import Button from "~/components/UI/Button.vue";
-import {useStore} from "~/stores/store.js";
+// import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
 	name: 'PageArtMovements',
@@ -50,15 +50,15 @@ export default defineNuxtComponent({
     },
 	async setup() {
         // const store = process.client ? useStore() : null;
-		const store = useStore();
+		// const store = useStore();
 		let artists = [];
 
 		try {
-            const response = await $fetch('/data/artists.json');
-
-			if (response) {
-                artists = response;
-			}
+            // const response = await $fetch('/data/artists.json');
+            //
+			// if (response) {
+            //     artists = response;
+			// }
 		} catch (e) {
             console.log(e)
 		}
@@ -73,7 +73,7 @@ export default defineNuxtComponent({
 		// });
 
 		return {
-			store,
+			// store,
             artists
 		}
 	},

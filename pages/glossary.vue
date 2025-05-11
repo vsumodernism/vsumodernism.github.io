@@ -33,11 +33,11 @@ export default defineNuxtComponent({
         let terms = [];
         
         try {
-            const response = await $fetch('/data/glossary.json');
-            
-            if (response) {
-                terms = response;
-            }
+            // const response = await $fetch('/data/glossary.json');
+            //
+            // if (response) {
+            //     terms = response;
+            // }
         } catch (e) {
             console.log(e)
         }

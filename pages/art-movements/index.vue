@@ -31,11 +31,11 @@ export default defineNuxtComponent({
             // } else {
             //     response = await $fetch('/data/art-movements.json');
             // }
-            const response = await $fetch('/data/art-movements.json');
-
-			if (response) {
-                movements = response;
-			}
+            // const response = await $fetch('/data/art-movements.json');
+            //
+			// if (response) {
+            //     movements = response;
+			// }
 		} catch (e) {
             console.log(e)
 		}
