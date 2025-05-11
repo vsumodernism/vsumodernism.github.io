@@ -67,6 +67,10 @@ export default defineNuxtComponent({
     width: 256px;
     cursor: pointer;
     
+    @media (max-width: 425px) {
+        width: 100%;
+    }
+
     &__image {
         width: 100%;
         aspect-ratio: 1/1;

@@ -1,5 +1,9 @@
 .title_size_40 {
 	font-size: 40px;
+
+	@media (max-width: 425px) {
+		font-size: 25px;
+	}
 }
 
 .title_size_16 {

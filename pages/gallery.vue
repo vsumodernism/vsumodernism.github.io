@@ -138,6 +138,10 @@ export default defineNuxtComponent({
     display: flex;
     gap: 20px;
     //max-height: 470px;
+
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
     
     &_2 {
         .picture__cover {

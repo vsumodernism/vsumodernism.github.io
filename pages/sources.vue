@@ -58,6 +58,10 @@ export default defineNuxtComponent({
     margin-inline: auto;
     padding-left: 0;
     counter-reset: term;
+    
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 }
 
 .card-term {

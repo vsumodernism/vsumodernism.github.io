@@ -17,11 +17,13 @@
                         <h3 class="card-person__name">{{card.name}}</h3>
                         <div class="card-person__dates">{{card.dates}}</div>
                     </div>
-                    <Button :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
+                    <Button v-if="!store.isMobile" :to="`/personalities/${card.slug}`" style="margin-left: auto">Изучить автора</Button>
                 </div>
 
                 <p class="card-person__description mt-10">{{card.description}}</p>
-
+                
+                <Button v-if="store.isMobile" :to="`/personalities/${card.slug}`" style="width: 100%; margin-bottom: 25px">Изучить автора</Button>
+                
                 <ul v-if="card.tags.length" class="card-person__tags">
                     <li v-for="tag in card.tags" class="card-person__tag">{{tag}}</li>
                 </ul>
@@ -39,7 +41,7 @@
 
 <script>
 import Button from "~/components/UI/Button.vue";
-// import {useStore} from "~/stores/store.js";
+import {useStore} from "~/stores/store.js";
 
 export default defineNuxtComponent({
 	name: 'PageArtMovements',
@@ -48,7 +50,7 @@ export default defineNuxtComponent({
     },
 	async setup() {
         // const store = process.client ? useStore() : null;
-		// const store = useStore();
+		const store = useStore();
 		let artists = [];
 
 		try {
@@ -71,7 +73,7 @@ export default defineNuxtComponent({
 		// });
 
 		return {
-			// store,
+			store,
             artists
 		}
 	},
@@ -97,6 +99,10 @@ export default defineNuxtComponent({
     gap: 20px;
     width: 815px;
     margin-inline: auto;
+    
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 }
 
 .list-pictures {
