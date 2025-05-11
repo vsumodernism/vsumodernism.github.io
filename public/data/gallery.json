@@ -95,23 +95,40 @@
 		"view": "3",
 		"pictures": [
 			{
-				"img": "/images/gallery/868f9ed09b7e561652e65f145fd045b9d9fb6a21.png",
+				"img": "/images/gallery/okno-v-tanzhere.webp",
 				"name": "Окно в Танжере",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/image.jpg",
+				"img": "/images/gallery/interer-s-krasnymi-rybkami.webp",
 				"name": "Интерьер с красными рыбками",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/igra-v-shary.jpg",
+				"img": "/images/gallery/okno.webp",
 				"name": "Окно",
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм",
 				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/obnazhyonnaya-v-kresle.webp",
+				"name": "Обнажённая в кресле",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/zhenshchina-na-divane.webp",
+				"name": "Женщина на диване",
+				"author": "Анри́ Мати́сс",
+				"style": "Фовизм"
 			}
 		]
 	}
