@@ -39,6 +39,7 @@ export default {
 		};
 	},
 	mounted() {
+        this.isMobile = this.$helpers.detectMobile();
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	methods: {
