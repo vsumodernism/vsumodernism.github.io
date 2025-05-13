@@ -422,5 +422,70 @@
 				"style": "Фовизм"
 			}
 		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/ruo-tanets.webp",
+				"name": "Танец",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/ruo-devki.webp",
+				"name": "Девки",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/ruo-belyy-pyero.webp",
+				"name": "Белый Пьеро",
+				"author": "Жорж Руо",
+				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/ruo-kupanie-v-ozere.webp",
+				"name": "Купание в озере",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/ruo-tri-klouna.webp",
+				"name": "Три клоуна",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/ruo-raspyatie.webp",
+				"name": "Распятие",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/ruo-golova-khrista.webp",
+				"name": "Голова Христа",
+				"author": "Жорж Руо",
+				"style": "Фовизм"
+			},
+			{
+				"img": "/images/gallery/ruo-staryy-korol.webp",
+				"name": "Старый король",
+				"author": "Жорж Руо",
+				"style": "Фовизм",
+				"view": "fields"
+			}
+		]
 	}
 ]
