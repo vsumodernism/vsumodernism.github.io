@@ -610,13 +610,13 @@
 			{
 				"img": "/images/gallery/modigliani-shokoladnitsa.webp",
 				"name": "Шоколадница",
-				"author": "Амедео Модильян",
+				"author": "Амедео Модильяни",
 				"style": "Экспрессионизм, Примитивизм"
 			},
 			{
 				"img": "/images/gallery/modigliani-bolshaya-obnazhennaya.webp",
-				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
-				"author": "Большая обнаженная",
+				"name": "Большая обнаженная",
+				"author": "Амедео Модильяни",
 				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
@@ -627,15 +627,15 @@
 			{
 				"img": "/images/gallery/modigliani-tsyganka-s-mladentsem.webp",
 				"name": "Цыганка с младенцем",
-				"author": "Амедео Модильян",
+				"author": "Амедео Модильяни",
 				"style": "Экспрессионизм, Примитивизм",
 				"view": "fields",
 				"bg": "98C5EC"
 			},
 			{
 				"img": "/images/gallery/modigliani-lezhashchaya-obnazhennaya-1.webp",
-				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
-				"author": "Лежащая обнаженная",
+				"name": "Лежащая обнаженная",
+				"author": "Амедео Модильяни",
 				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
@@ -656,5 +656,44 @@
 				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
+	},
+	  {
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-sidyashchaya-obnazhennaya.webp",
+				"name": "Сидящая обнаженная",
+				"author": "Амедео Модильян",
+				"style": "Экспрессионизм, Примитивизм",
+				"view": "fields",
+				"bg": "313131"
+			},
+			{
+				"img": "/images/gallery/rousseau-snovidenie.webp",
+				"name": "Сновидение»",
+				"author": "Анри Руссо",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "2B30271"
+			}
+		]
+	        },
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp",
+				"name": "Спящая цыганка",
+				"author": "Анри Руссо",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/rousseau-napadenie-yaguara-na-loshad.webp",
+				"name": "Нападение  ягуара на лошадь",
+				"author": "Анри Руссо",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
 	}
+	
 ]
