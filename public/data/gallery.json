@@ -20,7 +20,7 @@
 				"author": "Анри́ Мати́сс",
 				"style": "Фовизм",
 				"view": "fields",
-				"bg": "ff0000"
+				"bg": "313131"
 			}
 		]
 	},
@@ -586,5 +586,75 @@
 				"bg": "E16537"
 			}
 		]
-	        }
+	        },
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-portret-zhanne-ebutern-1.webp",
+				"name": "Портреты Жанны Эбютерн",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-obnazhennaya-1.webp",
+				"name": "Обнаженная",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	},
+	  {
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-shokoladnitsa.webp",
+				"name": "Шоколадница",
+				"author": "Амедео Модильян",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-bolshaya-obnazhennaya.webp",
+				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
+				"author": "Большая обнаженная",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	        },
+	  {
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-tsyganka-s-mladentsem.webp",
+				"name": "Цыганка с младенцем",
+				"author": "Амедео Модильян",
+				"style": "Экспрессионизм, Примитивизм",
+				"view": "fields",
+				"bg": "98C5EC"
+			},
+			{
+				"img": "/images/gallery/modigliani-lezhashchaya-obnazhennaya-1.webp",
+				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
+				"author": "Лежащая обнаженная",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	        },
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-obnazhennaya-na-siney-podushke.webp",
+				"name": "Обнаженная на синей под",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-lezhashchaya-obnazhennaya-2.webp",
+				"name": "Лежащая обнаженная",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	}
 ]
