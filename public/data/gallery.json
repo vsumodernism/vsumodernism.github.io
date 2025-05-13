@@ -510,5 +510,56 @@
 				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
+	        },
+	        {
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-stoyashchaya-kariatida.webp",
+				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
+				"author": "Амедео Модильян",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-portret-mario-varfoli.webp",
+				"name": "Портрет Марио Варфольи",
+				"author": "Амедео Модильян",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	        },
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-portret-polya-giyoma-1.webp",
+				"name": "Портреты Поля Гийома",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-portret-polya-giyoma-2.webp",
+				"name": "Портреты Хаима Сутина",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-portret-polya-giyoma-1.webp",
+				"name": "Портреты Л. Зборовского",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-portret-polya-giyoma-2.webp",
+				"name": "Портреты Л. Зборовского",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			}
+		]
 	}
 ]
