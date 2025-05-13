@@ -515,14 +515,14 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/gallery/modigliani-stoyashchaya-kariatida.webp",
-				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
+				"img": "/images/gallery/modigliani-portret-mario-varfoli.webp",
+				"name": "Портрет Марио Варфольи",
 				"author": "Амедео Модильян",
 				"style": "Экспрессионизм, Примитивизм"
 			},
 			{
-				"img": "/images/gallery/modigliani-portret-mario-varfoli.webp",
-				"name": "Портрет Марио Варфольи",
+				"img": "/images/gallery/modigliani-stoyashchaya-kariatida.webp",
+				"name": "Стоящая кариатида»  Женская голова  «Красный бюст»",
 				"author": "Амедео Модильян",
 				"style": "Экспрессионизм, Примитивизм"
 			}
@@ -561,5 +561,30 @@
 				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
-	}
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-zhenikh-i-nevesta.webp",
+				"name": "Жених и невеста",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-portret-diego-rivery.webp",
+				"name": "Портрет Луни Чековской",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм"
+			},
+			{
+				"img": "/images/gallery/modigliani-portret-lunin-chekovskoy.webp",
+				"name": "Портрет Беатрис Гастингс",
+				"author": "Амедео Модильяни",
+				"style": "Экспрессионизм, Примитивизм",
+				"view": "fields",
+				"bg": "E16537"
+			}
+		]
+	        }
 ]
