@@ -495,19 +495,19 @@
 				"img": "/images/gallery/modigliani-evreyka.webp",
 				"name": "Еврейка",
 				"author": "Амедео Модильяни",
-				"style": "Фовизм"
+				"style": "Экспрессионизм, Примитивизм"
 			},
 			{
 				"img": "/images/gallery/modigliani-portret-diego-rivery.webp",
 				"name": "Портрет Диего Риверы",
 				"author": "Амедео Модильяни",
-				"style": "Фовизм"
+				"style": "Экспрессионизм, Примитивизм"
 			},
 			{
 				"img": "/images/gallery/modigliani-portret-maksa-zhakoba.webp",
 				"name": "Портрет Макса Жакоба",
 				"author": "Амедео Модильяни",
-				"style": ["Экспрессионизм","Примитивизм"]
+				"style": "Экспрессионизм, Примитивизм"
 			}
 		]
 	}
