@@ -142,16 +142,16 @@
 		"tags": ["Экспрессионизм", "Примитивизм"],
 		"pictures": [
 			{
-				"img": "/images/gallery/vlamink-restoran-v-marli-le-rua.webp",
+				"img": "/images/gallery/modigliani-bolshaya-obnazhennaya.webp",
 				"name": "Большая обнаженная"
 			},
 			{
-				"img": "/images/gallery/vlamink-derevya-u-doma.webp",
+				"img": "/images/gallery/modigliani-portret-zhanne-ebutern-1.webp",
 				"name": "Портреты Жанны Эбютерн"
 			},
 			{
-				"img": "/images/gallery/vlamink-v-sadu.webp",
-				"name": "Обнаженная на синей под"
+				"img": "/images/gallery/modigliani-obnazhennaya-na-siney-podushke.webp",
+				"name": "Обнаженная на синей подушке"
 			}
 		]
 	}
