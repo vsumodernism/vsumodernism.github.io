@@ -2,6 +2,7 @@
 	max-width: 780px;
 	margin-inline: auto;
 
+	ul,
 	p {
 		color: var(--neutrals5);
 		font-size: 18px;
@@ -9,65 +10,103 @@
 		margin-bottom: 10px;
 	}
 
+	a {
+		color: #007AFF;
+	}
+
+	b {
+		color: var(--black-color);
+	}
+
 	blockquote {
 		padding: 15px;
+		margin-block: 40px;
 		border-radius: 12px;
 		background-color: #FAF5F4;
 		font-size: 19px;
 		font-weight: bold;
 	}
-}
 
-.article-intro {
-	&__avatar {
-		width: 75px;
-		height: 75px;
-		border-radius: 50%;
-		margin-bottom: 30px;
-	}
+	.article-intro {
+		&__avatar {
+			width: 75px;
+			height: 75px;
+			border-radius: 50%;
+			margin-bottom: 30px;
+		}
 
-	&__tags {
-		display: flex;
-		gap: 10px;
-		margin-bottom: 25px;
-	}
+		&__tags {
+			display: flex;
+			gap: 10px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
 
-	&__tag {
-		padding: 5px;
-		border-radius: 4px;
-		background-color: var(--neutrals3);
-	}
+		&__tag {
+			padding: 5px;
+			border-radius: 4px;
+			background-color: var(--neutrals3);
+			color: var(--black-color);
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 100%;
+		}
 
-	&__list {
-		margin-bottom: 25px;
+		&__list {
+			margin-bottom: 25px;
+		}
 
-		a {
-			color: #007AFF;
+		&__list-title {
+			font-weight: bold;
 		}
 	}
 
-	&__list-title {
-		font-weight: bold;
+	.article-picture {
+		text-align: center;
+		margin-bottom: 40px;
+
+		&__img {
+			border-radius: 10px;
+			max-height: 400px;
+			margin-bottom: 5px;
+		}
 	}
-}
 
-.article-picture {
-	text-align: center;
-
-	&__img {
-		border-radius: 10px;
-		max-height: 400px;
-		margin-bottom: 5px;
+	p + .article-picture {
+		margin-top: 25px;
 	}
-}
 
-.period {
-	padding: 20px;
-	border-radius: 12px;
-	background-color: var(--neutrals1);
+	.article-list {
+		list-style: decimal;
+		margin-bottom: 25px;
+		padding-left: 25px;
 
-	&__pictures {
-		display: flex;
-		gap: 15px;
+		&_thin {
+			font-size: 15px;
+
+			.article-list__item {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.period {
+		padding: 20px;
+		border-radius: 12px;
+		background-color: var(--neutrals1);
+
+		&__title {
+			margin-bottom: 10px;
+			font-size: 19px;
+		}
+
+		&__list {
+			margin-block: 25px;
+		}
+
+		&__pictures {
+			display: flex;
+			gap: 15px;
+		}
 	}
 }
