@@ -124,6 +124,12 @@
 			{
 				"img": "/images/gallery/ruo-tri-klouna.webp",
 				"name": "Три клоуна"
+			},
+			{
+				"img": "/images/gallery/ruo-devki.webp",
+				"name": "Девки",
+				"view": "fields",
+				"bg": "033DBB"
 			}
 		]
 	}
