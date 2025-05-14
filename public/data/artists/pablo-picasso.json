@@ -69,11 +69,6 @@
 		],
 		"pictures": [
 			{
-				"img": "/images/artists/pablo-picaso/devicy.webp",
-				"name": "Ави́ньонские де́вицы",
-				"bg": ""
-			},
-			{
 				"img": "/images/artists/pablo-picaso/gernika.webp",
 				"name": "Ге́рника"
 			},
@@ -85,15 +80,48 @@
 	},
 	{
 		"view": "headline",
-		"title": "Интересные факты"
+		"title": "Галерея произведений"
 	},
 	{
 		"view": "gallery",
 		"pictures": [
 			[
 				{
-					"img": "",
-					"name": ""
+					"img": "/images/artists/pablo-picaso/gernika.webp",
+					"name": "Ге́рника",
+					"style": "Фовизм"
+				}
+			],
+			[
+				{
+					"img": "/images/artists/pablo-picaso/gernika.webp",
+					"name": "Ге́рника",
+					"style": "Фовизм"
+				},
+				{
+					"img": "/images/artists/pablo-picaso/devicy.webp",
+					"name": "Ави́ньонские де́вицы",
+					"style": "Фовизм",
+					"view": "fields",
+					"bg": "313131"
+				}
+			],
+			[
+				{
+					"img": "/images/artists/pablo-picaso/gernika.webp",
+					"name": "Ге́рника",
+					"style": "Фовизм"
+				},
+				{
+					"img": "/images/artists/pablo-picaso/portretdorymaar.webp",
+					"name": "Портре́т До́ры Маа́р"
+				},
+				{
+					"img": "/images/artists/pablo-picaso/devicy.webp",
+					"name": "Ави́ньонские де́вицы",
+					"style": "Фовизм",
+					"view": "fields",
+					"bg": "313131"
 				}
 			]
 		]

@@ -18,6 +18,13 @@ export default defineComponent({
                     return `<a href="${item.link}">${item.title}</a>`
                 }
             }).join(', ')
+        },
+        viewClass(countPictures) {
+            const obj = {};
+            
+            obj[`gallery-row_${countPictures}`] = true
+            
+            return obj
         }
     }
 })
@@ -114,6 +121,20 @@ export default defineComponent({
                 </div>
             </div>
             
+            <div v-else-if="block.view === 'gallery'" class="gallery">
+                <div v-for="row in block.pictures" class="gallery-row" :class="viewClass(row.length)">
+                    <div v-for="picture in row" class="picture">
+                        <div class="picture__cover"
+                             :class="{'picture__cover_fields': picture.view === 'fields'}"
+                             :style="picture?.bg ? `background-color: #${picture.bg}` : null">
+                            <img :src="picture.img" class="picture__img"/>
+                            <div class="picture__style">{{picture.style}}</div>
+                        </div>
+                        <h3 class="picture__name">«{{picture.name}}»</h3>
+                    </div>
+                </div>
+            </div>
+            
             <ul v-else-if="['list-bold', 'list-thin'].includes(block.view)" class="article-list" :class="{'article-list_thin': block.view === 'list-thin'}">
                 <li v-for="item in block.list" class="article-list__item" v-html="item"></li>
             </ul>
@@ -123,6 +144,40 @@ export default defineComponent({
 </template>
 
 <style scoped lang="scss">
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 20px;
+    
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
+    
+    &_1 {
+        .picture__cover {
+            aspect-ratio: 780/432;
+        }
+    }
+    
+    &_2 {
+        .picture__cover {
+            aspect-ratio: 380/411;
+        }
+    }
+    
+    &_3 {
+        .picture__cover {
+            aspect-ratio: 380/411;
+        }
+    }
+}
+
 .picture {
     width: 100%;
     
