@@ -685,13 +685,113 @@
 				"img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp",
 				"name": "Спящая цыганка",
 				"author": "Анри Руссо",
-				"style": "Экспрессионизм, Примитивизм"
+				"style": "Примитивизм"
 			},
 			{
 				"img": "/images/gallery/rousseau-napadenie-yaguara-na-loshad.webp",
 				"name": "Нападение  ягуара на лошадь",
 				"author": "Анри Руссо",
-				"style": "Экспрессионизм, Примитивизм"
+				"style": "Примитивизм"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/rousseau-napadenie-tigra-na-byka-v-tropicheskom-lesu.webp",
+				"name": "Нападение  тигра на быка. В тропическом лесу",
+				"author": "Анри Руссо",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/rousseau-autoportret.webp",
+				"name": "Автопортрет",
+				"author": "Анри Руссо",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/modigliani-zhenikh-i-nevesta.webp",
+				"name": "Муза, вдохновляющая поэта",
+				"author": "Анри Руссо",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pirosmani-medved-v-lunnuyu-noch.webp",
+				"name": "Медведь в лунную ночь",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pirosmani-zhiraf.webp",
+				"name": "Жираф",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	        },
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/pirosmani-prodavets-drov.webp",
+				"name": "Продавец  дров",
+				"author": "Анри Руссо",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pirosmani-rybak.webp",
+				"name": "Рыбак",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pirosmani-kutek-tryokh-knyazey.webp",
+				"name": "Кутёж трёх князей",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	        },
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/pirosmani-druzya-begosa.webp",
+				"name": "Друзья  Бегоса",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/pirosmani-ortchalskaya-krasotka-1.webp",
+				"name": "Ортачальская красотка",
+				"author": "Нико Пиросмани",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
 			}
 		]
 	}
