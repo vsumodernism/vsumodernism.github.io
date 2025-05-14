@@ -179,10 +179,10 @@
 	},
 	{
 		"name": "Нико Пиросмани",
-		"slug": "rousseau",
+		"slug": "pirosmani",
 		"dates": "1862–1918",
 		"description": "Грузинский художник-самоучка, чьё творчество стало символом наивного искусства. Его картины, наполненные простотой и искренностью, отражают глубокую любовь к родной земле и её людям.",
-		"avatar": "/images/artists/pablo-picaso/avatar-russo.webp",
+		"avatar": "/images/artists/pablo-picaso/avatar-pirosmani.webp",
 		"tags": ["Примитивизм"],
 		"pictures": [
 			{
