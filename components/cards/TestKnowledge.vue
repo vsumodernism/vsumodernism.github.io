@@ -14,6 +14,7 @@ import Button from "~/components/UI/Button.vue";
 .test-knowledge {
     display: flex;
     flex-direction: column;
+    min-height: 215px;
     height: 215px;
     padding: 15px 10px;
     margin-top: auto;
