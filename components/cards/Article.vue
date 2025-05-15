@@ -25,6 +25,13 @@ export default defineComponent({
             obj[`gallery-row_${countPictures}`] = true
             
             return obj
+        },
+        viewClassPeriod(countPictures) {
+            const obj = {};
+            
+            obj[`period__pictures_${countPictures}`] = true
+            
+            return obj
         }
     }
 })
@@ -40,11 +47,11 @@ export default defineComponent({
                 <div class="text-gray mb-15">{{article[0].dates}}</div>
                 
                 <template v-for="item in block.content">
-                    <p v-if="typeof item === 'string'">{{item}}</p>
+                    <p v-if="typeof item === 'string'" v-html="item"></p>
                     
                     <div v-else-if="typeof item === 'object'">
                         <img :src="item.img" alt=""/>
-                        <div>{{item.description}}</div>
+                        <div v-html="item.description"></div>
                     </div>
                 </template>
 
@@ -65,9 +72,7 @@ export default defineComponent({
                 </div>
             </div>
             
-            <blockquote v-else-if="block.view === 'quote'">
-                {{block.content}}
-            </blockquote>
+            <blockquote v-else-if="block.view === 'quote'" v-html="block.content"></blockquote>
             
             <div v-else-if="block.view === 'image'" class="article-picture mb-40">
                 <img :src="block.img" class="article-picture__img" alt=""/>
@@ -78,11 +83,11 @@ export default defineComponent({
                 <h2 v-if="block.title" class="mb-10">{{block.title}}</h2>
                 
                 <template v-for="item in block.content">
-                    <p v-if="typeof item === 'string'">{{item}}</p>
+                    <p v-if="typeof item === 'string'" v-html="item"></p>
                     
                     <div v-else-if="typeof item === 'object'" class="article-picture">
                         <img :src="item.img" class="article-picture__img" alt=""/>
-                        <div class="article-picture__description">{{item.description}}</div>
+                        <div class="article-picture__description" v-html="item.description"></div>
                     </div>
                 </template>
             </template>
@@ -93,11 +98,11 @@ export default defineComponent({
                 <h3 class="period__title">{{block.title}}</h3>
                 
                 <template v-for="item in block.content">
-                    <p v-if="typeof item === 'string'">{{item}}</p>
+                    <p v-if="typeof item === 'string'" v-html="item"></p>
                     
                     <div v-else-if="typeof item === 'object'">
                         <img :src="item.img" alt=""/>
-                        <div>{{item.description}}</div>
+                        <div v-html="item.description"></div>
                     </div>
                 </template>
                 
@@ -108,13 +113,13 @@ export default defineComponent({
                     </p>
                 </div>
                 
-                <div class="period__pictures">
-                    <div v-if="block?.pictures?.length" v-for="picture in block.pictures" class="picture">
+                <div v-if="block?.pictures?.length" class="period__pictures" :class="viewClassPeriod(block.pictures.length)">
+                    <div v-for="picture in block.pictures" class="picture">
                         <div class="picture__cover"
                              :class="{'picture__cover_fields': picture.view === 'fields'}"
                              :style="picture?.bg ? `background-color: #${picture.bg}` : null">
                             <img :src="picture.img" class="picture__img"/>
-                            <div class="picture__style">{{picture.style}}</div>
+                            <div v-if="picture.style" class="picture__style">{{picture.style}}</div>
                         </div>
                         <span class="picture__name">«{{picture.name}}»</span>
                     </div>
@@ -128,7 +133,7 @@ export default defineComponent({
                              :class="{'picture__cover_fields': picture.view === 'fields'}"
                              :style="picture?.bg ? `background-color: #${picture.bg}` : null">
                             <img :src="picture.img" class="picture__img"/>
-                            <div class="picture__style">{{picture.style}}</div>
+                            <div v-if="picture.style" class="picture__style">{{picture.style}}</div>
                         </div>
                         <h3 class="picture__name">«{{picture.name}}»</h3>
                     </div>

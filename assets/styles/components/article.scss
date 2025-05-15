@@ -92,6 +92,7 @@
 
 	.period {
 		padding: 20px;
+		margin-bottom: 40px;
 		border-radius: 12px;
 		background-color: var(--neutrals1);
 
@@ -107,6 +108,29 @@
 		&__pictures {
 			display: flex;
 			gap: 15px;
+
+			&_1 {
+				.picture__cover {
+					aspect-ratio: 780/432;
+				}
+			}
+
+			&_2 {
+				.picture__cover {
+					aspect-ratio: 380/411;
+				}
+			}
+
+			&_3 {
+				.picture__cover {
+					aspect-ratio: 380/411;
+				}
+			}
+
+			.picture__name {
+				font-weight: 500;
+				font-size: 15px;
+			}
 		}
 	}
 }
