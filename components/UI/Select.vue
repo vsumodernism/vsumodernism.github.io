@@ -59,7 +59,7 @@
 			/>
 
             <div v-if="loading" class="select__loader">
-                <LoaderQuad/>
+<!--                <LoaderQuad/>-->Loading...
             </div>
 
             <div class="select__list"
@@ -72,13 +72,13 @@
                     class="select-option"
 					@click="onClickOption(item)"
                 >
-					<Checkbox v-if="multiselect" :model-value="item.checked" @click.prevent>
-                    	{{ item.name }}
-					</Checkbox>
+<!--					<Checkbox v-if="multiselect" :model-value="item.checked" @click.prevent>-->
+<!--                    	{{ item.name }}-->
+<!--					</Checkbox>-->
 
-					<template v-else>
+<!--					<template v-else>-->
 						{{ item.name }}
-					</template>
+<!--					</template>-->
                 </div>
             </div>
 		</div>
@@ -507,11 +507,11 @@ export default {
 		position: relative;
 		display: flex;
         width: 100%;
-		height: 48px;
+		height: 54px;
 		padding: 0 40px 0 16px;
-		border: 2px solid #ddd;
-		border-radius: 50px;
-		background: #fff;
+		//border: 2px solid #ddd;
+		border-radius: 6px;
+		background: var(--neutrals1);
 		font-weight: 400;
 		font-size: 22px;
 		font-family: "Teko", sans-serif;
@@ -524,25 +524,25 @@ export default {
 			content: '';
 			position: absolute;
 			right: 16px;
-			top: 10px;
+			top: 15px;
 			display: block;
 			width: 24px;
 			height: 24px;
-			background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.77629 8.91768C5.16682 8.52716 5.79998 8.52716 6.19051 8.91768L12.1501 14.8772L18.1096 8.91768C18.5001 8.52716 19.1333 8.52716 19.5238 8.91768C19.9144 9.3082 19.9144 9.94137 19.5238 10.3319L12.8572 16.9986C12.4666 17.3891 11.8335 17.3891 11.443 16.9986L4.77629 10.3319C4.38577 9.94137 4.38577 9.3082 4.77629 8.91768Z' fill='%23D76C91'/%3E%3C/svg%3E%0A");
+			background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.77629 8.91768C5.16682 8.52716 5.79998 8.52716 6.19051 8.91768L12.1501 14.8772L18.1096 8.91768C18.5001 8.52716 19.1333 8.52716 19.5238 8.91768C19.9144 9.3082 19.9144 9.94137 19.5238 10.3319L12.8572 16.9986C12.4666 17.3891 11.8335 17.3891 11.443 16.9986L4.77629 10.3319C4.38577 9.94137 4.38577 9.3082 4.77629 8.91768Z' fill='%23818181'/%3E%3C/svg%3E%0A");
 			pointer-events: none;
 		}
 	}
 
 	&__input {
 		width: 100%;
-		height: 44px;
+		height: 54px;
 		//padding: 5px 35px 5px 16px;
 		background: transparent;
 		font-weight: 400;
-		font-size: 22px;
+		font-size: 15px;
 		font-family: "Teko", sans-serif;
 		letter-spacing: 0.55px;
-		color: #000;
+		color: var(--black-color);
 		text-overflow: ellipsis;
 		transition: border-color 0.2s;
 		cursor: pointer;
@@ -569,16 +569,16 @@ export default {
 
 	&__clear {
 		width: 50px;
-		background-image: url("data:image/svg+xml,%3Csvg stroke='%23B20A66' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='m7 7 18 18'/%3E%3Cpath d='m7 25 18-18'/%3E%3C/g%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml,%3Csvg stroke='%23818181' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='m7 7 18 18'/%3E%3Cpath d='m7 25 18-18'/%3E%3C/g%3E%3C/svg%3E");
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-size: 24px;
 		cursor: pointer;
 		transition: filter .2s;
 
-		&:hover {
-			filter: brightness(4000%) contrast(3000%);
-		}
+		//&:hover {
+		//	filter: brightness(100%) contrast(-100%);
+		//}
 	}
 
 	&__sort-order {
@@ -619,8 +619,7 @@ export default {
 
 	&_selected {
 		.select__input-wrapper {
-			border-color: #ddd;
-			background-color: #fff;
+			background-color: var(--neutrals1);
 		}
 
 		.select__input {
@@ -631,11 +630,11 @@ export default {
 
 .form-input {
 	width: 100%;
-	height: 48px;
+	height: 54px;
 	padding: 5px 35px 5px 16px;
-	border: 2px solid #ddd;
-	border-radius: 50px;
-	background: #fff;
+	//border: 2px solid #ddd;
+	border-radius: 6px;
+	background: var(--neutrals1);
 	font-weight: 400;
 	font-size: 22px;
 	font-family: "Teko", sans-serif;
@@ -681,8 +680,9 @@ export default {
 	min-width: 185px;
 	width: 100%;
 	max-height: 0;
+    padding-block: 7px;
 	border: 1px solid #ddd;
-	border-radius: 24px;
+	border-radius: 6px;
 	box-shadow: 0 4px 10px 0 #3939081F, 0 8px 17px 0 #3939081A;
 	background: #fff;
 	//color: $white;
@@ -734,7 +734,7 @@ export default {
 	height: 40px;
 	padding: 0 25px;
 	font-family: "Teko", sans-serif;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 16px;
 	cursor: pointer;
 	transition: background-color 0.3s;

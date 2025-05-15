@@ -3,17 +3,21 @@
         <h1 class="title_size_40 mb-15">Галерея</h1>
         <p class="text-gray mb-30">{{countPictures}} произведений</p>
         
-        <div>
-            <Input v-model="search" placeholder="Поиск...">
+        <div class="tools">
+            <Input v-model="search" placeholder="Поиск по названию...">
                 <template #prepend>
                     <IconSearch/>
                 </template>
             </Input>
+
+            <Select v-model="author" :options="authors" search clear placeholder="Поиск по автору" />
+            
+            <Select v-model="style" :options="styles" clear placeholder="Поиск по стилю" />
         </div>
         
-        <template v-if="search.length">
+        <template v-if="search.length || author || style">
             <div v-if="filteredPictures.length" class="gallery-grid mt-40">
-                <div v-for="picture in filteredPictures" class="picture">
+                <div v-for="picture in filteredPictures" class="picture" :key="picture.name+picture.author">
                     <div class="picture__cover"
                          :class="{'picture__cover_fields': picture.view === 'fields'}"
                          :style="picture?.bg ? `background-color: #${picture.bg}` : null">
@@ -80,8 +84,11 @@ export default defineNuxtComponent({
     data() {
         return {
             search: '',
-            author: null,
-            style: null
+            author: '',
+            style: '',
+            authors: [],
+            styles: [],
+            pictures: [],
         }
     },
     computed: {
@@ -91,29 +98,50 @@ export default defineNuxtComponent({
             }, 0)
         },
         filteredPictures() {
-            const search = this.search.toLowerCase();
-            const pictures = [];
+            const search = this.search ? this.search.toLowerCase() : null;
+            const author = this.author ? this.author.toLowerCase() : null;
+            const style = this.style ? this.style.toLowerCase() : null;
             
-            if (this.search.length) {
-                this.galleries.forEach(row => pictures.push(...row.pictures))
-                
-                const filteredPictures = pictures.filter(picture => {
-                    return picture.name.toLowerCase().includes(search)
-                })
-                
-                return filteredPictures
+            if (!search && !author && !style) {
+                return [];
             }
 
-            return [];
+            return this.pictures.filter(picture => {
+                const okName   = search  ? picture.name.toLowerCase().includes(search)     : true;
+                const okAuthor = author  ? picture.author.toLowerCase().includes(author)   : true;
+                const okStyle  = style   ? picture.style.toLowerCase().includes(style)     : true;
+                
+                return okName && okAuthor && okStyle;
+            })
         }
     },
     mounted() {
         new Zooming().listen('.picture__img')
-        // const zooming = new Zooming({
-        //     // options...
-        // })
-        //
-        // zooming.listen('.img-zoomable')
+        
+        const pictures = [];
+        const authors = [];
+        const styles = [];
+
+        this.galleries.forEach(row => pictures.push(...row.pictures))
+
+        pictures.forEach(picture => {
+            if (!authors.includes(picture.author)) {
+                authors.push(picture.author)
+            }
+
+            if (!styles.includes(picture.style)) {
+                styles.push(picture.style)
+            }
+        })
+        
+        this.pictures = pictures;
+        this.authors = authors.map(item => {
+            return {id: item, name: item}
+        });
+        
+        this.styles = styles.map(item => {
+            return {id: item, name: item}
+        });
     },
     methods: {
         viewClass(view) {
@@ -132,6 +160,19 @@ export default defineNuxtComponent({
 </script>
 
 <style scoped lang="scss">
+.tools {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    
+    :deep(.input) {
+        width: 300px;
+    }
+
+    :deep(.select) {
+        width: 300px;
+    }
+}
 .empty-result {
     display: flex;
     justify-content: center;
@@ -155,7 +196,7 @@ export default defineNuxtComponent({
     gap: 20px;
     
     .picture {
-        max-width: 300px;
+        max-width: 350px;
     }
 }
 
