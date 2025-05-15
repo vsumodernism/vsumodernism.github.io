@@ -1,18 +1,34 @@
 [
 	{
 		"id": 1,
-		"img": "",
-		"name": "",
-		"author": "",
-		"style": "",
-		"date": ""
+		"img": "/images/gallery/frukty-cvety-panno.jpg",
+		"name": "Женщина в шляпе",
+		"author": "Анри Матисс",
+		"style": "Фовизм",
+		"date": "Начало XX века, 1905 год"
 	},
 	{
 		"id": 2,
-		"img": "",
-		"name": "",
-		"author": "",
-		"style": "",
-		"date": ""
+		"img": "/images/gallery/muzyka.jpg",
+		"name": "Женщина в шляпе",
+		"author": "Анри Матисс",
+		"style": "Фовизм",
+		"date": "Начало XX века, 1905 год"
+	},
+	{
+		"id": 3,
+		"img": "/images/gallery/razgovor.jpg",
+		"name": "Женщина в шляпе",
+		"author": "Анри Матисс",
+		"style": "Фовизм",
+		"date": "Начало XX века, 1905 год"
+	},
+	{
+		"id": 4,
+		"img": "/images/gallery/ispanskiy-natyurmort.jpg",
+		"name": "Женщина в шляпе",
+		"author": "Анри Матисс",
+		"style": "Фовизм",
+		"date": "Начало XX века, 1905 год"
 	}
 ]

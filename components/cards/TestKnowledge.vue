@@ -6,7 +6,7 @@ import Button from "~/components/UI/Button.vue";
     <div class="test-knowledge">
         <h3 class="title_size_16 font-500 mb-5">Проверь свои знания</h3>
         <p class="title_size_12 text-gray">Подготовься к зачёту<br> в интерактивной форме</p>
-        <Button to="/" width="100%" size="s" class="btn">Изучать Артефакты</Button>
+        <Button to="/quiz" width="100%" size="s" class="btn">Изучать Артефакты</Button>
     </div>
 </template>
 
