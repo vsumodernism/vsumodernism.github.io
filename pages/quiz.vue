@@ -251,12 +251,17 @@ export default defineNuxtComponent({
     height: 100%;
     display: block;
     border-radius: 15px;
+    object-fit: contain;
 }
 
 .slider__title {
     margin: 50px 0 10px;
     font-size: 33px;
     font-weight: 600;
+    
+    @media(max-width: 425px) {
+        font-size: 22px;
+    }
 }
 
 .slider__author {
@@ -270,6 +275,10 @@ export default defineNuxtComponent({
     margin-bottom: 14px;
     font-size: 22px;
     font-weight: 600;
+
+    @media(max-width: 425px) {
+        line-height: 100%;
+    }
 }
 
 .slider__footer {
@@ -278,6 +287,10 @@ export default defineNuxtComponent({
     align-items: center;
     gap: 20px;
     padding-inline: 30px;
+    
+    @media(max-width: 425px) {
+        flex-direction: column;
+    }
 }
 
 .slider__controls {
@@ -285,6 +298,10 @@ export default defineNuxtComponent({
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
+    @media(max-width: 425px) {
+        order: -1;
+    }
 }
 
 .slider__counter {
@@ -345,6 +362,12 @@ export default defineNuxtComponent({
         backface-visibility: hidden;
         height: 100%;
         line-height: 0;
+        
+        @media(max-width: 425px) {
+            top: 50%;
+            translate: 0 -50%;
+            height: auto;
+        }
     }
     
     &__back {
