@@ -85,6 +85,7 @@ export default defineNuxtComponent({
     top: 10px;
     display: flex;
     flex-direction: column;
+    min-width: 260px;
     height: calc(100vh - 20px);
     padding: 20px 15px;
     border-radius: 7px;
