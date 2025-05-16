@@ -52,9 +52,15 @@
 
 <script>
 import Zooming from 'zooming';
+import Input from '~/components/UI/Input.vue'
+import Select from '~/components/UI/Select.vue'
 
 export default defineNuxtComponent({
     name: 'PageGallery',
+    components: {
+        Input,
+        Select
+    },
     async setup() {
         let galleries = [];
         
