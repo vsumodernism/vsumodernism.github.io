@@ -54,12 +54,14 @@
 import Zooming from 'zooming';
 import Input from '~/components/UI/Input.vue'
 import Select from '~/components/UI/Select.vue'
+import IconSearch from '~/components/icons/IconSearch.vue'
 
 export default defineNuxtComponent({
     name: 'PageGallery',
     components: {
         Input,
-        Select
+        Select,
+        IconSearch
     },
     async setup() {
         let galleries = [];
