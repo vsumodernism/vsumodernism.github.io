@@ -57,15 +57,21 @@
 		"pictures": [
 			{
 				"img": "/images/gallery/picasso-starik-s-malchikom.webp",
-				"name": "Старик с мальчиком"
+				"name": "Старик с мальчиком",
+                                "view": "fields",
+				"bg": "F4F4F4"
 			},
                         {
                        "img": "/images/gallery/picasso-lyubitelnitsa-absenta.webp",
-				"name": "Любительница абсента"
+				"name": "Любительница абсента",
+                                "view": "fields",
+				"bg": "F4F4F4"
                        },
                        {
                        "img": "/images/gallery/picasso-pokhorony-kasagemasa.webp",
-				"name": "Похороны Касагемаса"
+				"name": "Похороны Касагемаса",
+                               "view": "fields",
+				"bg": "F4F4F4"
                        }
 		]
 	},
