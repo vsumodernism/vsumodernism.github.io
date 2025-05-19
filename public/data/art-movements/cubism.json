@@ -86,11 +86,15 @@
         "title": "Тёплая и приглушённая палитра",
         "content": "землистые, охристые и серо-зеленоватые тона"
       }
+    ],
+     "pictures": [
+      {
+        "img": "/images/gallery/pikasso-tanets-s-pokryvalom.webp",
+        "name": "«Танец с покрывалом», Пабло Пикассо",
+        "view": "fields",
+        "bg": "FFFFFF"
+      }
     ]
-  },
-  {
-    "img": "/images/gallery/pikasso-tanets-s-pokryvalom.webp",
-    "name": "«Танец с покрывалом», Пабло Пикассо"
   },
   {
     "view": "period",
@@ -120,12 +124,17 @@
         "title": "Логика конструкции",
         "content": "преобладает над выразительностью"
       }
+    ],
+       "pictures": [
+      {
+        "img": "/images/gallery/brak-mandolina.web",
+        "name": "«Мандолина», Жорж Брак",
+        "view": "fields",
+        "bg": "FFFFFF"
+      }
     ]
   },
-  {
-    "img": "/images/gallery/brak-mandolina.webp",
-    "description": "«Мандолина», Жорж Брак"
-  },
+
   {
     "view": "period",
     "title": "Синтетический кубизм (1912–1914)",
