@@ -138,7 +138,7 @@
         "img": "/images/gallery/picasso-avinonskie-devitsy.webp",
         "name": "Авиньонские де́вицы",
         "view": "fields",
-        "bg": "313131"
+        "bg": "FFFFFF"
       }
     ]
   },
@@ -163,7 +163,7 @@
         "img": "/images/gallery/picasso-tri-muzykanta.webp",
         "name": "Три музыканта",
         "view": "fields",
-        "bg": "313131"
+        "bg": "FFFFFF"
       }
     ]
   },
