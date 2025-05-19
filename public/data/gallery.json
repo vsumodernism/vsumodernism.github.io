@@ -130,10 +130,12 @@
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/zhenshchina-na-divane.webp",
+				"img": "/images/gallery/matiss-zensina-na-divane-cely.webp",
 				"name": "Женщина на диване",
 				"author": "Анри́ Мати́сс",
-				"style": "Фовизм"
+				"style": "Фовизм",
+				"view": "fields",
+				"bg": "EDEDED"
 			}
 		]
 	},
