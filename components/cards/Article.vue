@@ -43,10 +43,10 @@ export default defineComponent({
             
             <div v-if="block.view === 'intro'" class="article-intro">
                 <img v-if="block?.avatar" :src="block.avatar" class="article-intro__avatar"/>
-                <h1 class="title_size_40 mb-15">{{article[0].title}}</h1>
-                <div class="text-gray mb-15">{{article[0].dates}}</div>
+                <h1 class="title_size_40 mb-15">{{article[0]?.title}}</h1>
+                <div class="text-gray mb-15">{{article[0]?.dates}}</div>
                 
-                <template v-for="item in block.content">
+                <template v-for="item in block?.content">
                     <p v-if="typeof item === 'string'" v-html="item"></p>
                     
                     <div v-else-if="typeof item === 'object'">
@@ -55,11 +55,11 @@ export default defineComponent({
                     </div>
                 </template>
 
-                <ul v-if="block.tags.length" class="article-intro__tags">
+                <ul v-if="block?.tags?.length" class="article-intro__tags">
                     <li v-for="tag in block.tags" class="article-intro__tag">{{tag}}</li>
                 </ul>
                 
-                <div v-if="block.list" class="article-intro__list">
+                <div v-if="block?.list?.length" class="article-intro__list">
                     <span class="article-intro__list-title">{{block.list.title}}: </span>
                     <span v-html="parseIntroList(block.list.content)"/>
                     <!--                    <template v-for="item in block.list.content">-->
