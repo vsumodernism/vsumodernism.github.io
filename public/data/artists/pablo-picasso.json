@@ -186,14 +186,20 @@
 		],
 		"pictures": [
 			{
-				"img": "/images/gallery/picasso-tri-muzykanta.webp",
+				"img": "/images/gallery/picasso-portret-olgi-khokhlovoy-v-kresle.webp",
 				"name": "Портрет Ольги Хохловой в кресле",
 				"view": "fields",
 				"bg": "313131"
 			},
 			{
-				"img": "/images/gallery/picasso-tri-muzykanta.webp",
+				"img": "/images/gallery/picasso-tantsovshchitsy.webp",
 				"name": "Танцовщицы",
+				"view": "fields",
+				"bg": "313131"
+			},
+			{
+				"img": "/images/gallery/picasso-materinstvo.webp",
+				"name": "Материнство",
 				"view": "fields",
 				"bg": "313131"
 			},
