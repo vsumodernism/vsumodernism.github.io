@@ -3,8 +3,13 @@
 </template>
 
 <script>
+import Article from "~/components/cards/Article.vue";
+
 export default defineNuxtComponent({
 	name: 'PageHome',
+    components: {
+        Article
+    },
     data() {
         return {
             article: []

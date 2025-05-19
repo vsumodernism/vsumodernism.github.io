@@ -14,44 +14,10 @@
 </template>
 
 <script>
+import Article from '~/components/cards/Article.vue'
+
 export default defineNuxtComponent({
 	name: 'PageArtMovements',
-	// async setup() {
-    //     // const store = import.meta.client ? useStore() : null;
-	// 	// const store = useStore();
-	// 	let movements = [];
-    //
-	// 	try {
-    //         // let response
-    //         //
-    //         // if (process.server) {
-    //         //     response = await useFetch('/data/art-movements.json')
-    //         // } else {
-    //         //     response = await $fetch('/data/art-movements.json');
-    //         // }
-    //         // const response = await $fetch('/data/art-movements.json');
-    //         //
-	// 		// if (response) {
-    //         //     movements = response;
-	// 		// }
-	// 	} catch (e) {
-    //         console.log(e)
-	// 	}
-    //
-	// 	// useSeoMeta({
-	// 	// 	title: t('pages.games.title'),
-	// 	// 	ogTitle: t('pages.games.title'),
-	// 	// 	description: t('pages.games.description'),
-	// 	// 	ogDescription: t('pages.games.description'),
-	// 	// 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-	// 	// 	robots: 'index, follow'
-	// 	// });
-    //
-	// 	return {
-	// 		// store,
-    //         movements
-	// 	}
-	// },
     data() {
         return {
             movements: [],
