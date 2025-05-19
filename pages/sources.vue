@@ -15,23 +15,27 @@
 <script>
 export default defineNuxtComponent({
     name: 'PageSources',
-    async setup() {
-        let terms = [];
-        
-        try {
-            const response = await $fetch('/data/sources.json');
-
-            if (response) {
-                terms = response;
-            }
-        } catch (e) {
-            console.log(e)
-        }
-        
+    data() {
         return {
-            terms
+            terms: []
         }
     },
+    mounted() {
+        this.fetchSources()
+    },
+    methods: {
+        async fetchSources() {
+            try {
+                const response = await $fetch('/data/sources.json');
+                
+                if (response) {
+                    this.terms = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+        },
+    }
 })
 </script>
 
