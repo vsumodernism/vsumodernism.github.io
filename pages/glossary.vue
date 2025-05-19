@@ -26,36 +26,37 @@ export default defineNuxtComponent({
     components: {
         Input
     },
-    async setup() {
-        let terms = [];
-        
-        try {
-            const response = await $fetch('/data/glossary.json');
-
-            if (response) {
-                terms = response;
-            }
-        } catch (e) {
-            console.log(e)
-        }
-        
-        // useSeoMeta({
-        // 	title: t('pages.games.title'),
-        // 	ogTitle: t('pages.games.title'),
-        // 	description: t('pages.games.description'),
-        // 	ogDescription: t('pages.games.description'),
-        // 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-        // 	robots: 'index, follow'
-        // });
-        
-        return {
-            // store,
-            terms
-        }
-    },
+    // async setup() {
+    //     let terms = [];
+    //
+    //     try {
+    //         const response = await $fetch('/data/glossary.json');
+    //
+    //         if (response) {
+    //             terms = response;
+    //         }
+    //     } catch (e) {
+    //         console.log(e)
+    //     }
+    //
+    //     // useSeoMeta({
+    //     // 	title: t('pages.games.title'),
+    //     // 	ogTitle: t('pages.games.title'),
+    //     // 	description: t('pages.games.description'),
+    //     // 	ogDescription: t('pages.games.description'),
+    //     // 	ogImage: $config.public.OG_DEFAULT_IMAGE,
+    //     // 	robots: 'index, follow'
+    //     // });
+    //
+    //     return {
+    //         // store,
+    //         terms
+    //     }
+    // },
     data() {
         return {
-            search: ''
+            search: '',
+            terms: []
         }
     },
     computed: {
@@ -64,6 +65,22 @@ export default defineNuxtComponent({
 
             return this.terms.filter(item => item.name.toLowerCase().includes(search))
         }
+    },
+    mounted() {
+        this.fetchGlossary()
+    },
+    methods: {
+        async fetchGlossary() {
+            try {
+                const response = await $fetch('/data/glossary.json');
+                
+                if (response) {
+                    this.terms = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+        },
     }
 })
 </script>

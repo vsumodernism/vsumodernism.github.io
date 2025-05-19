@@ -7,7 +7,7 @@
 <script>
 export default defineNuxtComponent({
 	name: 'PageHome',
-	async setup() {
+	// async setup() {
         // try {
         //     console.log('✅ index.vue setup entered 1');
         //     // const store = useStore();
@@ -21,7 +21,7 @@ export default defineNuxtComponent({
         //     console.error('❌ setup error in index.vue', err);
         //     return {};
         // }
-	},
+	// },
 })
 </script>
 
