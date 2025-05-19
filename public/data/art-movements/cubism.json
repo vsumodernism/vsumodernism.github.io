@@ -90,7 +90,7 @@
      "pictures": [
       {
         "img": "/images/gallery/pikasso-tanets-s-pokryvalom.webp",
-        "name": "«Танец с покрывалом», Пабло Пикассо",
+        "name": "Танец с покрывалом», Пабло Пикассо",
         "view": "fields",
         "bg": "FFFFFF"
       }
@@ -127,8 +127,8 @@
     ],
        "pictures": [
       {
-        "img": "/images/gallery/brak-mandolina.web",
-        "name": "«Мандолина», Жорж Брак",
+        "img": "/images/gallery/brak-mandolina.webp",
+        "name": "Мандолина», Жорж Брак",
         "view": "fields",
         "bg": "FFFFFF"
       }
