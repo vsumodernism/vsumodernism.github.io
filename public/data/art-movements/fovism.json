@@ -11,16 +11,16 @@
 			"title": "Яркие представители",
 			"content": [
 				{
-					"title": "Анре Матисс",
-					"link": "/artists"
+					"title": "Анри Матисс",
+					"link": "/artists/anri-matiss"
 				},
 				{
 					"title": "Андре Дерен",
-					"link": "/artists"
+					"link": "/artists/andre-deren"
 				},
 				{
 					"title": "Морис де Вламинк",
-					"link": "/artists"
+					"link": "/artists/vlamink"
 				}
 			]
 		}
