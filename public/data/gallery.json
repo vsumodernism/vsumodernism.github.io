@@ -34,10 +34,12 @@
 				"style": "Фовизм"
 			},
 			{
-				"img": "/images/gallery/muzyka.jpg",
+				"img": "/images/gallery/matiss-muzyka-cely.jpg",
 				"name": "Музыка",
 				"author": "Анри́ Мати́сс",
-				"style": "Фовизм"
+				"style": "Фовизм",
+				"view": "fields",
+				"bg": "EDEDED"
 			}
 		]
 	},
