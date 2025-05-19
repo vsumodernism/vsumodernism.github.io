@@ -96,7 +96,19 @@
 		"pictures": [
 			{
 				"img": "/images/artists/pablo-picaso/portretdorymaar.webp",
-				"name": "Портре́т До́ры Маа́р",
+				"name": "Девочка на шаре",
+				"view": "fields",
+				"bg": "313131"
+			},
+			{
+				"img": "/images/artists/pablo-picaso/portretdorymaar.webp",
+				"name": "Испанка с Майорки",
+				"view": "fields",
+				"bg": "313131"
+			},
+			{
+				"img": "/images/artists/pablo-picaso/portretdorymaar.webp",
+				"name": "Акробат и юный Арлекин",
 				"view": "fields",
 				"bg": "313131"
 			}
