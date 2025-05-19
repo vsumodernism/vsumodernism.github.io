@@ -47,10 +47,12 @@
 		"view": "2bs",
 		"pictures": [
 			{
-				"img": "/images/art-movements/fovism.png",
+				"img": "/images/matiss-tanets-cely.webp",
 				"name": "Танец",
 				"author": "Анри́ Мати́сс",
-				"style": "Фовизм"
+				"style": "Фовизм",
+				"view": "fields",
+				"bg": "EDEDED"
 			},
 			{
 				"img": "/images/gallery/frukty-cvety-panno.jpg",
