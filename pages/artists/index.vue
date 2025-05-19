@@ -51,39 +51,11 @@ export default defineNuxtComponent({
         Button,
         Input
     },
-	async setup() {
-        // const store = process.client ? useStore() : null;
-		// const store = useStore();
-		let artists = [];
-
-		try {
-            const response = await $fetch('/data/artists.json');
-
-			if (response) {
-                artists = response;
-			}
-		} catch (e) {
-            console.log(e)
-		}
-
-		// useSeoMeta({
-		// 	title: t('pages.games.title'),
-		// 	ogTitle: t('pages.games.title'),
-		// 	description: t('pages.games.description'),
-		// 	ogDescription: t('pages.games.description'),
-		// 	ogImage: $config.public.OG_DEFAULT_IMAGE,
-		// 	robots: 'index, follow'
-		// });
-
-		return {
-			// store,
-            artists
-		}
-	},
     data() {
         return {
             search: '',
-            isMobile: null
+            isMobile: null,
+            artists: []
         }
     },
     computed: {
@@ -94,6 +66,8 @@ export default defineNuxtComponent({
         }
     },
     mounted() {
+        this.fetchArtists()
+        
         setTimeout(() => {
             const pageWrapper = document.querySelector('.page-wrapper');
             
@@ -103,7 +77,21 @@ export default defineNuxtComponent({
                 this.isMobile = false
             }
         }, 500)
+    },
+    methods: {
+        async fetchArtists() {
+            try {
+                const response = await $fetch('/data/artists.json');
+                
+                if (response) {
+                    this.artists = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+        },
     }
+    
 })
 </script>
 

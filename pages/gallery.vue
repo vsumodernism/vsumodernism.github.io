@@ -97,6 +97,7 @@ export default defineNuxtComponent({
             authors: [],
             styles: [],
             pictures: [],
+            galleries: []
         }
     },
     computed: {
@@ -123,13 +124,14 @@ export default defineNuxtComponent({
             })
         }
     },
-    mounted() {
+    async mounted() {
         new Zooming().listen('.picture__img')
         
         const pictures = [];
         const authors = [];
         const styles = [];
 
+        await this.fetchGalleries()
         this.galleries.forEach(row => pictures.push(...row.pictures))
 
         pictures.forEach(picture => {
@@ -152,6 +154,17 @@ export default defineNuxtComponent({
         });
     },
     methods: {
+        async fetchGalleries() {
+            try {
+                const response = await $fetch('/data/gallery.json');
+                
+                if (response) {
+                    this.galleries = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+        },
         viewClass(view) {
             let obj = {}
             

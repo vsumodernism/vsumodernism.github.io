@@ -1,27 +1,31 @@
 <template>
-	<div>
-        Index
-	</div>
+    <Article :article="article"/>
 </template>
 
 <script>
 export default defineNuxtComponent({
 	name: 'PageHome',
-	// async setup() {
-        // try {
-        //     console.log('✅ index.vue setup entered 1');
-        //     // const store = useStore();
-        //     const store = import.meta.client ? useStore() : null;
-        //     console.log('✅ index.vue setup entered 2');
-        //
-        //     return {
-        //         store,
-        //     }
-        // } catch (err) {
-        //     console.error('❌ setup error in index.vue', err);
-        //     return {};
-        // }
-	// },
+    data() {
+        return {
+            article: []
+        }
+    },
+    mounted() {
+        this.fetchMain()
+    },
+    methods: {
+        async fetchMain() {
+            try {
+                const response = await $fetch('/data/main.json');
+                
+                if (response) {
+                    this.article = response;
+                }
+            } catch (e) {
+                console.log(e)
+            }
+        },
+    }
 })
 </script>
 

@@ -58,25 +58,20 @@ export default defineNuxtComponent({
         }
     },
     async mounted() {
-        if (process.client) {
+        this.fetchMovements()
+    },
+    methods: {
+        async fetchMovements() {
             try {
-                // let response
-                //
-                // if (process.server) {
-                //     response = await useFetch('/data/art-movements.json')
-                // } else {
-                //     response = await $fetch('/data/art-movements.json');
-                // }
                 const response = await $fetch('/data/art-movements.json');
-
+                
                 if (response) {
                     this.movements = response;
                 }
             } catch (e) {
                 console.log(e)
             }
-            
-        }
+        },
     }
 })
 </script>
