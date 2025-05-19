@@ -59,7 +59,7 @@ export default defineComponent({
                     <li v-for="tag in block.tags" class="article-intro__tag">{{tag}}</li>
                 </ul>
                 
-                <div v-if="block?.list?.length" class="article-intro__list">
+                <div v-if="block?.list" class="article-intro__list">
                     <span class="article-intro__list-title">{{block.list.title}}: </span>
                     <span v-html="parseIntroList(block.list.content)"/>
                     <!--                    <template v-for="item in block.list.content">-->
