@@ -1,5 +1,6 @@
 <script>
 import {defineComponent} from 'vue'
+import Zooming from "zooming";
 
 export default defineComponent({
     name: "Article",
@@ -7,6 +8,22 @@ export default defineComponent({
         article: {
             type: Array,
             default: []
+        }
+    },
+    watch: {
+        article(newValue) {
+            if (newValue.length) {
+                console.log('Zooming')
+                this.$nextTick(() => {
+                    new Zooming({
+                        bgColor: '#313131',
+                        scaleBase: 0.8,
+                    }).listen('.article-picture__img');
+                })
+                // setTimeout(() => {
+                //     new Zooming().listen('.article-picture__img');
+                // })
+            }
         }
     },
     methods: {
@@ -50,7 +67,7 @@ export default defineComponent({
                     <p v-if="typeof item === 'string'" v-html="item"></p>
                     
                     <div v-else-if="typeof item === 'object'">
-                        <img :src="item.img" alt=""/>
+                        <img :src="item.img" class="article-picture__img" alt=""/>
                         <div v-html="item.description"></div>
                     </div>
                 </template>
