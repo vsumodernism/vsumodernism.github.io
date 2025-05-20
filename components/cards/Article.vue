@@ -85,6 +85,10 @@ export default defineComponent({
                 <template v-for="item in block.content">
                     <p v-if="typeof item === 'string'" v-html="item"></p>
                     
+                    <ul v-else-if="Array.isArray(item)" class="article-list article-list_disc">
+                        <li v-for="li in item" class="" v-html="li"></li>
+                    </ul>
+
                     <div v-else-if="typeof item === 'object'" class="article-picture">
                         <img :src="item.img" class="article-picture__img" alt=""/>
                         <div class="article-picture__description" v-html="item.description"></div>
