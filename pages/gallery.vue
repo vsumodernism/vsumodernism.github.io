@@ -125,7 +125,10 @@ export default defineNuxtComponent({
         }
     },
     async mounted() {
-        new Zooming().listen('.picture__img')
+        new Zooming({
+            bgColor: '#313131',
+            scaleBase: 0.8,
+        }).listen('.picture__img')
         
         const pictures = [];
         const authors = [];
