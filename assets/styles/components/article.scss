@@ -1,3 +1,21 @@
+.btn-back {
+	position: absolute;
+	left: -27px;
+	top: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: bold;
+	font-size: 0;
+	cursor: pointer;
+
+	@media (max-width: 425px) {
+		position: static;
+		margin-bottom: 40px;
+		font-size: 15px;
+	}
+}
+
 .article {
 	max-width: 780px;
 	margin-inline: auto;
@@ -87,6 +105,10 @@
 			.article-list__item {
 				margin-bottom: 20px;
 			}
+		}
+
+		&_disc {
+			list-style: disc;
 		}
 	}
 

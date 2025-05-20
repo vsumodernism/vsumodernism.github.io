@@ -65,6 +65,7 @@ export default {
     }
     
     &__main {
+        position: relative;
         padding: 50px 36px;
         
         @media (max-width: 425px) {
