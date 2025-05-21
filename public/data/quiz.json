@@ -474,7 +474,7 @@
   {
     "id": 60,
     "img": "/images/gallery/aristidmaiol-pamyatnikpsezannuvparizhe.webp",
-    "name": "Памятник П Сезанну в Париже",
+    "name": "Памятник Сезанну в Париже",
     "author": "Аристид Майоль",
     "style": "Неоклассицизм",
     "date": ""
@@ -484,7 +484,7 @@
     "img": "/images/gallery/hosedavidalfarosikeiros-narodnayademokratiya.webp",
     "name": "Народная демократия",
     "author": "Хосе Давид Альфаро Сикейрос",
-    "style": "Реализм",
+    "style": "Реализм, Роспись во Дворце изящных искусств в Мехико (фрагмент)",
     "date": ""
   },
   {
@@ -506,7 +506,7 @@
   {
     "id": 64,
     "img": "/images/gallery/valtergropius-zdaniyabauhauzvdessau.webp",
-    "name": "Здания Баухауз в Дессау",
+    "name": "Здание Баухауз в Дессау",
     "author": "Вальтер Гропиус",
     "style": "Модернизм / Функционализм (Баухауз)",
     "date": ""
