@@ -257,7 +257,7 @@
   },
   {
     "id": 33,
-    "img": "/images/gallery/mynk-krik.webp", !!!
+    "img": "/images/gallery/mynk-krik.webp",
     "name": "Крик",
     "author": "Эдвард Мунк",
     "style": "Модернизм / Экспрессионизм",
@@ -338,7 +338,7 @@
   {
     "id": 43,
     "img": "/images/gallery/roberdelone-ritm.webp",
-    "name": "Ритм",
+    "name": "Ритм №1",
     "author": "Робер Делоне",
     "style": "Модернизм / Абстракционизм (орфизм)",
     "date": ""
