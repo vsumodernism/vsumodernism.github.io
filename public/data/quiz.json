@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "img": "/images/gallery/krasnye-rybki.webp",!!!
+    "img": "/images/gallery/krasnye-rybki.webp",
     "name": "Красные рыбки",
     "author": "Анри Матисс",
     "style": "Модернизм / Фовизм",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "img": "/images/gallery/tantsovshchitsa.webp", !!!
+    "img": "/images/gallery/tantsovshchitsa.webp", 
     "name": "Танцовщица",
     "author": "Андре Дерен",
     "style": "Модернизм / Фовизм",
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "img": "/images/gallery/modigliani-lezhashchaya-obnazhennaya-2.webp", !!!
+    "img": "/images/gallery/modigliani-lezhashchaya-obnazhennaya-2.webp", 
     "name": "Лежащая обнажённая",
     "author": "Амедео Модильяни",
     "style": "Модернизм / Экспрессионизм, Примитивизм",
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "img": "/images/gallery/rousseau-snovidenie.webp", !!!
+    "img": "/images/gallery/rousseau-snovidenie.webp", 
     "name": "Сновидение (Сон Ядвиги)",
     "author": "Анри Руссо",
     "style": "Модернизм / Примитивизм (наивное искусство)",
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp.webp", !!!
+    "img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp.webp",
     "name": "Спящая цыганка",
     "author": "Анри Руссо",
     "style": "Модернизм / Примитивизм (наивное искусство)",
@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "img": "/images/gallery/pirosmani-druzya-begosa.webp", !!!
+    "img": "/images/gallery/pirosmani-druzya-begosa.webp", 
     "name": "Друзья Бегоса",
     "author": "Нико Пиросмани",
     "style": "Модернизм / Примитивизм (наивное искусство)",
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "img": "/images/gallery/picasso-devochka-na-share.webp", !!!
+    "img": "/images/gallery/picasso-devochka-na-share.webp", 
     "name": "Девочка на шаре",
     "author": "Пабло Пикассо",
     "style": "Модернизм / Розовый период",
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "img": "/images/gallery/picasso-avinonskie-devitsy.webp", !!!
+    "img": "/images/gallery/picasso-avinonskie-devitsy.webp", 
     "name": "Авиньонские девицы",
     "author": "Пабло Пикассо",
     "style": "Модернизм / Кубизм",
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "img": "/images/gallery/pablopikasso-portret.webp",
-    "name": "Портрет",
+    "name": "Портрет Амбруаза Воллара",
     "author": "Пабло Пикассо",
     "style": "Модернизм / Кубизм",
     "date": ""
@@ -185,7 +185,7 @@
   },
   {
     "id": 24,
-    "img": "/images/gallery/picasso-guernica.webp", !!!
+    "img": "/images/gallery/picasso-guernica.webp",
     "name": "Герника",
     "author": "Пабло Пикассо",
     "style": "Модернизм / Кубизм / Сюрреализм",
@@ -193,7 +193,7 @@
   },
   {
     "id": 25,
-    "img": "/images/gallery/umbertobochchoni-gorodvstaet.webp",
+    "img": "/images/gallery/umbertobochchoni-gorodvstaet.webp", 
     "name": "Город встаёт",
     "author": "Умберто Боччони",
     "style": "Модернизм / Футуризм",
@@ -201,15 +201,15 @@
   },
   {
     "id": 26,
-    "img": "/images/gallery/umbertobochchoni-sostoyaniedushi.webp",
-    "name": "Состояние души",
+    "img": "/images/gallery/umbertobochchoni-sostoyaniedushi-1.webp",
+    "name": "Состояние души I",
     "author": "Умберто Боччони",
     "style": "Модернизм / Футуризм",
     "date": ""
   },
   {
     "id": 27,
-    "img": "/images/gallery/umbertobochchoni-simultannyeobrazy.webp",
+    "img": "/images/gallery/umbertobochchoni-simultannyeobrazy.webp",  )))
     "name": "Симультанные образы",
     "author": "Умберто Боччони",
     "style": "Модернизм / Футуризм",
@@ -569,7 +569,7 @@
   },
   {
     "id": 72,
-    "img": "/images/gallery/frenkgeriivladomilunich-tantsuyuschiidomvprage.webp",
+    "img": "/images/gallery/frenkgeriivladomilunich-tantsuyuschiidomvprage.webp", ))
     "name": "Танцующий дом в Праге",
     "author": "Фрэнк Гери и Владо Милунич",
     "style": "Модернизм / Деконструктивизм",
@@ -601,7 +601,7 @@
   },
   {
     "id": 76,
-    "img": "/images/gallery/markshagal-nadgorodom.webp",
+    "img": "/images/gallery/markshagal-nadgorodom.webp", 
     "name": "Над городом",
     "author": "Марк Шагал",
     "style": "Модернизм / Авангардизм",
@@ -617,7 +617,7 @@
   },
   {
     "id": 78,
-    "img": "/images/gallery/ellisitskii-klinomkrasnymbeibelyh.webp", !!!
+    "img": "/images/gallery/ellisitskii-klinomkrasnymbeibelyh.webp", 
     "name": "Клином красным бей белых",
     "author": "Эль Лисицкий",
     "style": "Модернизм / Супрематизм",
@@ -625,7 +625,7 @@
   },
   {
     "id": 79,
-    "img": "/images/gallery/filonov-pir-koroley.webp", !!!
+    "img": "/images/gallery/filonov-pir-koroley.webp", 
     "name": "Пир королей",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -633,7 +633,7 @@
   },
   {
     "id": 80,
-    "img": "/images/gallery/pavelfilonov-formulavesny.webp", !!!
+    "img": "/images/gallery/pavelfilonov-formulavesny.webp", 
     "name": "Формула весны",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -641,7 +641,7 @@
   },
   {
     "id": 81,
-    "img": "/images/gallery/pavelfilonov-zhivayagolova.webp", !!!
+    "img": "/images/gallery/pavelfilonov-zhivayagolova.webp", 
     "name": "Живая голова",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -649,7 +649,7 @@
   },
   {
     "id": 82,
-    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp", !!!
+    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp", 
     "name": "Симфония Шостаковича",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -657,7 +657,7 @@
   },
   {
     "id": 83,
-    "img": "/images/gallery/aleksandrrodchenko-belyikrug.webp", !!!
+    "img": "/images/gallery/aleksandrrodchenko-belyikrug.webp", 
     "name": "Белый круг",
     "author": "Александр Родченко",
     "style": "Модернизм / Конструктивизм",
@@ -665,7 +665,7 @@
   },
   {
     "id": 84,
-    "img": "/images/gallery/vladimirtatlin-pamyatnikinternatsionala.webp", !!!
+    "img": "/images/gallery/vladimirtatlin-pamyatnikinternatsionala.webp", 
     "name": "Памятник III Интернационала",
     "author": "Владимир Татлин",
     "style": "Модернизм / Конструктивизм",
@@ -673,7 +673,7 @@
   },
   {
     "id": 85,
-    "img": "/images/gallery/konstantinmelnikov-domkulturyimivrusakova.webp", !!!
+    "img": "/images/gallery/konstantinmelnikov-domkulturyimivrusakova.webp", 
     "name": "Дом культуры им И В Русакова",
     "author": "Константин Мельников",
     "style": "Модернизм / Конструктивизм",
@@ -681,7 +681,7 @@
   },
   {
     "id": 86,
-    "img": "/images/gallery/konstantinmelnikov-dommelnikova.webp", !!!
+    "img": "/images/gallery/konstantinmelnikov-dommelnikova.webp",
     "name": "Дом Мельникова",
     "author": "Константин Мельников",
     "style": "Модернизм / Конструктивизм",
@@ -689,7 +689,7 @@
   },
   {
     "id": 87,
-    "img": "/images/gallery/alekseischusev-mavzoleivilenina.webp",  !!!
+    "img": "/images/gallery/alekseischusev-mavzoleivilenina.webp",  
     "name": "Мавзолей В И Ленина",
     "author": "Алексей Щусев",
     "style": "Модернизм / Конструктивизм, Ар-деко",
