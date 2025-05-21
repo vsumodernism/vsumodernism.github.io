@@ -1,34 +1,698 @@
 [
-	{
-		"id": 1,
-		"img": "/images/gallery/frukty-cvety-panno.jpg",
-		"name": "Женщина в шляпе",
-		"author": "Анри Матисс",
-		"style": "Фовизм",
-		"date": "Начало XX века, 1905 год"
-	},
-	{
-		"id": 2,
-		"img": "/images/gallery/muzyka.jpg",
-		"name": "Женщина в шляпе",
-		"author": "Анри Матисс",
-		"style": "Фовизм",
-		"date": "Начало XX века, 1905 год"
-	},
-	{
-		"id": 3,
-		"img": "/images/gallery/razgovor.jpg",
-		"name": "Женщина в шляпе",
-		"author": "Анри Матисс",
-		"style": "Фовизм",
-		"date": "Начало XX века, 1905 год"
-	},
-	{
-		"id": 4,
-		"img": "/images/gallery/ispanskiy-natyurmort.jpg",
-		"name": "Женщина в шляпе",
-		"author": "Анри Матисс",
-		"style": "Фовизм",
-		"date": "Начало XX века, 1905 год"
-	}
+  {
+    "id": 1,
+    "img": "/images/gallery/aristarhlentulov-vasiliiblazhennyi.webp",
+    "name": "Василий Блаженный",
+    "author": "Аристарх Лентулов",
+    "style": "Модернизм / Кубофутуризм",
+    "date": "Конец XIX – начало XX века"
+  },
+  {
+    "id": 2,
+    "img": "/images/gallery/davidburlyuk-sibirskayaflotiliya.webp",
+    "name": "Сибирская флотилия",
+    "author": "Давид Бурлюк",
+    "style": "Модернизм / Кубофутуризм",
+    "date": "Начало XX века"
+  },
+  {
+    "id": 3,
+    "img": "/images/gallery/natalyagoncharova-velosipedist.webp",
+    "name": "Велосипедист",
+    "author": "Наталья Гончарова",
+    "style": "Модернизм / Кубофутуризм",
+    "date": "Конец XIX – начало XX века"
+  },
+  {
+    "id": 4,
+    "img": "/images/gallery/lyubovpopova-portretfilosofa.webp",
+    "name": "Портрет философа",
+    "author": "Любовь Попова",
+    "style": "Модернизм / Кубофутуризм",
+    "date": "Начало XX века"
+  },
+  {
+    "id": 5,
+    "img": "/images/gallery/vasiliikandinskii-kompozitsiya.webp",
+    "name": "Композиция №6",
+    "author": "Василий Кандинский",
+    "style": "Модернизм / Абстракционизм",
+    "date": "Конец XIX века"
+  },
+  {
+    "id": 6,
+    "img": "/images/gallery/vasiliikandinskii-kompozitsiya.webp",
+    "name": "Композиция №7",
+    "author": "Василий Кандинский",
+    "style": "Модернизм / Абстракционизм",
+    "date": "Начало XX века"
+  },
+  {
+    "id": 7,
+    "img": "/images/gallery/kazimirmalevich-tochilschik.webp",
+    "name": "Точильщик",
+    "author": "Казимир Малевич",
+    "style": "Модернизм / Кубофутуризм",
+    "date": "Начало XX века"
+  },
+  {
+    "id": 8,
+    "img": "/images/gallery/kazimirmalevich-chernyikvadrat.webp",
+    "name": "Чёрный квадрат",
+    "author": "Казимир Малевич",
+    "style": "Модернизм / Абстракционизм / Супрематизм",
+    "date": "1887 год"
+  },
+  {
+    "id": 9,
+    "img": "/images/gallery/kazimirmalevich-suprematizm.webp",
+    "name": "Супрематизм",
+    "author": "Казимир Малевич",
+    "style": "Модернизм / Абстракционизм / Супрематизм",
+    "date": "1888 год"
+  },
+  {
+    "id": 10,
+    "img": "/images/gallery/anrimatiss-tanets.webp",
+    "name": "Танец",
+    "author": "Анри Матисс",
+    "style": "Модернизм / Фовизм",
+    "date": "1910 год"
+  },
+  {
+    "id": 11,
+    "img": "/images/gallery/anrimatiss-krasnyerybki.webp",
+    "name": "Красные рыбки",
+    "author": "Анри Матисс",
+    "style": "Модернизм / Фовизм",
+    "date": "1910 год"
+  },
+  {
+    "id": 12,
+    "img": "/images/gallery/andrederen-tantsovschitsa.webp",
+    "name": "Танцовщица",
+    "author": "Андре Дерен",
+    "style": "Модернизм / Фовизм",
+    "date": "1890 год"
+  },
+  {
+    "id": 13,
+    "img": "/images/gallery/amedeomodilyani-lezhaschayaobnazhennaya.webp",
+    "name": "Лежащая обнажённая",
+    "author": "Амедео Модильяни",
+    "style": "Модернизм / Экспрессионизм, Примитивизм",
+    "date": "1900 год"
+  },
+  {
+    "id": 14,
+    "img": "/images/gallery/anrirusso-snovideniesonyadvigi.webp",
+    "name": "Сновидение (Сон Ядвиги)",
+    "author": "Анри Руссо",
+    "style": "Модернизм / Примитивизм (наивное искусство)",
+    "date": "1902 год"
+  },
+  {
+    "id": 15,
+    "img": "/images/gallery/anrirusso-spyaschayatsyganka.webp",
+    "name": "Спящая цыганка",
+    "author": "Анри Руссо",
+    "style": "Модернизм / Примитивизм (наивное искусство)",
+    "date": ""
+  },
+  {
+    "id": 16,
+    "img": "/images/gallery/nikopirosmani-druzyabegosa.webp",
+    "name": "Друзья Бегоса",
+    "author": "Нико Пиросмани",
+    "style": "Модернизм / Примитивизм (наивное искусство)",
+    "date": ""
+  },
+  {
+    "id": 17,
+    "img": "/images/gallery/zhorzhbrak-domavestake.webp",
+    "name": "Дома в Эстаке",
+    "author": "Жорж Брак",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 18,
+    "img": "/images/gallery/zhorzhbrak-portugalets.webp",
+    "name": "Португалец",
+    "author": "Жорж Брак",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 19,
+    "img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+    "name": "Ария Баха",
+    "author": "Жорж Брак",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 20,
+    "img": "/images/gallery/pablopikasso-devochkanashare.webp",
+    "name": "Девочка на шаре",
+    "author": "Пабло Пикассо",
+    "style": "Модернизм / Розовый период",
+    "date": ""
+  },
+  {
+    "id": 21,
+    "img": "/images/gallery/pablopikasso-avinonskiedevitsy.webp",
+    "name": "Авиньонские девицы",
+    "author": "Пабло Пикассо",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 22,
+    "img": "/images/gallery/pablopikasso-portret.webp",
+    "name": "Портрет",
+    "author": "Пабло Пикассо",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 23,
+    "img": "/images/gallery/pablopikasso-akkordeonist.webp",
+    "name": "Аккордеонист",
+    "author": "Пабло Пикассо",
+    "style": "Модернизм / Кубизм",
+    "date": ""
+  },
+  {
+    "id": 24,
+    "img": "/images/gallery/pablopikasso-gernika.webp",
+    "name": "Герника",
+    "author": "Пабло Пикассо",
+    "style": "Модернизм / Кубизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 25,
+    "img": "/images/gallery/umbertobochchoni-gorodvstaet.webp",
+    "name": "Город встаёт",
+    "author": "Умберто Боччони",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 26,
+    "img": "/images/gallery/umbertobochchoni-sostoyaniedushi.webp",
+    "name": "Состояние души",
+    "author": "Умберто Боччони",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 27,
+    "img": "/images/gallery/umbertobochchoni-simultannyeobrazy.webp",
+    "name": "Симультанные образы",
+    "author": "Умберто Боччони",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 28,
+    "img": "/images/gallery/anrirusso-snovidenie.webp",
+    "name": "Сновидение",
+    "author": "Анри Руссо",
+    "style": "Модернизм / Примитивизм (наивное искусство)",
+    "date": ""
+  },
+  {
+    "id": 29,
+    "img": "/images/gallery/amedeomodilyani-lezhaschayaobnazhennaya.webp",
+    "name": "Лежащая обнажённая",
+    "author": "Амедео Модильяни",
+    "style": "Модернизм / Экспрессионизм, Примитивизм",
+    "date": ""
+  },
+  {
+    "id": 30,
+    "img": "/images/gallery/umbertobochchoni-unikalnyeformynepreryvnostivprostranstve.webp",
+    "name": "Уникальные формы непрерывности в пространстве",
+    "author": "Умберто Боччони",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 31,
+    "img": "/images/gallery/dzhakomoballa-dinamizmsobakinapovodke.webp",
+    "name": "Динамизм собаки на поводке",
+    "author": "Джакомо Балла",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 32,
+    "img": "/images/gallery/dzhinoseverini-golubayatantsovschitsa.webp",
+    "name": "Голубая танцовщица",
+    "author": "Джино Северини",
+    "style": "Модернизм / Футуризм",
+    "date": ""
+  },
+  {
+    "id": 33,
+    "img": "/images/gallery/edvardmunk-krik.webp",
+    "name": "Крик",
+    "author": "Эдвард Мунк",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 34,
+    "img": "/images/gallery/ernstlyudvigkirhner-avtoportretsmodelyu.webp",
+    "name": "Автопортрет с моделью",
+    "author": "Эрнст Людвиг Кирхнер",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 35,
+    "img": "/images/gallery/erihhekkel-chelovek.webp",
+    "name": "Человек",
+    "author": "Эрих Хеккель",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 36,
+    "img": "/images/gallery/frantsmark-zheltyeloshadi.webp",
+    "name": "Желтые лошади",
+    "author": "Франц Марк",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 37,
+    "img": "/images/gallery/paulklee-vraschayuschiisyadom.webp",
+    "name": "Вращающийся дом",
+    "author": "Пауль Клее",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 38,
+    "img": "/images/gallery/georggross-seryiden.webp",
+    "name": "Серый день",
+    "author": "Георг Гросс",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 39,
+    "img": "/images/gallery/ottodiks-portretzhurnalistkisilviifonharden.webp",
+    "name": "Портрет журналистки Сильвии фон Харден",
+    "author": "Отто Дикс",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 40,
+    "img": "/images/gallery/frensisbekon-etyudkportretupapyinnokentiya.webp",
+    "name": "Этюд к портрету папы Иннокентия X",
+    "author": "Фрэнсис Бэкон",
+    "style": "Модернизм / Экспрессионизм",
+    "date": ""
+  },
+  {
+    "id": 41,
+    "img": "/images/gallery/vasiliikandinskii-vzaimnoesoglasiedvoinoiakkord.webp",
+    "name": "Взаимное согласие (Двойной аккорд)",
+    "author": "Василий Кандинский",
+    "style": "Модернизм / Абстракционизм",
+    "date": ""
+  },
+  {
+    "id": 42,
+    "img": "/images/gallery/pitmondrian-kompozitsiyaskrasnymzheltymsinimichernym.webp",
+    "name": "Композиция с красным, жёлтым, синим и чёрным",
+    "author": "Пит Мондриан",
+    "style": "Модернизм / Абстракционизм (неопластицизм)",
+    "date": ""
+  },
+  {
+    "id": 43,
+    "img": "/images/gallery/roberdelone-ritm.webp",
+    "name": "Ритм",
+    "author": "Робер Делоне",
+    "style": "Модернизм / Абстракционизм (орфизм)",
+    "date": ""
+  },
+  {
+    "id": 44,
+    "img": "/images/gallery/dzheksonpollok-.webp",
+    "name": "№ 5",
+    "author": "Джексон Поллок",
+    "style": "Модернизм / Абстракционизм (абстрактный экспрессионизм)",
+    "date": ""
+  },
+  {
+    "id": 45,
+    "img": "/images/gallery/markrotko-belyitsentr.webp",
+    "name": "Белый центр",
+    "author": "Марк Ротко",
+    "style": "Модернизм / Абстракционизм (живопись цветового поля)",
+    "date": ""
+  },
+  {
+    "id": 46,
+    "img": "/images/gallery/marseldyushan-fontan.webp",
+    "name": "Фонтан",
+    "author": "Марсель Дюшан",
+    "style": "Модернизм / Дадаизм",
+    "date": ""
+  },
+  {
+    "id": 47,
+    "img": "/images/gallery/fransispikabia-paradlyubvi.webp",
+    "name": "Парад любви",
+    "author": "Франсис Пикабиа",
+    "style": "Модернизм / Дадаизм",
+    "date": ""
+  },
+  {
+    "id": 48,
+    "img": "/images/gallery/maksernst-angelochagailitriumfsyurrealizma.webp",
+    "name": "Ангел очага или триумф сюрреализма",
+    "author": "Макс Эрнст",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 49,
+    "img": "/images/gallery/zhoanmiro-katalonskiipeizazhohotnik.webp",
+    "name": "Каталонский пейзаж (Охотник)",
+    "author": "Жоан Миро",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 50,
+    "img": "/images/gallery/renemagritt-predatelstvoobrazov.webp",
+    "name": "Предательство образов",
+    "author": "Рене Магритт",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 51,
+    "img": "/images/gallery/renemagritt-golkonda.webp",
+    "name": "Голконда",
+    "author": "Рене Магритт",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 52,
+    "img": "/images/gallery/salvadordali-postoyanstvopamyati.webp",
+    "name": "Постоянство памяти",
+    "author": "Сальвадор Дали",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 53,
+    "img": "/images/gallery/salvadordali-son.webp",
+    "name": "Сон",
+    "author": "Сальвадор Дали",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 54,
+    "img": "/images/gallery/salvadordali-myagkayakonstruktsiyasvarenymibobami.webp",
+    "name": "Мягкая конструкция с варёными бобами",
+    "author": "Сальвадор Дали",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 55,
+    "img": "/images/gallery/salvadordali-atomnayaleda.webp",
+    "name": "Атомная Леда",
+    "author": "Сальвадор Дали",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 56,
+    "img": "/images/gallery/salvadordali-hristossvyatogoioannakresta.webp",
+    "name": "Христос Святого Иоанна Креста",
+    "author": "Сальвадор Дали",
+    "style": "Модернизм / Сюрреализм",
+    "date": ""
+  },
+  {
+    "id": 57,
+    "img": "/images/gallery/endiuorhol-banoksupakempbell.webp",
+    "name": "100 банок супа Кемпбелл",
+    "author": "Энди Уорхол",
+    "style": "Модернизм / Поп-арт",
+    "date": ""
+  },
+  {
+    "id": 58,
+    "img": "/images/gallery/endiuorhol-merilin.webp",
+    "name": "Мэрилин",
+    "author": "Энди Уорхол",
+    "style": "Модернизм / Поп-арт",
+    "date": ""
+  },
+  {
+    "id": 59,
+    "img": "/images/gallery/viktorvazareli-issledovaniedvizheniya.webp",
+    "name": "Исследование движения",
+    "author": "Виктор Вазарели",
+    "style": "Модернизм / Оп-арт",
+    "date": ""
+  },
+  {
+    "id": 60,
+    "img": "/images/gallery/aristidmaiol-pamyatnikpsezannuvparizhe.webp",
+    "name": "Памятник П Сезанну в Париже",
+    "author": "Аристид Майоль",
+    "style": "Неоклассицизм",
+    "date": ""
+  },
+  {
+    "id": 61,
+    "img": "/images/gallery/hosedavidalfarosikeiros-narodnayademokratiya.webp",
+    "name": "Народная демократия",
+    "author": "Хосе Давид Альфаро Сикейрос",
+    "style": "Реализм",
+    "date": ""
+  },
+  {
+    "id": 62,
+    "img": "/images/gallery/diegorivera-cheloveknaraspute.webp",
+    "name": "Человек на распутье",
+    "author": "Диего Ривера",
+    "style": "Реализм",
+    "date": ""
+  },
+  {
+    "id": 63,
+    "img": "/images/gallery/renatoguttuzo-portretrokkossynom.webp",
+    "name": "Портрет Рокко с сыном",
+    "author": "Ренато Гуттузо",
+    "style": "Реализм",
+    "date": ""
+  },
+  {
+    "id": 64,
+    "img": "/images/gallery/valtergropius-zdaniyabauhauzvdessau.webp",
+    "name": "Здания Баухауз в Дессау",
+    "author": "Вальтер Гропиус",
+    "style": "Модернизм / Функционализм (Баухауз)",
+    "date": ""
+  },
+  {
+    "id": 65,
+    "img": "/images/gallery/lekorbyuze-villasavoivpuassi.webp",
+    "name": "Вилла Савой в Пуасси",
+    "author": "Ле Корбюзье",
+    "style": "Модернизм / Функционализм",
+    "date": ""
+  },
+  {
+    "id": 66,
+    "img": "/images/gallery/neizvesten-zalnarodavberline.webp",
+    "name": "Зал Народа в Берлине",
+    "author": "Неизвестен",
+    "style": "Неоклассицизм",
+    "date": ""
+  },
+  {
+    "id": 67,
+    "img": "/images/gallery/neizvesten-empairsteitbilding.webp",
+    "name": "Эмпайр-стейт-билдинг",
+    "author": "Неизвестен",
+    "style": "Модернизм / Ар-деко",
+    "date": ""
+  },
+  {
+    "id": 68,
+    "img": "/images/gallery/neizvesten-shtabkvartiraoonvnyuiorke.webp",
+    "name": "Штаб-квартира ООН в Нью-Йорке",
+    "author": "Неизвестен",
+    "style": "Модернизм / Интернациональный стиль",
+    "date": ""
+  },
+  {
+    "id": 69,
+    "img": "/images/gallery/frenklloidrait-domnadvodopadom.webp",
+    "name": "Дом над водопадом",
+    "author": "Фрэнк Ллойд Райт",
+    "style": "Модернизм / Органическая архитектура",
+    "date": ""
+  },
+  {
+    "id": 70,
+    "img": "/images/gallery/iornutzon-opernyiteatrvsidnee.webp",
+    "name": "Оперный театр в Сиднее",
+    "author": "Йорн Утзон",
+    "style": "Модернизм / Структурализм",
+    "date": ""
+  },
+  {
+    "id": 71,
+    "img": "/images/gallery/rentsopianoirichardrodzhers-tsentrpompiduvparizhe.webp",
+    "name": "Центр Помпиду в Париже",
+    "author": "Ренцо Пиано и Ричард Роджерс",
+    "style": "Модернизм / Хай-тек",
+    "date": ""
+  },
+  {
+    "id": 72,
+    "img": "/images/gallery/frenkgeriivladomilunich-tantsuyuschiidomvprage.webp",
+    "name": "Танцующий дом в Праге",
+    "author": "Фрэнк Гери и Владо Милунич",
+    "style": "Модернизм / Деконструктивизм",
+    "date": ""
+  },
+  {
+    "id": 73,
+    "img": "/images/gallery/santyagokalatrava-gorodiskusstvinaukvvalensii.webp",
+    "name": "Город искусств и наук в Валенсии",
+    "author": "Сантьяго Калатрава",
+    "style": "Модернизм / Био-тек",
+    "date": ""
+  },
+  {
+    "id": 74,
+    "img": "/images/gallery/dmitriimoor-tyzapisalsyadobrovoltsem.webp",
+    "name": "Ты записался добровольцем",
+    "author": "Дмитрий Моор",
+    "style": "Агитационно-массовое искусство",
+    "date": ""
+  },
+  {
+    "id": 75,
+    "img": "/images/gallery/markshagal-mirhizhinamvoinadvortsam.webp",
+    "name": "Мир хижинам война дворцам",
+    "author": "Марк Шагал",
+    "style": "Модернизм / Авангардизм",
+    "date": ""
+  },
+  {
+    "id": 76,
+    "img": "/images/gallery/markshagal-nadgorodom.webp",
+    "name": "Над городом",
+    "author": "Марк Шагал",
+    "style": "Модернизм / Авангардизм",
+    "date": ""
+  },
+  {
+    "id": 77,
+    "img": "/images/gallery/kazimirmalevich-suprematizmprintsiprospisistenyvitebsk.webp",
+    "name": "Супрематизм Принцип росписи стены Витебск",
+    "author": "Казимир Малевич",
+    "style": "Модернизм / Супрематизм",
+    "date": ""
+  },
+  {
+    "id": 78,
+    "img": "/images/gallery/ellisitskii-klinomkrasnymbeibelyh.webp",
+    "name": "Клином красным бей белых",
+    "author": "Эль Лисицкий",
+    "style": "Модернизм / Супрематизм",
+    "date": ""
+  },
+  {
+    "id": 79,
+    "img": "/images/gallery/pavelfilonov-pirkorolei.webp",
+    "name": "Пир королей",
+    "author": "Павел Филонов",
+    "style": "Модернизм / Аналитическое искусство",
+    "date": ""
+  },
+  {
+    "id": 80,
+    "img": "/images/gallery/pavelfilonov-formulavesny.webp",
+    "name": "Формула весны",
+    "author": "Павел Филонов",
+    "style": "Модернизм / Аналитическое искусство",
+    "date": ""
+  },
+  {
+    "id": 81,
+    "img": "/images/gallery/pavelfilonov-zhivayagolova.webp",
+    "name": "Живая голова",
+    "author": "Павел Филонов",
+    "style": "Модернизм / Аналитическое искусство",
+    "date": ""
+  },
+  {
+    "id": 82,
+    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp",
+    "name": "Симфония Шостаковича",
+    "author": "Павел Филонов",
+    "style": "Модернизм / Аналитическое искусство",
+    "date": ""
+  },
+  {
+    "id": 83,
+    "img": "/images/gallery/aleksandrrodchenko-belyikrug.webp",
+    "name": "Белый круг",
+    "author": "Александр Родченко",
+    "style": "Модернизм / Конструктивизм",
+    "date": ""
+  },
+  {
+    "id": 84,
+    "img": "/images/gallery/vladimirtatlin-pamyatnikinternatsionala.webp",
+    "name": "Памятник III Интернационала",
+    "author": "Владимир Татлин",
+    "style": "Модернизм / Конструктивизм",
+    "date": ""
+  },
+  {
+    "id": 85,
+    "img": "/images/gallery/konstantinmelnikov-domkulturyimivrusakova.webp",
+    "name": "Дом культуры им И В Русакова",
+    "author": "Константин Мельников",
+    "style": "Модернизм / Конструктивизм",
+    "date": ""
+  },
+  {
+    "id": 86,
+    "img": "/images/gallery/konstantinmelnikov-dommelnikova.webp",
+    "name": "Дом Мельникова",
+    "author": "Константин Мельников",
+    "style": "Модернизм / Конструктивизм",
+    "date": ""
+  },
+  {
+    "id": 87,
+    "img": "/images/gallery/alekseischusev-mavzoleivilenina.webp",
+    "name": "Мавзолей В И Ленина",
+    "author": "Алексей Щусев",
+    "style": "Модернизм / Конструктивизм, Ар-деко",
+    "date": ""
+  }
 ]
