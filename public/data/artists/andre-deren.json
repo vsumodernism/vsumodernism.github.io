@@ -125,16 +125,7 @@
 			}
 		]
 	},
-                {
-                 "view": "list-thin",
-		"list": [
-			"Статья: <a href=\"https://muzei-mira.com/biografia_hudojnikov/1988-hudozhnik-andre-deren-biografiya-i-kartiny.html\" target=\"_blank\">Андре Дерен — биография и картины</a>",
-			"Е. Беспалова. «Бакст и модернизм»",
-			"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=U2eUz658ATE\" target=\"_blank\">Андре Дерен - от диких красок модернизма до реализма. Обманчивая внешность героини портрета</a>",
-		"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=JNDxBVwPnNc&t=1s\" target=\"_blank\">Величайшие художники мира. От импрессионизма до сюрреализма и абстракционизма. Фовизм. Андре Дерен</a>"
-]
-},
-  {
+	  {
     "view": "headline",
     "title": "Интересные факты"
   },
@@ -145,5 +136,18 @@
       "Во время Первой мировой войны Дерен работал картографом — рисовал карты и схемы. Это усилило его интерес к геометрии.",
       "Любил путешествовать с Вламинком на велосипеде по берегам Сены, с мольбертами и вином в корзине."
     ]
-  }
+  },
+	  {
+    "view": "headline",
+    "title": "Источники"
+  },
+                {
+                 "view": "list-thin",
+		"list": [
+			"Статья: <a href=\"https://muzei-mira.com/biografia_hudojnikov/1988-hudozhnik-andre-deren-biografiya-i-kartiny.html\" target=\"_blank\">Андре Дерен — биография и картины</a>",
+			"Е. Беспалова. «Бакст и модернизм»",
+			"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=U2eUz658ATE\" target=\"_blank\">Андре Дерен - от диких красок модернизма до реализма. Обманчивая внешность героини портрета</a>",
+		"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=JNDxBVwPnNc&t=1s\" target=\"_blank\">Величайшие художники мира. От импрессионизма до сюрреализма и абстракционизма. Фовизм. Андре Дерен</a>"
+]
+}
 ]
