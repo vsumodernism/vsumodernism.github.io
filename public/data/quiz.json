@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "img": "/images/gallery/matiss-tanets-cely.webp", !!
+    "img": "/images/gallery/matiss-tanets-cely.webp",
     "name": "Танец",
     "author": "Анри Матисс",
     "style": "Модернизм / Фовизм",
@@ -217,7 +217,7 @@
   },
   {
     "id": 28,
-    "img": "/images/gallery/rousseau-snovidenie.webp", !!!
+    "img": "/images/gallery/rousseau-snovidenie.webp",
     "name": "Сновидение",
     "author": "Анри Руссо",
     "style": "Модернизм / Примитивизм (наивное искусство)",
