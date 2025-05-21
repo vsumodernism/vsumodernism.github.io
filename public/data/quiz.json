@@ -641,7 +641,7 @@
   },
   {
     "id": 81,
-    "img": "/images/gallery/pavelfilonov-zhivayagolova.webp",
+    "img": "/images/gallery/pavelfilonov-zhivayagolova.webp", !!!
     "name": "Живая голова",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -649,7 +649,7 @@
   },
   {
     "id": 82,
-    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp",
+    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp", !!!
     "name": "Симфония Шостаковича",
     "author": "Павел Филонов",
     "style": "Модернизм / Аналитическое искусство",
@@ -657,7 +657,7 @@
   },
   {
     "id": 83,
-    "img": "/images/gallery/aleksandrrodchenko-belyikrug.webp",
+    "img": "/images/gallery/aleksandrrodchenko-belyikrug.webp", !!!
     "name": "Белый круг",
     "author": "Александр Родченко",
     "style": "Модернизм / Конструктивизм",
@@ -665,7 +665,7 @@
   },
   {
     "id": 84,
-    "img": "/images/gallery/vladimirtatlin-pamyatnikinternatsionala.webp",
+    "img": "/images/gallery/vladimirtatlin-pamyatnikinternatsionala.webp", !!!
     "name": "Памятник III Интернационала",
     "author": "Владимир Татлин",
     "style": "Модернизм / Конструктивизм",
@@ -673,7 +673,7 @@
   },
   {
     "id": 85,
-    "img": "/images/gallery/konstantinmelnikov-domkulturyimivrusakova.webp",
+    "img": "/images/gallery/konstantinmelnikov-domkulturyimivrusakova.webp", !!!
     "name": "Дом культуры им И В Русакова",
     "author": "Константин Мельников",
     "style": "Модернизм / Конструктивизм",
@@ -681,7 +681,7 @@
   },
   {
     "id": 86,
-    "img": "/images/gallery/konstantinmelnikov-dommelnikova.webp",
+    "img": "/images/gallery/konstantinmelnikov-dommelnikova.webp", !!!
     "name": "Дом Мельникова",
     "author": "Константин Мельников",
     "style": "Модернизм / Конструктивизм",
@@ -689,7 +689,7 @@
   },
   {
     "id": 87,
-    "img": "/images/gallery/alekseischusev-mavzoleivilenina.webp",
+    "img": "/images/gallery/alekseischusev-mavzoleivilenina.webp",  !!!
     "name": "Мавзолей В И Ленина",
     "author": "Алексей Щусев",
     "style": "Модернизм / Конструктивизм, Ар-деко",
