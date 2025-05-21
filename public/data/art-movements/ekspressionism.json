@@ -10,21 +10,40 @@
   },
   {
     "view": "image",
-    "img": "/images/art-movements/brak-i-picasso-cubism.webp",
-    "description": "Джордж Брак и Пабло Пикассо, фотография Ли Миллера, 1954 год"
+    "img": "/images/gallery/mynk-krik.webp",
+    "description": "«Крик», Эдвард Мунк"
   }, 
-  {
-    "list": {
-      "title": "Яркие представители",
-      "content": [
-        { "title": "Эдвард Мунк", "link": "/artists" },
-        { "title": "Эрнст Людвиг Кирхнер", "link": "/artists" },
-        { "title": "Франц Марк", "link": "/artists" },
-        { "title": "Оскар Кокошка", "link": "/artists" },
-        { "title": "Пауль Клее", "link": "/artists" },
-        { "title": "Альфред Кубин", "link": "/artists" }
-      ]
-    }
+ {
+  "list": {
+    "title": "Яркие представители",
+    "content": [
+      {
+        "title": "Эдвард Мунк",
+        "link": "https://ru.wikipedia.org/wiki/Мунк,_Эдвард"
+      },
+      {
+        "title": "Эрнст Людвиг Кирхнер",
+        "link": "https://ru.wikipedia.org/wiki/Кирхнер,_Эрнст_Людвиг"
+      },
+      {
+        "title": "Франц Марк",
+        "link": "https://ru.wikipedia.org/wiki/Марк,_Франц"
+      },
+      {
+        "title": "Оскар Кокошка",
+        "link": "https://ru.wikipedia.org/wiki/Кокошка,_Оскар"
+      },
+      {
+        "title": "Пауль Клее",
+        "link": "https://ru.wikipedia.org/wiki/Клее,_Пауль"
+      },
+      {
+        "title": "Альфред Кубин",
+        "link": "https://ru.wikipedia.org/wiki/Кубин,_Альфред"
+      }
+    ]
+  }
+}
   },
   { "view": "headline", "title": "Истоки и становление" },
   { "view": "text", "content": [
