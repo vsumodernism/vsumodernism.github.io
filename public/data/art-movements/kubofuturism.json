@@ -37,6 +37,11 @@
       ]
  }
     },
+	  {
+		"view": "image",
+		"img": "/images/gallery/pomolvka-burluk .webp",
+		"description": "«Помолвка», Давид Давидович Бурлюк"
+	},
 	 {
     "view": "headline",
     "title": "Кубофутуризм в России: энергия формы и языка"
