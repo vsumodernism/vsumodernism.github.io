@@ -523,7 +523,7 @@
     "id": 66,
     "img": "/images/gallery/neizvesten-zalnarodavberline.webp",
     "name": "Зал Народа в Берлине",
-    "author": "Неизвестен",
+    "author": "",
     "style": "Неоклассицизм",
     "date": ""
   },
@@ -569,7 +569,7 @@
   },
   {
     "id": 72,
-    "img": "/images/gallery/frenkgeriivladomilunich-tantsuyuschiidomvprage.webp", ))
+    "img": "/images/gallery/frenkgeriivladomilunich-tantsuyuschiidomvprage.webp", 
     "name": "Танцующий дом в Праге",
     "author": "Фрэнк Гери и Владо Милунич",
     "style": "Модернизм / Деконструктивизм",
