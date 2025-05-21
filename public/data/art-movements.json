@@ -24,6 +24,12 @@
 		"img": "/images/art-movements/futurism.webp"
 	},
 	{
+		"title": "Кубофутуризм",
+		"slug": "kubofuturism",
+		"description": "искусство белорусского и русского авангарда",
+		"img": "/images/gallery/markshagal-nadgorodom.webp"
+	},
+	{
 		"title": "Экспрессионизм",
 		"slug": "ekspressionism",
 		"description": "",
@@ -34,12 +40,6 @@
 		"slug": "abstrakcionism",
 		"description": "супрематизм, неопластицизм, орфизм, абстрактный экспрессионизм, постживописный абстракционизм",
 		"img": "/images/art-movements/abstrakcionism.webp"
-	},
-	{
-		"title": "Авангард",
-		"slug": "avangard",
-		"description": "искусство белорусского и русского авангарда",
-		"img": "/images/gallery/markshagal-nadgorodom.webp"
 	},
 	{
 		"title": "Дадаизм",
