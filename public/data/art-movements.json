@@ -36,6 +36,12 @@
 		"img": "/images/art-movements/abstrakcionism.webp"
 	},
 	{
+		"title": "Абстракционизм",
+		"slug": "avangard",
+		"description": "искусство белорусского и русского авангарда",
+		"img": "/images/gallery/markshagal-nadgorodom.webp"
+	},
+	{
 		"title": "Дадаизм",
 		"slug": "dadaism",
 		"description": "",
