@@ -38,6 +38,7 @@
                         v-for="slide in tests"
                         :key="slide.id"
                         class="slider__slide"
+                        :style="{flex: `0 0 calc(100% / ${tests.length})`}"
                     >
                         <div class="quiz-card" :class="{'quiz-card_active': slide.active}" @click="onFlipCard(slide)">
                             <div class="quiz-card__inner" >
