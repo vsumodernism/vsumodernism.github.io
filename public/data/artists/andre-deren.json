@@ -121,7 +121,9 @@
 		"pictures": [
 			{
 				"img": "/images/gallery/deren-arlekin-i-pyero.webp",
-				"name": "Арлекино и Пьеро"
+				"name": "Арлекино и Пьеро",
+				 "view": "fields",
+				"bg": "8E5948"
 			}
 		]
 	},
