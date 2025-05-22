@@ -27,7 +27,12 @@
 		"title": "Кубофутуризм",
 		"slug": "kubofuturism",
 		"description": "искусство белорусского и русского авангарда",
-		"img": "/images/gallery/markshagal-nadgorodom.webp"
+		"img": "/images/gallery/pomolvka-burluk.webp"
+	},
+	{
+		"title": "Аналитическое Искусство",
+		"slug": "analit-iskusstvo",
+		"img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp"
 	},
 	{
 		"title": "Экспрессионизм",
