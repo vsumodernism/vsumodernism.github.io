@@ -50,8 +50,8 @@
   },
   {
     "view": "image",
-    "img": "/images/art-movements/filonov-detail.webp",
-    "description": "Деталь картины Павла Филонова"
+    "img": "/images/gallery/filonov-formula-vesny.webp",
+    "description": "Павел Филонов,  «Формула весны»"
   },
   {
     "view": "headline",
@@ -68,17 +68,19 @@
     "title": "Известные произведения"
   },
   {
-    "view": "list-thin",
-    "list": [
-      "Формула революции",
-      "Голова пролетариата",
-      "Иллюстрации к эпосу Калевала"
-    ]
+    "view": "image",
+    "img": "/images/gallery/filonov-revolucia.webp",
+    "description": "П.Н. Филонов, «Формула революции»"
   },
   {
     "view": "image",
-    "img": "/images/art-movements/filonov-formula.webp",
-    "description": "П.Н. Филонов, «Формула революции»"
+    "img": "/images/gallery/pavelfilonov-simfoniyashostakovicha.webp",
+    "description": "П.Н. Филонов, «Ударники (Мастера Аналитического искусства)»"
+  },
+    {
+    "view": "image",
+    "img": "/images/gallery/pavelfilonov-zhivayagolova (1).webp",
+    "description": "П.Н. Филонов, «Живая голова»"
   },
   {
     "view": "headline",
