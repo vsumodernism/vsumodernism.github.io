@@ -45,11 +45,6 @@
    }
 },
   {
-    "view": "image",
-    "img": "/images/gallery/kandinsky-in-studi.webp",
-    "description": ""
-  },
-  {
     "view": "headline",
     "title": "Исторические и политические предпосылки"
   },
