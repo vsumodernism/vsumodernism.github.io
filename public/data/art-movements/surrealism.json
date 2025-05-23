@@ -67,8 +67,13 @@
   },
   {
     "view": "image",
-    "img": "/images/gallery/dali-memory.webp",
-    "description": "Сальвадор Дали. «Постоянство памяти», 1931"
+    "img": "/images/gallery/salvadordali-postoyanstvopamyati.webp",
+    "description": "Сальвадор Дали. «Постоянство памяти»"
+  },
+    {
+    "view": "image",
+    "img": "/images/gallery/salvadordali-myagkayakonstruktsiyasvarenymibobami.webp.webp",
+    "description": "Сальвадор Дали. «Мягкая конструкция с варёными бобами»"
   },
   {
     "view": "headline",
@@ -83,8 +88,13 @@
   },
   {
     "view": "image",
-    "img": "/images/gallery/magritte-son.webp",
-    "description": "Рене Магритт. «Сын человеческий», 1964"
+    "img": "/images/gallery/renemagritt-golkonda.webp",
+    "description": "Рене Магритт. «Голконда»"
+  },
+    {
+    "view": "image",
+    "img": "/images/gallery/renemagritt-predatelstvoobrazov.webp",
+    "description": "Рене Магритт. «Предательство образова»"
   },
   {
     "view": "headline",
