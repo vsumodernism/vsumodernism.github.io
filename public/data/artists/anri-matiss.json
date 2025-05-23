@@ -83,7 +83,7 @@
    
     "pictures": [
       {
-        "img": "/images/gallery/gallery/zhenskiy-portret.webp",
+        "img": "/images/gallery/zhenskiy-portret.webp",
         "name": "Женский портрет",
         "view": "fields",
         "bg": "F4F4F4"
@@ -100,7 +100,7 @@
    
     "pictures": [
       {
-        "img": "/images/gallery/gallery/matiss-gannet.webp",
+        "img": "/images/gallery/matiss-gannet.webp",
         "name": "Жанет I–V",
         "view": "fields",
         "bg": "F4F4F4"
@@ -115,13 +115,13 @@
  ],
     "pictures": [
       {
-        "img": "/images/gallery/gallery/gallery/ikar-dzhaz.webp",
+        "img": "/images/gallery/ikar-dzhaz.webp",
         "name": "Икар. Иллюстрации к книге Джаз",
         "view": "fields",
         "bg": "F4F4F4"
       },
   {
-        "img": "/images/gallery/gallery/gallery/matiss-golybaya-obnazhennaya.webp",
+        "img": "/images/gallery/matiss-golybaya-obnazhennaya.webp",
         "name": "Голубая обнаженная",
         "view": "fields",
         "bg": "F4F4F4"
