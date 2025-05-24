@@ -81,6 +81,12 @@
 		"description": "",
 		"img": "/images/art-movements/conceptualism.webp"
 	},
+	  {
+		"title": "Акционизм",
+		"slug": "akcionism",
+		"description": "",
+		"img": "/images/art-movements/akcionism.webp"
+	},
 	 {
 		"title": "Конструктивизм",
 		"slug": "konstruktivism",
