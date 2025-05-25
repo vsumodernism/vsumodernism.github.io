@@ -1,7 +1,7 @@
 <template>
 	<div>
         <h1 class="title_size_40 mb-15">Персоналии</h1>
-        <p class="text-gray mb-30">{{artists.length}} авторов</p>
+        <p class="text-gray mb-30">{{artists.length}} {{$helpers.pluralizeRu(artists.length, ['автор', 'автора', 'авторов'])}}</p>
         
         <Input v-model="search" placeholder="Поиск...">
             <template #prepend>

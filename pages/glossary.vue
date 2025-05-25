@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="title_size_40 mb-15">Глоссарий</h1>
-        <p class="text-gray mb-30">{{terms.length}} терминов</p>
+        <p class="text-gray mb-30">{{terms.length}} {{$helpers.pluralizeRu(countPictures, ['термин', 'термина', 'терминов'])}}</p>
         
         <Input v-model="search" placeholder="Поиск...">
             <template #prepend>
