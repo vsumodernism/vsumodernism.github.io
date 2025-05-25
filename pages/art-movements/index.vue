@@ -1,7 +1,7 @@
 <template>
 	<div>
         <h1 class="title_size_40 mb-15">Основные направления модернизма</h1>
-        <p class="text-gray">Текст который я могу менять</p>
+        <p class="text-gray">{{movements.length}} {{$helpers.pluralizeRu(movements.length, ['направление', 'направления', 'направлений'])}}</p>
         
         <div v-if="movements.length" class="list-movements mt-40">
             <div v-for="card in movements" class="card-movements" @click="$router.push(`/art-movements/${card.slug}`)">
