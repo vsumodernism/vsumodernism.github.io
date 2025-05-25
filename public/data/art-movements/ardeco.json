@@ -33,11 +33,6 @@
     ]
     }
   },
-      {
-    "view": "image",
-    "img": "/images/gallery/osmolovskii-orat.webp",
-    "description": "Анатолий Осмоловский «После постмодернизма остается только орать», 1992."
-  },
   {
     "view": "headline",
     "title": "Истоки и развитие"
