@@ -31,6 +31,7 @@ import Button from "~/components/UI/Button.vue";
 }
 
 .is-mobile .test-knowledge {
+    display: none;
     height: 153px;
 }
 
