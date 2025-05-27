@@ -84,12 +84,12 @@
   {
     "view": "list-thin",
     "list": [
-      "https://cih.ru/ae/af68.html",
-      "https://vae.by/blog/funkcionalnyj-stil-v-arxitekture/",
-      "https://novikov-architect.ru/funkcionalizm_style.htm",
-      "https://www.youtube.com/watch?v=w7jVLkQvhFg",
-      "https://www.youtube.com/watch?v=tRVvnRtfuhk"
-    ]
+     "Статья: <a href=\"https://cih.ru/ae/af68.html\" target=\"_blank\">Функционализм: основные принципы и развитие</a>",
+    "Статья: <a href=\"https://vae.by/blog/funkcionalnyj-stil-v-arxitekture/\" target=\"_blank\">Функциональный стиль в архитектуре</a>",
+    "Статья: <a href=\"https://novikov-architect.ru/funkcionalizm_style.htm\" target=\"_blank\">История и философия архитектурного функционализма</a>",
+    "Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=w7jVLkQvhFg\" target=\"_blank\">Функционализм. Лекция по архитектуре XX века</a>",
+    "Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=tRVvnRtfuhk\" target=\"_blank\">Архитектура функционализма. Примеры и идеи</a>"
+  ]
   }
 ]
 
