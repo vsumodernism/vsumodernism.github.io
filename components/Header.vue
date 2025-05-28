@@ -5,7 +5,7 @@
             <IconHamburger v-else/>
         </div>
 
-        <Button to="/">Изучать Артефакты</Button>
+        <Button to="/quiz">Изучать Артефакты</Button>
 	</header>
 </template>
 

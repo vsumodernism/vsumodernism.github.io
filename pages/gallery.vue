@@ -4,7 +4,7 @@
         <p class="text-gray mb-30">{{countPictures}} {{$helpers.pluralizeRu(countPictures, ['произведение', 'произведения', 'произведений'])}}</p>
         
         <div class="tools">
-            <Input v-model="search" placeholder="Поиск по названию...">
+            <Input v-model="search" placeholder="Поиск по названию..." clear>
                 <template #prepend>
                     <IconSearch/>
                 </template>
@@ -28,7 +28,7 @@
                     <p class="picture__author">{{picture.author}}</p>
                 </div>
             </div>
-            <div class="empty-result">
+            <div v-else class="empty-result">
                 Не найдены произведения
             </div>
         </template>
@@ -189,12 +189,24 @@ export default defineNuxtComponent({
     display: flex;
     gap: 20px;
     
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
+    
     :deep(.input) {
         width: 300px;
+        
+        @media (max-width: 425px) {
+            width: 100%;
+        }
     }
 
     :deep(.select) {
         width: 300px;
+
+        @media (max-width: 425px) {
+            width: 100%;
+        }
     }
 }
 .empty-result {
@@ -221,6 +233,10 @@ export default defineNuxtComponent({
     
     .picture {
         max-width: 350px;
+        
+        @media (max-width: 425px) {
+            max-width: 100%;
+        }
     }
 }
 
@@ -277,6 +293,10 @@ export default defineNuxtComponent({
     display: flex;
     gap: 20px;
     //max-height: 470px;
+    
+    @media (max-width: 425px) {
+        flex-direction: column;
+    }
     
     &_2 {
         .picture__cover {
