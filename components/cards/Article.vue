@@ -79,14 +79,20 @@ export default defineComponent({
                 <div v-if="block?.list" class="article-intro__list">
                     <span class="article-intro__list-title">{{block.list.title}}: </span>
                     <span v-html="parseIntroList(block.list.content)"/>
-                    <!--                    <template v-for="item in block.list.content">-->
-                    <!--                        <template v-if="typeof item === 'string'">{{item}},</template>-->
-                    <!--                        -->
-                    <!--                        <a v-else-if="typeof item === 'object'" href="item.link" class="">-->
-                    <!--                            {{item.title}}-->
-                    <!--                        </a>-->
-                    <!--                    </template>-->
                 </div>
+                
+                <template v-if="block?.authors">
+                    <div class="article-intro__authors-title">{{block?.authors.title}}</div>
+                    <div class="article-intro__authors">
+                        <div v-for="author in block.authors.items" class="article-author">
+                            <img :src="author.avatar" class="article-author__avatar" alt=""/>
+                            <div class="article-author__content">
+                                <span class="article-author__name">{{author.name}}</span>
+                                <span class="article-author__description" v-html="author.description"></span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
             </div>
             
             <blockquote v-else-if="block.view === 'quote'" v-html="block.content"></blockquote>
@@ -164,7 +170,11 @@ export default defineComponent({
             <ul v-else-if="['list-bold', 'list-thin'].includes(block.view)" class="article-list" :class="{'article-list_thin': block.view === 'list-thin'}">
                 <li v-for="item in block.list" class="article-list__item" v-html="item"></li>
             </ul>
-        
+            
+            <div v-else-if="block.view === 'video'" class="video">
+                <iframe class="video__src" :src="`https://www.youtube.com/embed/${block.video_id}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <span class="video__description">«{{block.description}}»</span>
+            </div>
         </template>
     </article>
 </template>
