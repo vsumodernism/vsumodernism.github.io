@@ -60,8 +60,8 @@ export default defineComponent({
             
             <div v-if="block.view === 'intro'" class="article-intro">
                 <img v-if="block?.avatar" :src="block.avatar" class="article-intro__avatar"/>
-                <h1 class="title_size_40 mb-15">{{article[0]?.title}}</h1>
-                <div class="text-gray mb-15">{{article[0]?.dates}}</div>
+                <h1 v-if="block?.title" class="title_size_40 mb-15">{{block.title}}</h1>
+                <div v-if="block?.dates" class="text-gray mb-15">{{block.dates}}</div>
                 
                 <template v-for="item in block?.content">
                     <p v-if="typeof item === 'string'" v-html="item"></p>
