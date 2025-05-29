@@ -5,7 +5,7 @@
 
 <script>
 import Article from "~/components/cards/Article.vue";
-import Slider from "~/components/cards/Slider.vue";
+import Slider from "~/components/UI/Slider.vue";
 
 export default defineNuxtComponent({
 	name: 'PageHome',
