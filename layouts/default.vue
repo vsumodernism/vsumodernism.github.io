@@ -65,10 +65,12 @@ export default {
     }
     
     &__main {
+        width: calc(100% - 280px);
         position: relative;
         padding: 50px 36px;
         
         @media (max-width: 425px) {
+            width: 100%;
             padding: 95px 20px 30px;
         }
     }

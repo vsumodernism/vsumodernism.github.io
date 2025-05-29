@@ -1,4 +1,5 @@
 <template>
+    <Slider v-if="article?.length && article[0].view === 'slider'" :article="article[0]"/>
     <Article :article="article"/>
 </template>
 
