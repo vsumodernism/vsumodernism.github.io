@@ -5,11 +5,13 @@
 
 <script>
 import Article from "~/components/cards/Article.vue";
+import Slider from "~/components/cards/Slider.vue";
 
 export default defineNuxtComponent({
 	name: 'PageHome',
     components: {
-        Article
+        Article,
+        Slider
     },
     data() {
         return {

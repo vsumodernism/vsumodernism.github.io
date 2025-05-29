@@ -101,10 +101,11 @@ export default {
 }
 
 
-//:deep(.swiper-pagination-bullet) {
-//	background-color: #fff;
-//	width: 15px;
-//	height: 15px;
-//	margin: 0 8px !important;
-//}
+:deep(.swiper-pagination-bullet) {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 10px;
+	height: 10px;
+    opacity: 1;
+	//margin: 0 8px !important;
+}
 </style>
