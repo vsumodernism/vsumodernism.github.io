@@ -14,11 +14,11 @@
     "title": "Яркие представители",
     "content": [
       {
-        "title": "Луис Кан",
+        "title": "Ээро Сааринен",
         "link": "/architects/kahn"
       },
       {
-        "title": "Поль Рудольф",
+        "title": "Кэндзо Тангэ",
         "link": "/architects/rudolph"
       },
       {
@@ -29,9 +29,9 @@
         "title": "Ян Бакема",
         "link": "/architects/bakema"
       }
-    ]
-  }
-},
+ ]
+    }
+  },
 	  {
 		"view": "image",
 		"img": "/images/gallery/olimp-tokio-strukturalism.webp",
