@@ -10,6 +10,29 @@
     ]
   },
   {
+  "list": {
+    "title": "Яркие представители",
+    "content": [
+      {
+        "title": "Луис Кан",
+        "link": "/architects/kahn"
+      },
+      {
+        "title": "Поль Рудольф",
+        "link": "/architects/rudolph"
+      },
+      {
+        "title": "Алдо ван Эйк",
+        "link": "/architects/eyck"
+      },
+      {
+        "title": "Ян Бакема",
+        "link": "/architects/bakema"
+      }
+    ]
+  }
+},
+  {
     "view": "headline",
     "title": "Истоки и философский контекст"
   },
