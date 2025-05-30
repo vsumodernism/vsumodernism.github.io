@@ -32,10 +32,10 @@
     ]
   }
 },
-  {
+	  {
 		"view": "image",
-		"img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp",
-		"description": "«Спящая цыганка», Анри Руссо"
+		"img": "/images/gallery/olimp-tokio-strukturalism.webp",
+		"description": "Кэндзо Тангэ. Олимпийский  центр  в  Токио  (Япония)"
 	},
   {
     "view": "headline",
@@ -52,11 +52,6 @@
 		"view": "image",
 		"img": "/images/gallery/aeroport-kennedi-strukturalism.webp",
 		"description": "Ээро Сааринен. Аэровокзал аэропорта имени Джона Кеннеди в Нью-Йорке (США)"
-	},
-  {
-		"view": "image",
-		"img": "/images/gallery/olimp-tokio-strukturalism.webp",
-		"description": "Кэндзо Тангэ. Олимпийский  центр  в  Токио  (Япония)"
 	},
   {
     "view": "headline",
