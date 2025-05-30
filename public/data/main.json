@@ -3,7 +3,7 @@
 		"view": "slider",
 		"desktop": [
 			{
-				"img": "/images/art-movements/andy-worhol-web.webp",
+				"img": "/images/art-movements/andy-worhol-web.jpg",
 				"alt": ""
 			},
 			{
@@ -17,7 +17,7 @@
 		],
 		"mobile": [
 			{
-				"img": "/images/art-movements/andy-worhol-mob.webp",
+				"img": "/images/art-movements/andy-worhol-mob.jpg",
 				"alt": ""
 			},
 			{
