@@ -57,18 +57,17 @@
 		"Он избегал светской жизни и не принадлежал ни к одной группе. В отличие от многих модернистов, Руо не стремился к художественным объединениям и тусовкам. Он говорил: «Я не фовист. Я не символист. Я просто человек, который видит боль — и хочет говорить о ней.»"
 	]
   },
-	  {
-    "view": "headline",
-    "title": "Источники"
-  },
-                {
-                 "view": "list-thin",
-		"list": [
-			"Статья: <a href=\"https://muzei-mira.com/biografia_hudojnikov/1988-hudozhnik-andre-deren-biografiya-i-kartiny.html\" target=\"_blank\">Андре Дерен — биография и картины</a>",
-			"Е. Беспалова. «Бакст и модернизм»",
-			"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=U2eUz658ATE\" target=\"_blank\">Андре Дерен - от диких красок модернизма до реализма. Обманчивая внешность героини портрета</a>",
-		"Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=JNDxBVwPnNc&t=1s\" target=\"_blank\">Величайшие художники мира. От импрессионизма до сюрреализма и абстракционизма. Фовизм. Андре Дерен</a>"
-]
+	{
+  "view": "headline",
+  "title": "Источники"
+},
+{
+  "view": "list-thin",
+  "list": [
+    "Официальный сайт: <a href=\"https://rouault.org/en/biography/final-symphony-1948-1958/\" target=\"_blank\">Georges Rouault Foundation</a>",
+    "Статья: <a href=\"https://artelectronics.ru/posts/propoved-zhorzha-ruo\" target=\"_blank\">Проповедь Жоржа Руо — живопись как свидетельство</a>",
+    "Статья: <a href=\"https://artchive.ru/artists/2759~Zhorzh_Ruo/biography\" target=\"_blank\">Жорж Руо — биография на Artchive</a>"
+  ]
 }
 ]
 
