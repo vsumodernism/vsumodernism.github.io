@@ -35,7 +35,8 @@ export default defineNuxtComponent({
 <template>
     <div class="nav">
         <h2 class="title_size_16 mb-5">Модернизм<br> в искусстве 20 века</h2>
-        <p class="title_size_12 text-gray" style="margin-bottom: 73px">учебное пособие для лекций по истории искусств в ВГУ им. Машерова</p>
+        <p class="title_size_12 text-gray" style="margin-bottom: 73px">УО «Витебский государственный университет имени П.М. Машерова»,
+художественно-графический факультет, кафедра изобразительного искусства.</p>
         <ul class="mb-40">
             <li>
                 <NuxtLink to="/" class="nav__link" @click="closeMenu">
