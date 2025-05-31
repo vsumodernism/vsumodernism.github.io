@@ -77,22 +77,15 @@
     "view": "headline",
     "title": "Избранные произведения"
   },
-  {
-    "view": "list-thin",
-    "list": [
-      "Чёрный квадрат (1915)",
-      "Красный квадрат (1915)",
-      "Супрематическая композиция (1916)",
-      "Белое на белом (1918)",
-      "Архитектоны (1923–1929)",
-      "Голова крестьянина (1928–1932)",
-      "Женщина с гребнем (1932)"
-    ]
-  },
     {
     "view": "image",
     "img": "/images/gallery/malevich-zhenschina-s-viodrami.webp",
     "description": "«Женщина с ведрами», Казимир Малевич"
+  },
+   {
+    "view": "image",
+    "img": "/images/gallery/malevich-sportsmeny.webp",
+    "description": "«Спортсмены», Казимир Малевич"
   },
   {
     "view": "headline",
