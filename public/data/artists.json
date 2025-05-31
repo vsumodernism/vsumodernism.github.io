@@ -322,28 +322,27 @@
   "slug": "el-lissitzky",
   "dates": "1890–1941",
   "description": "Русский и советский художник, архитектор, график, дизайнер и теоретик искусства, один из ключевых представителей авангарда. Родился в Пскове, учился в Дармштадте и Петербурге. Был близок к Казимиру Малевичу, развивал идеи супрематизма и создал собственное направление — проуны (проект утвердительного нового). Активно работал в типографике, архитектуре и выставочном дизайне, сочетая рациональность конструктивизма с утопическим пафосом нового мира. Лисицкий сыграл важную роль в международной репрезентации советского искусства, его идеи повлияли на Баухауз и европейский модернизм.",
-  "avatar": "/images/artists/el-lissitzky/lissitzky-avatar.webp",
+  "avatar": "/images/artists/pablo-picaso/lissitzky-avatar.webp",
   "tags": [
     "Супрематизм",
-    "Конструктивизм",
-    "Проуны"
+    "Конструктивизм"
   ],
   "pictures": [
     {
-      "img": "/images/gallery/ellissitzky-proun99.webp",
-      "name": "Проун 99",
+      "img": "/images/gallery/lisitskii-sbornik.webp",
+      "name": "Для голоса",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/ellissitzky-beatwhites.webp",
+      "img": "/images/gallery/ellisitskii-klinomkrasnymbeibelyh.webp",
       "name": "Клином красным бей белых!",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/ellissitzky-roomconstructivism.webp",
-      "name": "Проект выставочного зала",
+      "img": "/images/gallery/ellissitzky-kollazh.webp",
+      "name": "Коллаж. Проект первого горизонтального небоскреба для Никитских ворот",
       "view": "fields",
       "bg": "313131"
     }
