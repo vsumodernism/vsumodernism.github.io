@@ -141,5 +141,19 @@
       "Биотек — это не просто архитектура красивых изгибов. Это архитектура нового мышления: взаимозависимости, эмпатии, коэволюции с природой. Он смотрит не только на формы, но и на процессы, видит здание не как объект, а как организм.",
       "\"Природа уже всё изобрела. Нам остаётся научиться у неё\" — принцип, который определяет логику архитекторов-биотековцев по всему миру."
     ]
-  }
+  },
+  {
+  "view": "headline",
+  "title": "Источники"
+},
+{
+  "view": "list-thin",
+  "list": [
+    "Статья: <a href=\"https://seo.belstu.by/Yurkevich/biotech.html\" target=\"_blank\">Биотек: бионика и архитектура — BELSTU</a>",
+    "Статья: <a href=\"https://design-rise.ru/stati/stil-biotek-v-dizajne-interera-i-arxitekture/\" target=\"_blank\">Стиль биотек в архитектуре и интерьере — Design Rise</a>",
+    "Статья: <a href=\"https://realty.ria.ru/20150217/404330777.html\" target=\"_blank\">Архитектура в стиле биотек — РИА Недвижимость</a>",
+    "Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=UuEJ7r1H_UE\" target=\"_blank\">Биотек: архитектура живого будущего</a>",
+    "Лекция на YouTube: <a href=\"https://www.youtube.com/watch?v=ZMYuZZD8f4o\" target=\"_blank\">Бионика и архитектура: принципы биотека</a>"
+  ]
+}
 ]
