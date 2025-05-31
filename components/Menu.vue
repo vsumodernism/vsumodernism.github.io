@@ -96,6 +96,7 @@ export default defineNuxtComponent({
     height: calc(100vh - 20px);
     padding: 20px 15px;
     border-radius: 7px;
+    overflow-y: auto;
     background-color: var(--neutrals1);
     
     &__link {
