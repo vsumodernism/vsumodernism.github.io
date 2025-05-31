@@ -353,7 +353,7 @@
   "slug": "marcel-duchamp",
   "dates": "1887–1968",
   "description": "Франко-американский художник, один из самых радикальных новаторов XX века, основоположник концептуального искусства и движения дада. Родился во Франции, учился в Руане и Париже, в начале карьеры увлекался кубизмом. В 1913 году создал «ready-made» — объекты, превращённые в искусство без участия кисти художника. Самый известный пример — «Фонтан» (писсуар, подписанный псевдонимом). Дюшан отошёл от традиционной живописи ради интеллектуальной провокации, оказав огромное влияние на авангард, постмодернизм и современное искусство.",
-  "avatar": "/images/artists/pablo-picaso/duchamp-avatar.webp",
+  "avatar": "/images/gallery/marcel-duchamp.webp",
   "tags": [
     "Дадаизм",
     "Концептуализм",
@@ -361,14 +361,14 @@
   ],
   "pictures": [
     {
-      "img": "/images/gallery/marcelduchamp-fountain.webp",
+      "img": "/images/gallery/marseldyushan-fontan-2.webp",
       "name": "Фонтан",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/marcelduchamp-nude.webp",
-      "name": "Обнажённая, спускающаяся по лестнице",
+      "img": "/images/gallery/dushan-vozdyh-parizha.webp",
+      "name": "Воздух Парижа",
       "view": "fields",
       "bg": "313131"
     },
