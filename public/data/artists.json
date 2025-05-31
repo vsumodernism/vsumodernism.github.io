@@ -261,7 +261,8 @@
   "avatar": "/images/artists/pablo-picaso/chagall-avatar.webp",
   "tags": [
     "Символизм",
-    "Модернизм"
+    "Примитивизм",
+    "Экспрессионизм"
   ],
   "pictures": [
     {
@@ -297,20 +298,20 @@
   ],
   "pictures": [
     {
-      "img": "/images/gallery/liubovpopova-constructivistcomposition.webp",
-      "name": "Конструктивистская композиция",
+      "img": "/images/gallery/liubovpopova-suprim-dlya-mastersk.webp",
+      "name": "Супрематистский дизайн для вышивальной мастерскойя",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/liubovpopova-figures.webp",
-      "name": "Фигуры",
+      "img": "/images/gallery/liubovpopova-put-zhen.webp",
+      "name": "Путешествующая женщина",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/liubovpopova-spaceforce.webp",
-      "name": "Космическая сила",
+      "img": "/images/gallery/liubovpopova-silovaya-konstr.webp",
+      "name": "Пространственно-силовая конструкция",
       "view": "fields",
       "bg": "313131"
     }
