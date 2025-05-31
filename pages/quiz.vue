@@ -367,7 +367,7 @@ export default defineNuxtComponent({
         @media(max-width: 425px) {
             top: 50%;
             translate: 0 -50%;
-            height: auto;
+            //height: auto;
         }
     }
     
