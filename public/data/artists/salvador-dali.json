@@ -19,7 +19,6 @@
     "img": "/images/gallery/dali-portrait.webp",
     "description": "Сальвадор Дали на борту океанского лайнера «Нормандия», прибывающего в Нью-Йорк, 1936 г. (колоризация)"
   },
-  },
   {
     "view": "headline",
     "title": "Жизнь и становление"
@@ -57,7 +56,7 @@
            {
     "img": "/images/gallery/salvadordali-poeziaameriki.webp",
     "description": "«Поэзия Америки»"
-  },
+  }
     ]
   },
        {
