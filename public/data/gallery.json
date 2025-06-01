@@ -1381,5 +1381,97 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/dzhinoseverini-tanec-carnaval.webp",
+				"name": "Танец Пан-Пан в Монико",
+				"author": "Джино Северини",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/dzhinoseverini-ieroglif.webp",
+				"name": "Динамический иероглиф бала Табарэн",
+				"author": "Джино Северини",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/russolo-vosstanie.webp",
+				"name": "Восстание",
+				"author": "Луиджи Руссоло",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/russolo-dinamism-auto.webp",
+				"name": "Динамизм автомобиля",
+				"author": "Луиджи Руссоло",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/karra-marinetti.webp",
+				"name": "Портрет  Маринетти",
+				"author": "Карло  Карра",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/karra-pohorony-anarh.webp",
+				"name": "Похороны анархиста Галли",
+				"author": "Карло  Карра",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/art-movements/ekspressionism.webp",
+				"name": "Крик",
+				"author": "Эдвард Мунк",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/ernstlyudvigkirhner-avtoportretsmodelyu.web",
+				"name": "Автопортрет с моделью",
+			"author": "Эрнст Людвиг Кирхнер",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/ernstlyudvigkirhner-ylic-v-berline.webp",
+				"name": "Уличная сцена в Берлине",
+				"author": "Эрнст Людвиг Кирхнер",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
