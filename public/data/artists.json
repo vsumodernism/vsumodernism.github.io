@@ -628,20 +628,20 @@
   ],
   "pictures": [
     {
-      "img": "/images/gallery/tatlin-tower.webp",
+      "img": "/images/gallery/tatlin-3-inrenac.webp",
       "name": "Башня Татлина",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/tatlin-counterrelief.webp",
-      "name": "Контррельеф",
+      "img": "/images/gallery/tatlin-motros.webp",
+      "name": "Матрос",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/tatlin-letatlin.webp",
-      "name": "Летатлин",
+      "img": "/images/gallery/tatlin-relief.webp",
+      "name": "Рельеф",
       "view": "fields",
       "bg": "313131"
     }
