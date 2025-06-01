@@ -5,19 +5,19 @@
 			{
 				"img": "/images/gallery/868f9ed09b7e561652e65f145fd045b9d9fb6a21.png",
 				"name": "Женщина в шляпе",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/image.jpg",
 				"name": "Мадам Матисс",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/igra-v-shary.jpg",
 				"name": "Игра в шары",
-				"author": "Па́бло Пика́ссо",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields",
 				"bg": "313131"
@@ -30,13 +30,13 @@
 			{
 				"img": "/images/gallery/razgovor.jpg",
 				"name": "Разговор",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/matiss-muzyka-cely.webp",
 				"name": "Музыка",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields",
 				"bg": "EDEDED"
@@ -49,7 +49,7 @@
 			{
 				"img": "/images/gallery/matiss-tanets-cely.webp",
 				"name": "Танец",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields",
 				"bg": "EDEDED"
@@ -57,7 +57,7 @@
 			{
 				"img": "/images/gallery/frukty-cvety-panno.jpg",
 				"name": "Фрукты, цветы, панно Танец",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			}
 		]
@@ -68,13 +68,13 @@
 			{
 				"img": "/images/gallery/vaza-s-irisami.jpg",
 				"name": "Ваза с ирисами",
-				"author": "Па́бло Пика́ссо",
+				"author": "Анри Матисс",
 				"style": "Кубизм"
 			},
 			{
 				"img": "/images/gallery/ispanskiy-natyurmort.jpg",
 				"name": "Испанский натюрморт",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			}
 		]
@@ -85,13 +85,13 @@
 			{
 				"img": "/images/gallery/krasnye-rybki.webp",
 				"name": "Красные рыбки",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/semport.webp",
 				"name": "Семейный портрет",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			}
 		]
@@ -102,19 +102,19 @@
 			{
 				"img": "/images/gallery/okno-v-tanzher.webp",
 				"name": "Окно в Танжере",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/interer-s-krasnymi-rybkami.webp",
 				"name": "Интерьер с красными рыбками",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/okno.webp",
 				"name": "Окно",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields"
 			}
@@ -126,13 +126,13 @@
 			{
 				"img": "/images/gallery/obnazhyonnaya-v-kresle.webp",
 				"name": "Обнажённая в кресле",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/matiss-zensina-na-divane-cely.webp",
 				"name": "Женщина на диване",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields",
 				"bg": "EDEDED"
@@ -145,13 +145,13 @@
 			{
 				"img": "/images/gallery/odaliska-garmoniya-v-krasnom.webp",
 				"name": "Одалиска. Гармония в красном",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/arabskaya-kofeynya.webp",
 				"name": "Арабская кофейня",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			}
 		]
@@ -162,19 +162,19 @@
 			{
 				"img": "/images/gallery/muzyka.webp",
 				"name": "Музыка",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/rumynskaya-bluza.webp",
 				"name": "Румынская блуза",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/natyurmort-na-sinem-stole.webp",
 				"name": "Натюрморт на синем столе",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields"
 			}
@@ -186,13 +186,13 @@
 			{
 				"img": "/images/gallery/egipetskiy-zanaves.webp",
 				"name": "Египетский занавес",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/loshad-naezdnica-i-kloun-dzhaz.webp",
 				"name": "Лошадь, наездница и клоун». Иллюстрация к книге «Джаз»",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			}
 		]
@@ -203,19 +203,19 @@
 			{
 				"img": "/images/gallery/ikar-dzhaz.webp",
 				"name": "«Икар». Иллюстрация к книге «Джаз»",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/zhenskiy-portret.webp",
 				"name": "Женский портрет",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм"
 			},
 			{
 				"img": "/images/gallery/krasnaya-komnata.webp",
 				"name": "Красная комната",
-				"author": "Анри́ Мати́сс",
+				"author": "Анри Матисс",
 				"style": "Фовизм",
 				"view": "fields"
 			}
@@ -1926,6 +1926,77 @@
 				"name": "Синие шесты. № 11",
 				"author": "Джексон Поллок",
 				"style": "Абстракционизм (абстр. экспрессионизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/markrotko-belyitsentr.webp",
+				"name": "Белый центр",
+				"author": "Марк Ротко",
+				"style": "Постживописный абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/markrotko-10.webp",
+				"name": "№ 10",
+			"author": "Марк Ротко",
+				"style": "Постживописный абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/markrotko-1.webp",
+				"name": "Королевский красный и синий. № 1",
+				"author": "Марк Ротко",
+				"style": "Постживописный абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/marseldyushan-fontan-2.webp",
+				"name": "Фонтан",
+				"author": "Марсель Дюшан",
+				"style": "Дадаизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/dushan-portr-s-kolesom.webp",
+				"name": "Велосипедное колесо",
+				"author": "Марсель Дюшан",
+				"style": "Дадаизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/dushan-lhooq.webp",
+				"name": "L.H.O.O.Q",
+				"author": "Марсель Дюшан",
+				"style": "Дадаизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/fransispikabia-paradlyubvi.webp",
+				"name": "Парад  любви",
+				"author": "Франсис Пикабия",
+				"style": "Дадаизм",
 				"view": "fields",
 				"bg": "EDEDED"
 			}
