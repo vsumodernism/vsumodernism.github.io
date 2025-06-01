@@ -1657,5 +1657,26 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/frensisbekon-etyudkportretupapyinnokentiya.webp",
+				"name": "Этюд к портрету папы Иннокентия X",
+				"author": "Фрэнсис Бэкон",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/bekon-3-y-raspiatiya.webp",
+				"name": "Три этюда к фигурам у подножия Распятия",
+				"author": "Фрэнсис Бэкон",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
