@@ -6,7 +6,6 @@
         <ol v-if="terms.length" class="list-terms mt-40">
             <li v-for="card in terms" class="card-term">
                 <p class="card-term__description">{{card.text}} <a v-if="card.link" class="card-term__link" :href="card.link">Ссылка</a></p>
-                
             </li>
         </ol>
     </div>
@@ -55,16 +54,15 @@ export default defineNuxtComponent({
 }
 
 .card-term {
-    position: relative;
+    display: flex;
+    gap: 5px;
     counter-increment: term;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 30px;
     border-radius: 10px;
     background-color: var(--neutrals1);
     
     &::before {
-        content: counter(term) ".";
-        position: absolute;
-        left: 20px;
+        content: counter(term) ". ";
         color: var(--neutrals4);
     }
 
