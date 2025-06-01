@@ -102,11 +102,6 @@
     "img": "/images/gallery/biotek-ostrov.webp",
     "description": "Остров Папьма-Джумейра в Дубае. ОАЭ"
   },
-     {
-    "view": "image",
-    "img": "/images/gallery/valtergropius-zdaniyabauhauzvdessau.webp",
-    "description": "Здание Баухауз в Дессау. Архитектор: Вальтер Гропиус, 1926"
-  },
   {
     "view": "headline",
     "title": "Биотек и экология"
@@ -116,11 +111,6 @@
     "content": [
       "Биотек — это прежде всего манифест устойчивой архитектуры. Он стремится минимизировать углеродный след, использовать возобновляемые ресурсы, восстанавливать локальную флору и фауну. В его рамках здания перестают быть «вредителями природы» и становятся союзниками биосферы."
     ]
-  },
-     {
-    "view": "image",
-    "img": "/images/gallery/valtergropius-zdaniyabauhauzvdessau.webp",
-    "description": "Здание Баухауз в Дессау. Архитектор: Вальтер Гропиус, 1926"
   },
   {
     "view": "headline",
