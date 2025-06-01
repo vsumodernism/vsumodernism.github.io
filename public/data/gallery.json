@@ -1678,5 +1678,110 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/kandinskii-n-6.webp",
+				"name": "Композиция №6",
+				"author": "Абстракционизм",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kandinskii-n-8.webp",
+				"name": "Композиция №8",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/kandinskii-n-7.webp",
+				"name": "Композиция №7",
+				"author": "Абстракционизм",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kandinskii-sinyaa-kartina.webp",
+				"name": "Синяя картина",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/kandinskii-bel-lin.webp",
+				"name": "Белая линия",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kandinskii-zh-k-s.webp",
+				"name": "Желтое красное синее",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/kandinskii-n-9.webp",
+				"name": "Композиция №9",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kandinskii-n-10.webp",
+				"name": "Композиция №10",
+				"author": "Василий Кандинский",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/malevich-beloe-na-belom.webp",
+				"name": "Белое на белом",
+				"author": "Казимир Малевич",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kazimirmalevich-chernyikvadrat.webp",
+				"name": "Черный квадрат",
+				"author": "Казимир Малевич",
+				"style": "Абстракционизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
