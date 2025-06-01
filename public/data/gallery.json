@@ -2001,5 +2001,89 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/ernst-slon-celebs.webp",
+				"name": "Слон Целебес",
+				"author": "Макс Эрнст",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/ernst-madonna-shlepaet.webp",
+				"name": "Мадонна, шлепающая младенца Христа перед тремя свидетелями",
+				"author": "Макс Эрнст",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/maksernst-angelochagailitriumfsyurrealizma.webp",
+				"name": "Ангел очага или триумф сюрреализма",
+				"author": "Макс Эрнст",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/miro-vspah-pole.webp",
+				"name": "Вспаханное поле",
+				"author": "Жоан Миро",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/zhoanmiro-katalonskiipeizazhohotnik.webp",
+				"name": "Каталонский пейзаж",
+				"author": "Жоан Миро",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/tangi-v-chisla.webp",
+				"name": "Воображаемые числа",
+				"author": "Ив Танги",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/renemagritt-predatelstvoobrazov.webp",
+				"name": "Предательство образов",
+				"author": "Рене Магритт",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/renemagritt-golkonda.webp",
+				"name": "Голконда",
+				"author": "Рене Магритт",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
