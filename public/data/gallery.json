@@ -1607,5 +1607,26 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/diks-ranenii-soldat.webp",
+				"name": "Раненый солдат",
+				"author": "Отто Дикс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/diks-triymf-smerti.webp",
+				"name": "Триумф смерти",
+				"author": "Отто Дикс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
