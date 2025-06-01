@@ -918,7 +918,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"img": "/images/gallery/brak-gitarist.webp",
 				"name": "Гитарист",
 				"author": "Жорж Брак",
 				"style": "Кубизм",
@@ -939,15 +939,15 @@
 		"view": "2",
 		"pictures": [
 			{
-				"img": "/images/gallery/pirosmani-druzya-begosa.webp",
+				"img": "/images/gallery/brak-klarnet.webp",
 				"name": "Кларнет",
-				"author": "Жорж Браки",
+				"author": "Жорж Брак",
 				"style": "Примитивизм",
 				"view": "fields",
 				"bg": "161616"
 			},
 			{
-				"img": "/images/gallery/pirosmani-ortchalskaya-krasotka-1.webp",
+				"img": "/images/gallery/brak-stakan-trybka.webp",
 				"name": "Бутылка, стакан и трубка",
 				"author": "Жорж Брак",
 				"style": "Примитивизм",
@@ -960,7 +960,7 @@
 		"view": "3",
 		"pictures": [
 			{
-				"img": "/images/gallery/brak-derevia-v-astake.webp",
+				"img": "/images/gallery/picasso-lub-absent.webp",
 				"name": "Любительница абсента",
 				"author": "Пабло Пикассо",
 				"style": "Модернизм, Голубой период",
@@ -968,7 +968,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"img": "/images/gallery/picasso-star-evr-mal.webp",
 				"name": "Старый еврей с мальчиком",
 			"author": "Пабло Пикассо",
 				"style": "Модернизм, Голубой период",
@@ -976,7 +976,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+				"img": "/images/gallery/picasso-zhizn.webp",
 				"name": "Жизнь",
 				"author": "Пабло Пикассо",
 				"style": "Модернизм, Голубой период",
@@ -997,7 +997,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"img": "/images/gallery/picasso-acrobaty.webp",
 				"name": "Акробаты",
 			"author": "Пабло Пикассо",
 				"style": "Модернизм, Розовый период",
@@ -1005,7 +1005,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+				"img": "/images/gallery/picasso-mal-ved-loshad.webp",
 				"name": "Мальчик, ведущий лошадь",
 				"author": "Пабло Пикассо",
 				"style": "Модернизм, Розовый период",
@@ -1013,6 +1013,55 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/picasso-avinonskie-devitsy.webp",
+				"name": "Авиньонские девицы",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/pikasso-3-zhen.webp",
+				"name": "Три женщины",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/pikasso-portret-madam.webp",
+				"name": "Королева Изабо",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-port-fernandy.webp",
+				"name": "Портрет Фернанды",
+			"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-golova-zhen.webp",
+				"name": "Голова женщины",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
-	
 ]
