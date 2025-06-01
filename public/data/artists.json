@@ -483,9 +483,7 @@
   "pictures": [
     {
       "img": "/images/gallery/mynk-krik.jpg",
-      "name": "Крик",
-      "view": "fields",
-      "bg": "313131"
+      "name": "Крик"
     },
     {
       "img": "/images/gallery/mynk-vecher-karl-ion.webp",
@@ -496,6 +494,37 @@
     {
       "img": "/images/gallery/mynk-trevoga.webp",
       "name": "Тревога",
+      "view": "fields",
+      "bg": "313131"
+    }
+  ]
+},
+  {
+  "name": "Эгон Шиле",
+  "slug": "egon-schiele",
+  "dates": "1890–1918",
+  "description": "Австрийский художник и график, яркий представитель экспрессионизма и венского модерна. Ученик Густава Климта, Шиле прославился своими откровенными, эмоционально обнажёнными портретами и автопортретами. Его работы — это визуальные исповеди, в которых чувственность, тревога и психологическая напряжённость сочетаются с графической резкостью. Несмотря на раннюю смерть, он успел создать более 300 картин и тысячи рисунков, повлияв на развитие модернистского искусства XX века.",
+  "avatar": "/images/gallery/schiele-avatar.webp",
+  "tags": [
+    "Экспрессионизм",
+    "Модерн"
+  ],
+  "pictures": [
+    {
+      "img": "/images/gallery/schiele-portret-valli.webp",
+      "name": "Портрет Валли",
+      "view": "fields",
+      "bg": "313131"
+    },
+    {
+      "img": "/images/gallery/schiele-beremennaya-i-smert.webp",
+      "name": "Беременная женщина и смерть",
+      "view": "fields",
+      "bg": "313131"
+    },
+    {
+      "img": "/images/gallery/schiele-zelenye-chylki.webp",
+      "name": "Женщина в зеленых чулках»",
       "view": "fields",
       "bg": "313131"
     }
