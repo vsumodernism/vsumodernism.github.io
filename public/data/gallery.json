@@ -876,6 +876,114 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery//images/gallery/brak-derevia-v-astake.webp",
+				"name": "Дома в Эстаке",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"name": "Скрипка и палитра",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/brak-naturmort-s-arfoi.webp",
+				"name": "Натюрморт с арфой",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery//images/gallery/brak-derevia-v-astake.webp",
+				"name": "Португалец",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"name": "Гитарист",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+				"name": "Ария Баха",
+				"author": "Жорж Брак",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/pirosmani-druzya-begosa.webp",
+				"name": "Кларнет",
+				"author": "Жорж Браки",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/pirosmani-ortchalskaya-krasotka-1.webp",
+				"name": "Бутылка, стакан и трубка",
+				"author": "Жорж Брак",
+				"style": "Примитивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery//images/gallery/brak-derevia-v-astake.webp",
+				"name": "Любительница абсента",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм, Голубой период",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"name": "Старый еврей с мальчиком",
+			"author": "Пабло Пикассо",
+				"style": "Модернизм, Голубой период",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+				"name": "Жизнь",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм, Голубой период",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 	
 ]
