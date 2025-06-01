@@ -1310,5 +1310,34 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/umbertobochchoni-nepreryv-formy.webp",
+				"name": "Уникальные формы непрерывности в пространстве",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/umbertobochchoni-ylichni-svet.webp",
+				"name": "Изучение уличного света",
+			"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/bocconi-materia.webp",
+				"name": "Материя",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
