@@ -2240,5 +2240,68 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/lekorbyuze-villasavoivpuassi.webp",
+				"name": "Вилла Савой",
+				"author": "Ле Корбюзье",
+				"style": "Функционализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/corbuzie-capella.webp",
+				"name": "Капелла Нотр-Дам-дю-О",
+				"author": "Ле Корбюзье",
+				"style": "Брутализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/tanc-dom-decon.webp",
+				"name": "Танцующий дом",
+				"author": "Фрэнк Оуэн Гери, Владо Милунич",
+				"style": "Деконструктивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/disney-zal.webp",
+				"name": "Концертный зал имени Уолта Диснея в Лос-Анджелесе",
+				"author": "Фрэнк Оуэн Гери",
+				"style": "Деконструктивизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/art-movements/hightek.webp",
+				"name": "Центр Помпиду в Париже",
+				"author": " Ричард Роджерс, Ренцо Пиано",
+				"style": "Хай-тек",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/gorod-iskysstv-valensia.webp",
+				"name": "Город искусств и наук в Валенсии",
+				"author": "Сантьяго Калатрава",
+				"style": "Биотек",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
