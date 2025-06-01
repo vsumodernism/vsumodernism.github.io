@@ -1457,7 +1457,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/ernstlyudvigkirhner-avtoportretsmodelyu.web",
+				"img": "/images/gallery/ernstlyudvigkirhner-avtoportretsmodelyu.webp",
 				"name": "Автопортрет с моделью",
 			"author": "Эрнст Людвиг Кирхнер",
 				"style": "Экспрессионизм",
@@ -1468,6 +1468,140 @@
 				"img": "/images/gallery/ernstlyudvigkirhner-ylic-v-berline.webp",
 				"name": "Уличная сцена в Берлине",
 				"author": "Эрнст Людвиг Кирхнер",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/erihhekkel-chelovek.webp",
+				"name": "Человек",
+				"author": "Эрих Хеккель",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/erihhekkel-vesna-vo-flandrii.webp",
+				"name": "Весна во Фландрии",
+				"author": "Эрих Хеккель",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/mark-sinlosh.webp",
+				"name": "Синяя лошадь",
+				"author": "Франц Марк",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/mark-bolsh-sin-losh.webp",
+				"name": "Большие синие лошади",
+				"author": "Франц Марк",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/frantsmark-zheltyeloshadi.webp",
+				"name": "Маленькие желтые лошади",
+				"author": "Франц Марк",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/mark-krasny-byk.webp",
+				"name": "Красный бык",
+				"author": "Франц Марк",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/klee-senekio.webp",
+				"name": "Сенекио",
+				"author": "Пауль Клее",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/paulklee-vraschayuschiisyadom.webp",
+				"name": "Вращающийся дом",
+				"author": "Пауль Клее",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/klee-vou-sobaka.webp",
+				"name": "Воющая собака",
+				"author": "Пауль Клее",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/klee-villa-r.webp",
+				"name": "Вилла R",
+				"author": "Пауль Клее",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/georggross-seryiden.webp",
+				"name": "Серый день",
+				"author": "Георг Гросс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/georggross-soln-zatmenie.webp",
+				"name": "Солнечное затмение",
+			"author": "Георг Гросс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/gross-bolnoy-lybovium.webp",
+				"name": "Больной любовью",
+				"author": "Георг Гросс",
 				"style": "Экспрессионизм",
 				"view": "fields",
 				"bg": "EDEDED"
