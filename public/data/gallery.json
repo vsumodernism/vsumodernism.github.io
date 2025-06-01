@@ -2156,5 +2156,89 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/endiuorhol-merilin.webp",
+				"name": "Мерилин",
+				"author": "Энди Уорхол",
+				"style": "Поп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/endiuorhol-banoksupakempbell.webp",
+				"name": "Банки с супом Кемпбелла",
+				"author": "Энди Уорхол",
+				"style": "Поп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+		{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/lihtenshtein-plachdevyshka.webp",
+				"name": "Плачущая девушка",
+				"author": "Рой Лихтенштейн",
+				"style": "Поп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/endiuorhol-banoksupakempbell.webp",
+				"name": "Maybe",
+				"author": "Рой Лихтенштейн",
+				"style": "Поп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/viktorvazareli-issledovaniedvizheniya.webp",
+				"name": "Исследование движения",
+				"author": "Виктор Вазарели",
+				"style": "Оп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/vasarrelli-vega-200.webp",
+				"name": "Vega 200",
+				"author": "Виктор Вазарели",
+				"style": "Оп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/vazarelli-zebra.webp",
+				"name": "Zebra",
+				"author": "Виктор Вазарели",
+				"style": "Оп-Арт",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kliain0golybvenera.webp",
+				"name": "S12. Голубая Венера",
+				"author": "Ив Кляйн",
+				"style": "Концептуализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
