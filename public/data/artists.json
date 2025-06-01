@@ -476,26 +476,25 @@
   "slug": "edvard-munch",
   "dates": "1863–1944",
   "description": "Норвежский живописец и график, один из предшественников экспрессионизма. Автор знакового произведения XX века — «Крик». Его творчество пронизано темами тревоги, любви, болезни и смерти. В картинах Мунка эмоции выражаются через резкие линии, драматический цвет и деформацию пространства. Он стремился не к внешнему правдоподобию, а к отображению внутреннего состояния человека. Сформировал серию «Фриз жизни», в которой изобразил весь спектр человеческих чувств. Оказал огромное влияние на развитие модернистского искусства и культуры XX века.",
-  "avatar": "/images/artists/edvard-munch/munch-avatar.webp",
+  "avatar": "/images/gallery/munch-avatar.webp",
   "tags": [
-    "Экспрессионизм",
-    "Символизм"
+    "Экспрессионизм"
   ],
   "pictures": [
     {
-      "img": "/images/gallery/munch-scream.webp",
+      "img": "/images/gallery/mynk-krik.jpg",
       "name": "Крик",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/munch-madonna.webp",
-      "name": "Мадонна",
+      "img": "/images/gallery/mynk-vecher-karl-ion.webp",
+      "name": "Вечер на улице Карла Иоанна",
       "view": "fields",
       "bg": "313131"
     },
     {
-      "img": "/images/gallery/munch-anxiety.webp",
+      "img": "/images/gallery/mynk-trevoga.webp",
       "name": "Тревога",
       "view": "fields",
       "bg": "313131"
