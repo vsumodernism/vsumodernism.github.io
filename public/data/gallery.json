@@ -1562,7 +1562,7 @@
 		"view": "2sb",
 		"pictures": [
 			{
-				"img": "/images/gallery/klee-vou-sobaka.webp",
+				"img": "/images/gallery/klee-vou-sobak.webp",
 				"name": "Воющая собака",
 				"author": "Пауль Клее",
 				"style": "Экспрессионизм",
@@ -1623,6 +1623,35 @@
 				"img": "/images/gallery/diks-triymf-smerti.webp",
 				"name": "Триумф смерти",
 				"author": "Отто Дикс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/art-movements/ottodiks-portretzhurnalistkisilviifonharden.webp",
+				"name": "Портрет журналистки Сильвии фон Харден",
+				"author": "Отто Дикс",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kokoshka-reb-na-rykah.webp",
+				"name": "Ребёнок на руках у родителей",
+			"author": "Оскар Кокошка",
+				"style": "Экспрессионизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/kokoshka-avtoportret.webp",
+				"name": "Автопортрет",
+				"author": "Оскар Кокошка",
 				"style": "Экспрессионизм",
 				"view": "fields",
 				"bg": "EDEDED"
