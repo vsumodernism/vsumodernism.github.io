@@ -1205,5 +1205,110 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/pikasso-plach-zhen.webp",
+				"name": "Плачущая женщина",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-ytr-serenada.webp",
+				"name": "Утренняя серенада",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/picasso-hydoz-model-1.webp",
+				"name": "Художник и модель",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/picasso-hydoz-model-2.webp",
+				"name": "Художник и модель",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/umbertobochchoni-gorodvstaet.webp",
+				"name": "Поднимающийся город",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/umbertobochchoni-simultannyeobrazy.webp",
+				"name": "Симультанные образы",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/umbertobochchoni-sostoyaniedushi-2.webp",
+				"name": "Состояния души",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/umbertobochchoni-sostoyaniedushi-1.webp",
+				"name": "Состояния души. Прощание",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/umbertobochchoni-sostoyaniedushi-3.webp",
+				"name": "Состояния души",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/umbertobochchoni-dinamism-fytbo.webp",
+				"name": "Динамизм футболиста",
+				"author": "Умберто Боччони",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
