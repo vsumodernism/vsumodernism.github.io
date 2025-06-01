@@ -11,12 +11,12 @@
   },
     {
     "view": "image",
-    "img": "/images/gallery/lihtenshtain-portrait.webp",
-    "description": "Рой Лихтенштейн"
+    "img": "/images/gallery/vasarelli-portrait.webp",
+    "description": "Виктор Вазарели"
   },
   {
     "view": "headline",
-    "title": "Начало пути: Будапешт, Баухауз и Париж"
+    "title": "Биография"
   },
   {
     "view": "text",
@@ -27,8 +27,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/lihtenshtain-portrait.webp",
-    "description": "Рой Лихтенштейн"
+    "img": "/images/gallery/viktorvazareli-issledovaniedvizheniya.webp",
+    "description": "«Исследование движения», Виктор Вазарели"
   },
   {
     "view": "headline",
@@ -44,13 +44,13 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/lihtenshtain-portrait.webp",
-    "description": "Рой Лихтенштейн"
+    "img": "/images/gallery/vasarrelli-vega-200.webp",
+    "description": "«Vega 200», Виктор Вазарели"
   },
   {
     "view": "image",
-    "img": "/images/gallery/lihtenshtain-portrait.webp",
-    "description": "Рой Лихтенштейн"
+    "img": "/images/gallery/vazarelli-zebra.webp",
+    "description": "«Zebra», Виктор Вазарели"
   },
   {
     "view": "text",
@@ -73,11 +73,6 @@
       "«Искусство должно быть тиражируемо. Оно должно жить в тканях, плакатах, витринах — быть частью среды».",
       "Он верил в синтез искусства и технологий, предвосхищая эпоху цифрового дизайна."
     ]
-  },
-     {
-    "view": "image",
-    "img": "/images/gallery/lihtenshtain-portrait.webp",
-    "description": "Рой Лихтенштейн"
   },
   {
     "view": "headline",
