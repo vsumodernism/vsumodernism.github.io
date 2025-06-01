@@ -897,7 +897,7 @@
 				"bg": "EDEDED"
 			},
 			{
-				"img": "/images/gallery/brak-naturmort-s-arfoi.webp",
+				"img": "/images/gallery/brak-naturmort-s-arfo.webp",
 				"name": "Натюрморт с арфой",
 				"author": "Жорж Брак",
 				"style": "Кубизм",
@@ -939,7 +939,7 @@
 		"view": "2",
 		"pictures": [
 			{
-				"img": "/images/gallery/brak-klarnet.webp",
+				"img": "/images/gallery/brak-klarne.webp",
 				"name": "Кларнет",
 				"author": "Жорж Брак",
 				"style": "Примитивизм",
@@ -1059,6 +1059,106 @@
 				"name": "Голова женщины",
 				"author": "Пабло Пикассо",
 				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/pikasso-madjoli.webp",
+				"name": "Ма Джоли",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-byt-perno-stakan.webp",
+				"name": "Бутылка Перно и стакан",
+			"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-bytilka-roma.webp",
+				"name": "Бутылка рома",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/picasso-mertviepticy.webp",
+				"name": "Мертвые птицы",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/pikasso-shahmaty.webp",
+				"name": "Шахматы",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/picasso-3-myzikanta-1.webp",
+				"name": "Три музыканта",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "161616"
+			},
+			{
+				"img": "/images/gallery/picasso-3-myzikanta-2.webp",
+				"name": "Три музыканта",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/pikasso-kyp.webp",
+				"name": "Купальщица",
+				"author": "Пабло Пикассо",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-son.webp",
+				"name": "Сон",
+			"author": "Пабло Пикассо",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pikasso-zerkalo.webp",
+				"name": "Зеркало",
+				"author": "Пабло Пикассо",
+				"style": "Сюрреализм",
 				"view": "fields",
 				"bg": "EDEDED"
 			}
