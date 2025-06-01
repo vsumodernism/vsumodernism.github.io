@@ -47,7 +47,7 @@ export default defineNuxtComponent({
             <li>
                 <NuxtLink to="/course" class="nav__link" @click="closeMenu">
                     <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><clipPath id="a"><path d="m0 0h24v24h-24z"/></clipPath><mask id="b" height="24" maskUnits="userSpaceOnUse" width="24" x="0" y="0"><path d="m0 0h24v24h-24z" fill="#fff"/></mask><g clip-path="url(#a)" opacity=".7"><g mask="url(#b)"><path d="m12 6.96946c0-1.16001-.8485-2.15362-2.01519-2.36162l-3.12627-.5552c-2.00946-.3576-3.85855 1.15121-3.85855 3.14802v8.63364c0 1.5464 1.13155 2.8713 2.68691 3.1489l5.1423.9136c.7748.1376 1.5668.1376 2.3416 0l5.1423-.9136c1.5553-.2776 2.6869-1.6025 2.6869-3.1489v-8.63364c0-1.99681-1.8491-3.50562-3.8586-3.14802l-3.1262.5552c-1.1668.208-2.0152 1.20161-2.0152 2.36162zm0 0v12.86494" stroke="#313131" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/></g></g></svg>
-                    Теоретичский курс
+                    Теоретический курс
                 </NuxtLink>
             </li>
             <li>
