@@ -1102,7 +1102,7 @@
 				"author": "Пабло Пикассо",
 				"style": "Кубизм",
 				"view": "fields",
-				"bg": "161616"
+				"bg": "EDEDED"
 			},
 			{
 				"img": "/images/gallery/pikasso-shahmaty.webp",
@@ -1123,7 +1123,7 @@
 				"author": "Пабло Пикассо",
 				"style": "Кубизм",
 				"view": "fields",
-				"bg": "161616"
+				"bg": "EDEDED"
 			},
 			{
 				"img": "/images/gallery/picasso-3-myzikanta-2.webp",
@@ -1159,6 +1159,48 @@
 				"name": "Зеркало",
 				"author": "Пабло Пикассо",
 				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/picasso-komp-s-minotavrom-1.webp",
+				"name": "Композиция с Минотавром",
+				"author": "Пабло Пикассо",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/picasso-komp-s-minotavrom-2.webp",
+				"name": "Композиция с Минотавром",
+				"author": "Пабло Пикассо",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/artists/pablo-picaso/gernika.webp",
+				"name": "Герника",
+				"author": "Пабло Пикассо",
+				"style": "Кубизм, Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/picasso-koshka-est-pticy.webp",
+				"name": "Кошка, пожирающая птицу",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм",
 				"view": "fields",
 				"bg": "EDEDED"
 			}
