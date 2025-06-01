@@ -10,8 +10,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/munk-v-molodosti.webp",
-    "description": "Эдвард Мунк в молодости"
+    "img": "/images/gallery/korbuz-portr.webp",
+    "description": "Ле Корбюзье"
   },
   {
     "view": "headline",
@@ -26,8 +26,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/munk-v-molodosti.webp",
-    "description": "Эдвард Мунк в молодости"
+    "img": "/images/gallery/lekorbyuze-villasavoivpuassi.webp",
+    "description": "Вилла Савой. Ле Корбюзье"
   },
   {
     "view": "text",
@@ -44,8 +44,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/munk-v-molodosti.webp",
-    "description": "Эдвард Мунк в молодости"
+    "img": "/images/gallery/gorod-corbuzie.webp",
+    "description": "Ле Корбюзье. Город Чандигарх"
   },
   {
     "view": "headline",
@@ -61,8 +61,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/munk-v-molodosti.webp",
-    "description": "Эдвард Мунк в молодости"
+    "img": "images/gallery/corbuzie-capella.webp",
+    "description": "Ле Корбюзье. Капелла Нотр-Дам-дю-О"
   },
   {
     "view": "headline",
@@ -88,8 +88,8 @@
   },
      {
     "view": "image",
-    "img": "/images/gallery/munk-v-molodosti.webp",
-    "description": "Эдвард Мунк в молодости"
+    "img": "/images/gallery/moduler-korb.webp",
+    "description": "Модулор Корбюзье"
   },
   {
     "view": "headline",
