@@ -984,6 +984,35 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery//images/gallery/brak-derevia-v-astake.webp",
+				"name": "Девочка на шаре",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм, Розовый период",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/brak-skripka-i-palitra.webp",
+				"name": "Акробаты",
+			"author": "Пабло Пикассо",
+				"style": "Модернизм, Розовый период",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/zhorzhbrak-ariyabaha.webp",
+				"name": "Мальчик, ведущий лошадь",
+				"author": "Пабло Пикассо",
+				"style": "Модернизм, Розовый период",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 	
 ]
