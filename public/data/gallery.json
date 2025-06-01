@@ -2085,5 +2085,76 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "3",
+		"pictures": [
+			{
+				"img": "/images/gallery/renemagritt-bol-semeistvo.webp",
+				"name": "Большое семейcтво",
+				"author": "Рене Магритт",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/renemagritt-syn-chelove.webp",
+				"name": "Сын  человеческий",
+			"author": "Рене Магритт",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/dali-woman-y-okna.webp",
+				"name": "Женская фигура у окна",
+				"author": "Сальвадор Дали",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/dali-son-polet-pchely.webp",
+				"name": "Сон, вызванный полётом пчелы вокруг граната, за секунду до пробуждения",
+				"author": "Сальвадор Дали",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/salvadordali-son.webp",
+				"name": "Сон",
+				"author": "Сальвадор Дали",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/salvadordali-postoyanstvopamyati.webp",
+				"name": "Постоянство памяти",
+				"author": "Сальвадор Дали",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/salvadordali-atomnayaleda.webp",
+				"name": "Атомная леда",
+				"author": "Сальвадор Дали",
+				"style": "Сюрреализм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
