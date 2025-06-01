@@ -1,6 +1,6 @@
 [
   {
-    "name": "Па́бло Пика́ссо",
+    "name": "Пабло Пикассо",
     "slug": "pablo-picasso",
     "dates": "1881–1973",
     "description": "Испанский художник, скульптор, график — один из основоположников кубизма и ключевая фигура искусства XX века. Родился в Малаге, учился в Барселоне и Мадриде, но большую часть жизни провёл во Франции. Его творчество охватывает множество этапов и стилей — от \"голубого периода\" до абстракций и сюрреалистических работ. Вместе с Жоржем Браком сформулировал основы кубизма.",
@@ -12,20 +12,20 @@
     "pictures": [
       {
         "img": "/images/artists/pablo-picaso/devicy.webp",
-        "name": "Ави́ньонские де́вицы"
+        "name": "Авиньонские девицы"
       },
       {
         "img": "/images/artists/pablo-picaso/gernika.webp",
-        "name": "Ге́рника"
+        "name": "Герника"
       },
       {
         "img": "/images/artists/pablo-picaso/portretdorymaar.webp",
-        "name": "Портре́т До́ры Маа́р"
+        "name": "Портрет Доры Маар"
       }
     ]
   },
   {
-    "name": "Васи́лий Кандинский",
+    "name": "Василий Кандинский",
     "slug": "vasiliy-kandinsky",
     "dates": "1866–1944",
     "description": "Русский художник и теоретик искусства, один из основателей абстракционизма. Родился в Москве, учился в Мюнхене, преподавал в Баухаузе. В 1911 году стал одним из организаторов объединения «Синий всадник» и активно участвовал в экспрессионистском движении. Кандинский считал, что искусство должно выражать внутренние переживания, как музыка, и развивал теорию «духовного в искусстве». Его творчество сочетает интуицию, цветовую экспрессию и математическую гармонию.",
@@ -483,7 +483,9 @@
     "pictures": [
       {
         "img": "/images/gallery/mynk-krik.jpg",
-        "name": "Крик"
+        "name": "Крик",
+          "view": "fields",
+        "bg": "313131"
       },
       {
         "img": "/images/gallery/mynk-vecher-karl-ion.webp",
@@ -541,19 +543,19 @@
     ],
     "pictures": [
       {
-        "img": "/images/gallery/warhol-marilyn.webp",
+        "img": "/images/art-movements/popart.webp",
         "name": "Мэрилин Монро",
         "view": "fields",
         "bg": "313131"
       },
       {
-        "img": "/images/gallery/warhol-campbells.webp",
-        "name": "Суп Campbell’s",
+        "img": "/images/gallery/warhol-banki-s-sypom.webp",
+        "name": "Банки с супом Campbell’s",
         "view": "fields",
         "bg": "313131"
       },
       {
-        "img": "/images/gallery/warhol-self-portrait.webp",
+        "img": "/images/gallery/warhol-avtoportret.webp",
         "name": "Автопортрет",
         "view": "fields",
         "bg": "313131"
@@ -572,21 +574,15 @@
     "pictures": [
       {
         "img": "/images/gallery/lihtenshtein-maybe.webp",
-        "name": "Maybe",
-        "view": "fields",
-        "bg": "313131"
+        "name": "Maybe"
       },
       {
         "img": "/images/gallery/lihtenshtein-v-mashine.webp",
-        "name": "В машине",
-        "view": "fields",
-        "bg": "313131"
+        "name": "В машине"
       },
       {
-        "img": "/images/gallery/lichtenstein-cryinggirl.webp",
-        "name": "Плачущая девушка",
-        "view": "fields",
-        "bg": "313131"
+        "img": "/images/gallery/lihtenshtein-plachdevyshka.webp",
+        "name": "Плачущая девушка"
       }
     ]
   },
