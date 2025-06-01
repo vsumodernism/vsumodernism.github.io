@@ -1339,5 +1339,47 @@
 				"bg": "EDEDED"
 			}
 		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/dinamism-sobaki-bella.webp",
+				"name": "Динамизм собаки на поводке",
+				"author": "Джакомо Балла",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/balla-pol-lastochek.webp",
+				"name": "Полет ласточек",
+				"author": "Джакомо Балла",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/dzhinoseverini-golubayatantsovschitsa.webp",
+				"name": "Голубая танцовщица",
+				"author": "Джино Северини",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/dzhinoseverini-nav-obr-tanc.webp",
+				"name": "Навязчивый образ танцовщицы",
+				"author": "Джино Северини",
+				"style": "Футуризм",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
 	}
 ]
