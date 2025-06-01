@@ -1770,7 +1770,7 @@
 				"img": "/images/gallery/malevich-beloe-na-belom.webp",
 				"name": "Белое на белом",
 				"author": "Казимир Малевич",
-				"style": "Абстракционизм",
+				"style": "Абстракционизм  (супрематизм)",
 				"view": "fields",
 				"bg": "EDEDED"
 			},
@@ -1778,7 +1778,154 @@
 				"img": "/images/gallery/kazimirmalevich-chernyikvadrat.webp",
 				"name": "Черный квадрат",
 				"author": "Казимир Малевич",
-				"style": "Абстракционизм",
+				"style": "Абстракционизм (супрематизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modrian-k-zh-ch-s-s.webp",
+				"name": "Композиция большого красного, желтого, черного, серого и синего",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/modrian-k-s-zh.webp",
+				"name": "Композиция красного, синего и желтого",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modrian-zh-s.webp",
+				"name": "Композиция с желтым и синим",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/modrian-k-10.webp",
+				"name": "Композиция № 10",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/modrian-NY.webp",
+				"name": "Нью-Йорк сити",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/modrian-woogie.webp",
+				"name": "Буги-вуги на Бродвее",
+				"author": "Пит Мондриан",
+				"style": "Абстракционизм (неопластицизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/delone-krug-formy-bashnya.webp",
+				"name": "Круглые формы, солнце, башня",
+				"author": "Робер Делоне",
+				"style": "Абстракционизм (орфизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/delone-v-chest-blerio.webp",
+				"name": "В честь Блерио",
+				"author": "Робер Делоне",
+				"style": "Абстракционизм (орфизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2sb",
+		"pictures": [
+			{
+				"img": "/images/gallery/delone-rytmy.webp",
+				"name": "Ритмы",
+				"author": "Робер Делоне",
+				"style": "Абстракционизм (орфизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/delone-kryglie-formy.webp",
+				"name": "Круглые формы",
+				"author": "Робер Делоне",
+				"style": "Абстракционизм (орфизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/kypka-amorfa-fyga-2.webp",
+				"name": "Аморфа. Фуга в двух цветах",
+				"author": "Франтишек Купка",
+				"style": "Абстракционизм (орфизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pollok-17-a.webp",
+				"name": "№ 17A",
+				"author": "Джексон Поллок",
+				"style": "Абстракционизм (абстр. экспрессионизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			}
+		]
+	},
+	{
+		"view": "2",
+		"pictures": [
+			{
+				"img": "/images/gallery/pollok-30.webp",
+				"name": "Осенние ритмы. № 30",
+				"author": "Джексон Поллок",
+				"style": "Абстракционизм (абстр. экспрессионизм)",
+				"view": "fields",
+				"bg": "EDEDED"
+			},
+			{
+				"img": "/images/gallery/pollok-11.webp",
+				"name": "Синие шесты. № 11",
+				"author": "Джексон Поллок",
+				"style": "Абстракционизм (абстр. экспрессионизм)",
 				"view": "fields",
 				"bg": "EDEDED"
 			}
