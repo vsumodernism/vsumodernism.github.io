@@ -197,24 +197,6 @@
       }
     ]
   },
-  {
-    "name": "Нико Пиросмани",
-    "slug": "pirosmani",
-    "dates": "1862–1918",
-    "description": "Грузинский художник-самоучка, чьё творчество стало символом наивного искусства. Его картины, наполненные простотой и искренностью, отражают глубокую любовь к родной земле и её людям.",
-    "avatar": "/images/artists/pablo-picaso/avatar-pirosmani.webp",
-    "tags": [
-      "Примитивизм"
-    ],
-    "pictures": [
-      {
-        "img": "/images/gallery/rousseau-spyashchaya-tsyganka.webp",
-        "name": "Кутёж трёх князей"
-      },
-      {
-        "img": "/images/gallery/rousseau-snovidenie.webp",
-        "name": "Друзья  Бегоса"
-      },
       {
         "img": "/images/gallery/rousseau-napadenie-yaguara-na-loshad.webp",
         "name": "Рыбак"
