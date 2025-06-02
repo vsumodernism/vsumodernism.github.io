@@ -2,12 +2,12 @@
 	{
 		"view": "slider",
 		"desktop": [
-			{
-				"img": "/images/art-movements/andy-worhol-web.jpg",
+				{
+				"img": "/images/art-movements/shagal-web.jpg",
 				"alt": ""
 			},
 			{
-				"img": "/images/art-movements/salon-dAutomne.webp",
+				"img": "/images/art-movements/andy-worhol-web.jpg",
 				"alt": ""
 			},
 			{
@@ -17,11 +17,11 @@
 		],
 		"mobile": [
 			{
-				"img": "/images/art-movements/andy-worhol-mob.jpg",
+				"img": "/images/art-movements/shagal-mob.jpg",
 				"alt": ""
 			},
 			{
-				"img": "/images/art-movements/salon-dAutomne.webp",
+				"img": "/images/art-movements/andy-worhol-mob.jpg",
 				"alt": ""
 			},
 			{
